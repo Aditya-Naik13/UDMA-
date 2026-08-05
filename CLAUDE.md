@@ -17,8 +17,14 @@ rigorously from source PDFs and citation-grounded (no fabrication).
 ## Layout
 
 - `Community & Equity Dimensions of Mobility Literature Review.csv` — the
-  tracker (canonical output). Two-row header: a section-title row, then the
-  14-column header, then one data row per paper. 39 papers recorded.
+  tracker (canonical output). Currently a single header row (17 columns: the
+  original 14 plus 3 participatory-method columns, see below), then one data
+  row per paper. 39 papers recorded. Note: a prior commit briefly added a
+  second title row above the header; that was reverted, so the live file has
+  one header row. `csv_writer.py`, `init_csv.py`, `list_pending.py`, and
+  `build_review_queue.py` still assume the two-row format (`reader[1]` as the
+  header) and will misparse the file as it stands, a known, unfixed mismatch,
+  independent of the participatory-columns work described below.
 - `papers/` — source PDFs. Filenames are often renamed human labels that do
   not match the paper title. `AdityaNaik-ResumeP.pdf` is a stray résumé, not
   a research paper; skip it.
@@ -49,6 +55,26 @@ Quotable moment, Synthesis paragraph.
 
 Length targets per column live in
 `.claude/skills/lit-review-extractor/references/column_style_guide.md`.
+
+## The 3 participatory-method columns (added after the original 14)
+
+`Codesign/participatory method`, `What worked`, `What didn't work` were
+appended to the end of the tracker to capture what participatory or
+co-design process (if any) each paper describes, and per the paper's own
+evidence, what worked and what didn't. These sit **outside both skills'
+hardcoded 14-column schema**: `csv_writer.py` and `xlsx_suggest.py` only
+know the original 14 columns, reject unknown keys, and will leave these 3
+columns blank on any row they write. A new paper added via
+`lit-review-extractor` needs a manual follow-up pass to fill these in.
+
+They were populated with a standalone, deliberately un-integrated tool at
+`scripts/add_participatory_columns/` (`map_titles_to_pdfs.py` for the
+title-to-PDF mapping, `append_columns.py` for writing the 3 fields),
+built specifically so the extractor/verifier schema files did not need to
+change. Null-value convention: `None described` / `N/A` when the paper has
+no participatory process; `Not discussed in the paper` when a method is
+named but the paper is silent on one dimension. Same no-fabrication and
+no-em-dash rules as the rest of the tracker apply.
 
 ## The two skills
 
