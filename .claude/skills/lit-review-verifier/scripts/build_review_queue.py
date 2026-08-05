@@ -94,8 +94,11 @@ def main():
 
     with open(args.csv_path, newline="", encoding="utf-8") as f:
         reader = list(csv.reader(f))
-    header_row = reader[1]
-    data_rows = [dict(zip(header_row, row)) for row in reader[2:]]
+    # Auto-detect the header row: single-header (current tracker) or two-row
+    # (older section-title + header) layout.
+    hidx = next((i for i, row in enumerate(reader[:3]) if "Paper Title" in row), 0)
+    header_row = reader[hidx]
+    data_rows = [dict(zip(header_row, row)) for row in reader[hidx + 1:]]
     titles = [r.get("Paper Title", "").strip() for r in data_rows]
     titles = [t for t in titles if t]
 

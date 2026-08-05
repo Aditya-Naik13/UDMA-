@@ -55,6 +55,8 @@ COLUMNS = [
     "Sub-theme", "Central claim", "Key concepts or framework", "Who is centered",
     "Value foreclosed (community value left out)", "Relevance to argument",
     "Gap or limitation", "Quotable moment", "Synthesis paragraph",
+    # Participatory/co-design columns appended to the tracker after the original 14.
+    "Codesign/participatory method", "What worked", "What didn't work",
 ]
 
 EM_DASH = "—"
@@ -66,16 +68,25 @@ WRAP = Alignment(wrap_text=True, vertical="top")
 
 
 def load_csv(csv_path: Path):
+    """Return (pre_rows, header_row, data_rows).
+
+    Auto-detects the header row so this works on both the current single-header
+    tracker and the older two-row (section title + header) layout. pre_rows are
+    any rows above the header (e.g. a section-title row) that must be preserved
+    in the workbook.
+    """
     with open(csv_path, newline="", encoding="utf-8") as f:
         reader = list(csv.reader(f))
-    return reader[0], reader[1], reader[2:]  # title_row, header_row, data_rows
+    hidx = next((i for i, row in enumerate(reader[:3]) if "Paper Title" in row), 0)
+    return reader[:hidx], reader[hidx], reader[hidx + 1:]
 
 
-def build_workbook(title_row, header_row, data_rows):
+def build_workbook(pre_rows, header_row, data_rows):
     wb = Workbook()
     ws = wb.active
     ws.title = "Review"
-    ws.append(title_row)
+    for row in pre_rows:
+        ws.append(row)
     ws.append(header_row)
     for row in data_rows:
         # Pad/trim each data row to the header width.
@@ -87,9 +98,11 @@ def build_workbook(title_row, header_row, data_rows):
 
 
 def find_row_index(ws, title: str):
-    """1-based worksheet row for the paper, matched on Paper Title (col A)."""
+    """1-based worksheet row for the paper, matched on Paper Title (col A).
+    Scans every row; neither a section-title row nor the header equals a real
+    paper title, so starting from row 1 is safe for either layout."""
     target = title.strip().lower()
-    for r in range(3, ws.max_row + 1):
+    for r in range(1, ws.max_row + 1):
         cell = ws.cell(row=r, column=1).value
         if cell is not None and str(cell).strip().lower() == target:
             return r
@@ -134,14 +147,20 @@ def main():
               file=sys.stderr)
         sys.exit(1)
 
-    title_row, header_row, data_rows = load_csv(args.csv_path)
+    pre_rows, header_row, data_rows = load_csv(args.csv_path)
+
+    unknown_in_csv = [c for c in changes if c not in header_row]
+    if unknown_in_csv:
+        print(f"ERROR: column(s) not present in this CSV's header: {unknown_in_csv}\n"
+              f"CSV header: {header_row}", file=sys.stderr)
+        sys.exit(1)
 
     # Open the accumulating workbook, or build it fresh from the CSV.
     if out_path.exists():
         wb = load_workbook(out_path)
         ws = wb.active
     else:
-        wb = build_workbook(title_row, header_row, data_rows)
+        wb = build_workbook(pre_rows, header_row, data_rows)
         ws = wb.active
 
     ws_row = find_row_index(ws, title)
