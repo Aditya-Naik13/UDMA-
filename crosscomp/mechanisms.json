@@ -1,0 +1,292 @@
+{
+  "mechanisms": [
+    {
+      "name": "Participation without power transfer",
+      "definition": "Formal public involvement processes solicit community input through meetings, committees, or task forces, but rarely give that input binding influence over the final decision.",
+      "papers": [
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Pinski et al.",
+          "year": 2024
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Bailey et al.",
+          "year": 2012
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Karner et al.",
+          "year": 2020
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "McCullough et al.",
+          "year": 2024
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "van Holstein et al.",
+          "year": 2020
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Klaever et al.",
+          "year": 2025
+        },
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Hicks, Kingsley, & Isett",
+          "year": 2025
+        },
+        {
+          "thread": "Participatory Method",
+          "reviewers": "Mariya",
+          "author": "Barendregt, Bendor, & van Eekelen",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "name": "Trust reduced to a calibratable metric",
+      "definition": "Trust in a system, whether an automated vehicle or a public agency, is measured and reported as an individual psychological score to be tuned rather than built and sustained through an ongoing relationship.",
+      "papers": [
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Lee & Kolodge",
+          "year": 2020
+        },
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Kraus, Scholz, Stiegemeier, & Baumann",
+          "year": 2020
+        },
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Alkurdi & Alsaid",
+          "year": 2025
+        },
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Zoellick, Kuhlmey, Schenk, Schindel, & Bluher",
+          "year": 2019
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Bailey et al.",
+          "year": 2010
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Klaever et al.",
+          "year": 2025
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Nakshi et al.",
+          "year": 2025
+        },
+        {
+          "thread": "Participatory Method",
+          "reviewers": "Mariya",
+          "author": "Tan, Soh, Zhang, Lee, Meng, Sen, & Lee",
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "name": "Efficiency optimization crowds out purpose",
+      "definition": "Evaluation centers on network throughput, response time, or model fit, leaving unexamined who is actually traveling, why, and whether the optimized system serves their purpose.",
+      "papers": [
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Park, Jang, & Ko",
+          "year": 2024
+        },
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Lu, Tettamanti, Hörcher, & Varga",
+          "year": 2020
+        },
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Zhang, de Winter, Varotto, Happee, & Martens",
+          "year": 2019
+        },
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Pimenta, Kamruzzaman, & Currie",
+          "year": 2023
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Cha et al.",
+          "year": 2020
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Chen et al.",
+          "year": 2025
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Zhang et al.",
+          "year": 2024
+        },
+        {
+          "thread": "Participatory Method",
+          "reviewers": "Mariya",
+          "author": "Van Wynsberghe & Guimarães Pereira",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "name": "Credentialed experts centered, communities counted",
+      "definition": "The default 'who is centered' in both engineering-safety and top-down equity research is the professional, official, or researcher synthesizing data, not the resident whose mobility the system actually shapes.",
+      "papers": [
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Hicks, Kingsley, & Isett",
+          "year": 2025
+        },
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Lu, Tettamanti, Hörcher, & Varga",
+          "year": 2020
+        },
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Robles & Mallinson",
+          "year": 2024
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Zhang et al.",
+          "year": 2024
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Jeghers et al.",
+          "year": 2024
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Chen et al.",
+          "year": 2025
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Di Ruocco",
+          "year": 2025
+        },
+        {
+          "thread": "Participatory Method",
+          "reviewers": "Mariya",
+          "author": "Barendregt, Bendor, & van Eekelen",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "name": "Friction as signal, not noise",
+      "definition": "Moments of resistance, confusion, or breakdown in an encounter with a technology or process, rather than smooth agreement, are where a community's actual values and their misalignment with imposed values become visible, if the people running the process choose to read them that way.",
+      "papers": [
+        {
+          "thread": "Participatory Method",
+          "reviewers": "Mariya",
+          "author": "Forlano & Mathew",
+          "year": 2014
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Klaever et al.",
+          "year": 2025
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Agrawaal et al.",
+          "year": 2024
+        },
+        {
+          "thread": "Engineering/Safety",
+          "reviewers": "Amy, Saanvi",
+          "author": "Nordhoff, Stapel, van Arem, & Happee",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "name": "Community-led alternatives outperform agency defaults",
+      "definition": "When residents or community-based organizations are resourced to build their own plan, scenario, or design rather than only reacting to one, the resulting alternative can match or outperform the agency or industry default on the sponsor's own terms.",
+      "papers": [
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Karner et al.",
+          "year": 2020
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Gomes et al.",
+          "year": 2026
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Pineo et al.",
+          "year": 2026
+        },
+        {
+          "thread": "Participatory Method",
+          "reviewers": "Mariya",
+          "author": "Baumann, Caldwell, Bar, & Stokes",
+          "year": 2018
+        },
+        {
+          "thread": "Participatory Method",
+          "reviewers": "Mariya",
+          "author": "Severs, Wu, Diels, Harrow, Singleton, & Winsor",
+          "year": 2022
+        },
+        {
+          "thread": "Participatory Method",
+          "reviewers": "Mariya",
+          "author": "Sörries, Leimstädtner, & Müller-Birn",
+          "year": 2024
+        }
+      ]
+    }
+  ]
+}

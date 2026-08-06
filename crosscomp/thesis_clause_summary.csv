@@ -1,0 +1,22 @@
+Thread,Clause,Clause_text,n_papers,n_direct,n_partial,n_none,pct_direct,pct_direct_or_partial
+Engineering/Safety,C1_AVs_are_infrastructure,"AVs are infrastructure, not simply transportation vehicles",17,6,8,3,35.3,82.4
+Engineering/Safety,C2_arrives_without_input,Infrastructure-scale technology typically arrives in communities without their input,17,2,2,13,11.8,23.5
+Engineering/Safety,C3_efficiency_values,AVs carry efficiency-driven values inherited from transportation engineering,17,12,5,0,70.6,100.0
+Engineering/Safety,C4_community_concerns_govern,"Community concerns (equitable access, relational trust, flexibility for variable need) actually govern mobility in this context",17,0,4,13,0.0,23.5
+Engineering/Safety,C5_misalignment,Efficiency-driven values are misaligned with those community concerns,17,1,8,8,5.9,52.9
+Engineering/Safety,C6_broader_pattern,"This misalignment reflects a broader pattern, not a one-off AV problem",17,0,2,15,0.0,11.8
+Engineering/Safety,C7_mobility_as_social_service,"Mobility as Social Service: mobility as an ongoing, relational practice of equitable provisioning",17,0,0,17,0.0,0.0
+Equity,C1_AVs_are_infrastructure,"AVs are infrastructure, not simply transportation vehicles",39,1,0,38,2.6,2.6
+Equity,C2_arrives_without_input,Infrastructure-scale technology typically arrives in communities without their input,39,23,13,3,59.0,92.3
+Equity,C3_efficiency_values,AVs carry efficiency-driven values inherited from transportation engineering,39,9,29,1,23.1,97.4
+Equity,C4_community_concerns_govern,"Community concerns (equitable access, relational trust, flexibility for variable need) actually govern mobility in this context",39,32,6,1,82.1,97.4
+Equity,C5_misalignment,Efficiency-driven values are misaligned with those community concerns,39,32,5,2,82.1,94.9
+Equity,C6_broader_pattern,"This misalignment reflects a broader pattern, not a one-off AV problem",39,33,3,3,84.6,92.3
+Equity,C7_mobility_as_social_service,"Mobility as Social Service: mobility as an ongoing, relational practice of equitable provisioning",39,5,14,20,12.8,48.7
+Participatory Method,C1_AVs_are_infrastructure,"AVs are infrastructure, not simply transportation vehicles",11,1,2,8,9.1,27.3
+Participatory Method,C2_arrives_without_input,Infrastructure-scale technology typically arrives in communities without their input,11,3,7,1,27.3,90.9
+Participatory Method,C3_efficiency_values,AVs carry efficiency-driven values inherited from transportation engineering,11,1,1,9,9.1,18.2
+Participatory Method,C4_community_concerns_govern,"Community concerns (equitable access, relational trust, flexibility for variable need) actually govern mobility in this context",11,8,3,0,72.7,100.0
+Participatory Method,C5_misalignment,Efficiency-driven values are misaligned with those community concerns,11,3,2,6,27.3,45.5
+Participatory Method,C6_broader_pattern,"This misalignment reflects a broader pattern, not a one-off AV problem",11,1,7,3,9.1,72.7
+Participatory Method,C7_mobility_as_social_service,"Mobility as Social Service: mobility as an ongoing, relational practice of equitable provisioning",11,2,5,4,18.2,63.6

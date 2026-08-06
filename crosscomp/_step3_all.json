@@ -1,0 +1,2012 @@
+{
+  "Engineering/Safety|Hicks, D., Kingsley, G., & Isett, K.R.|2025": {
+    "C1": [
+      "direct",
+      "About AV policy reports and advisory infrastructure directly"
+    ],
+    "C2": [
+      "direct",
+      "Convening mode shows legitimacy-seeking AV policy still routes through officials, not communities"
+    ],
+    "C3": [
+      "partial",
+      "Expert mode privileges technical credibility, adjacent to efficiency logic"
+    ],
+    "C4": [
+      "none",
+      "Does not document community concerns shaping outcomes"
+    ],
+    "C5": [
+      "partial",
+      "Implies misalignment via omission of community consultation"
+    ],
+    "C6": [
+      "partial",
+      "Evidence within the AV domain only; no explicit broader claim"
+    ],
+    "C7": [
+      "none",
+      "No relational/provisioning framing"
+    ]
+  },
+  "Engineering/Safety|London, A.J. & Danks, D.|2018": {
+    "C1": [
+      "direct",
+      "Proposes infrastructure-scale regulatory regime for AV deployment"
+    ],
+    "C2": [
+      "partial",
+      "Never discusses who decides an AV should be deployed in a community"
+    ],
+    "C3": [
+      "direct",
+      "Entirely an engineering-certification safety framing"
+    ],
+    "C4": [
+      "none",
+      "No community concerns discussed"
+    ],
+    "C5": [
+      "partial",
+      "Drug-approval analogy ignores non-consenting neighbors, an implied misalignment"
+    ],
+    "C6": [
+      "none",
+      "AV-specific proposal, no generalization claim"
+    ],
+    "C7": [
+      "none",
+      "No relational framing"
+    ]
+  },
+  "Engineering/Safety|Robles, P. & Mallinson, D.J.|2024": {
+    "C1": [
+      "direct",
+      "AV policy diffusion across state regulatory infrastructure"
+    ],
+    "C2": [
+      "partial",
+      "Regulation shown as insider conversation among governments and industry"
+    ],
+    "C3": [
+      "partial",
+      "Diffusion driven by interstate learning and industry consultation, efficiency-adjacent"
+    ],
+    "C4": [
+      "none",
+      "No community concerns examined"
+    ],
+    "C5": [
+      "none",
+      "Does not compare against community concerns"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "No relational framing"
+    ]
+  },
+  "Engineering/Safety|Alkurdi, D. & Alsaid, A.|2025": {
+    "C1": [
+      "partial",
+      "AV-specific but vehicle-level, not infrastructure framing"
+    ],
+    "C2": [
+      "none",
+      "Not about community input"
+    ],
+    "C3": [
+      "direct",
+      "Trust treated as individually measured psychological variable"
+    ],
+    "C4": [
+      "none",
+      "No community concerns"
+    ],
+    "C5": [
+      "none",
+      "N/A"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "No relational framing"
+    ]
+  },
+  "Engineering/Safety|Lee, J.D. & Kolodge, K.|2020": {
+    "C1": [
+      "none",
+      "Consumer-level trust study, no infrastructure framing"
+    ],
+    "C2": [
+      "none",
+      "Not about community input"
+    ],
+    "C3": [
+      "direct",
+      "Field measures trust as an individual attitude to be managed for brand acceptance"
+    ],
+    "C4": [
+      "partial",
+      "Surfaces relational/societal trust bases, but routes them to manufacturer strategy"
+    ],
+    "C5": [
+      "partial",
+      "Demonstrates relational trust being redirected away from community authority"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "No relational framing"
+    ]
+  },
+  "Engineering/Safety|Kraus, J., Scholz, D., Stiegemeier, D., & Baumann, M.|2020": {
+    "C1": [
+      "none",
+      "Simulator study of individual driver trust"
+    ],
+    "C2": [
+      "none",
+      "N/A"
+    ],
+    "C3": [
+      "direct",
+      "Trust operationalized as a repeatedly measured scalar, an engineering control variable"
+    ],
+    "C4": [
+      "none",
+      "N/A"
+    ],
+    "C5": [
+      "none",
+      "N/A"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Engineering/Safety|Zhang, B., de Winter, J., Varotto, S., Happee, R., & Martens, M.|2019": {
+    "C1": [
+      "partial",
+      "AV handover behavior, vehicle-level not infrastructure"
+    ],
+    "C2": [
+      "none",
+      "N/A"
+    ],
+    "C3": [
+      "direct",
+      "Field vocabulary built entirely around efficiency and safety-margin optimization"
+    ],
+    "C4": [
+      "none",
+      "N/A"
+    ],
+    "C5": [
+      "none",
+      "N/A"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Engineering/Safety|Peng, Q., Wu, Y., Qie, N., & Iwaki, S.|2022": {
+    "C1": [
+      "none",
+      "Cognitive testing study, no infrastructure framing"
+    ],
+    "C2": [
+      "none",
+      "N/A"
+    ],
+    "C3": [
+      "direct",
+      "Frames older adults through an engineering-safety lens rather than service or relational one"
+    ],
+    "C4": [
+      "partial",
+      "Older adults appear only as a population to be screened, not as agents shaping design"
+    ],
+    "C5": [
+      "partial",
+      "Illustrates the safety-metric framing eclipsing a service framing for an underserved group"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Engineering/Safety|Pedroff, J.|2025": {
+    "C1": [
+      "partial",
+      "Street-crossing signaling touches shared road space"
+    ],
+    "C2": [
+      "none",
+      "N/A"
+    ],
+    "C3": [
+      "direct",
+      "Framed as a communication-design problem, not community access or consent"
+    ],
+    "C4": [
+      "none",
+      "N/A"
+    ],
+    "C5": [
+      "partial",
+      "Implied by explicit contrast with access/consent framing"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Engineering/Safety|Lee, M.B., Lee, C.T., Abas, M.A., & Chong, W.W.F.|2025": {
+    "C1": [
+      "partial",
+      "Field-wide bibliometric view of AV-pedestrian safety research"
+    ],
+    "C2": [
+      "none",
+      "N/A"
+    ],
+    "C3": [
+      "direct",
+      "Dominated by engineering and statistical approaches; policy named as underdeveloped"
+    ],
+    "C4": [
+      "none",
+      "N/A"
+    ],
+    "C5": [
+      "none",
+      "N/A"
+    ],
+    "C6": [
+      "partial",
+      "Field-wide pattern, though only within the AV research domain"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Engineering/Safety|Kooijman, L., Happee, R., & de Winter, J.C.F.|2019": {
+    "C1": [
+      "partial",
+      "Crossing behavior study touches street space design"
+    ],
+    "C2": [
+      "none",
+      "N/A"
+    ],
+    "C3": [
+      "direct",
+      "Pedestrian encounter framed as signal-legibility optimization, closing with surveillance framing"
+    ],
+    "C4": [
+      "none",
+      "N/A"
+    ],
+    "C5": [
+      "partial",
+      "Explicit contrast with who has standing to shape the street"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Engineering/Safety|Pimenta, A.R., Kamruzzaman, M., & Currie, G.|2023": {
+    "C1": [
+      "direct",
+      "Literally about AVs reshaping the built environment"
+    ],
+    "C2": [
+      "direct",
+      "Review shows built environment framed as engineered and forecast from above, never community-shaped"
+    ],
+    "C3": [
+      "partial",
+      "Ownership-model framing (SAV/PAV) is market-driven rather than explicitly efficiency-labeled"
+    ],
+    "C4": [
+      "none",
+      "Communities appear only as aggregate statistics"
+    ],
+    "C5": [
+      "partial",
+      "No reviewed study considered redirecting freed parking to community-defined uses"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Engineering/Safety|Park, J., Jang, S., & Ko, J.|2024": {
+    "C1": [
+      "direct",
+      "Exclusive AV lanes on urban expressways, road infrastructure"
+    ],
+    "C2": [
+      "none",
+      "No community input discussed"
+    ],
+    "C3": [
+      "direct",
+      "Entire study organized around network efficiency at a given AV market share"
+    ],
+    "C4": [
+      "none",
+      "N/A"
+    ],
+    "C5": [
+      "none",
+      "N/A"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Engineering/Safety|Lu, Q., Tettamanti, T., Hörcher, D., & Varga, I.|2020": {
+    "C1": [
+      "direct",
+      "Urban traffic network capacity is core infrastructure question"
+    ],
+    "C2": [
+      "none",
+      "No community input discussed"
+    ],
+    "C3": [
+      "direct",
+      "Explicitly prizes recovered road capacity without asking whom it serves"
+    ],
+    "C4": [
+      "none",
+      "N/A"
+    ],
+    "C5": [
+      "none",
+      "N/A"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Engineering/Safety|Palatinus, Z., Volosin, M., Csabi, E., Hallgato, E., Hajnal, E., Lukovics, M., Pronay, S., Ujhazi, T., Osztobanyi, L., Szabo, B., Kralik, T., & Majo-Petri, Z.|2022": {
+    "C1": [
+      "partial",
+      "Real vehicle ride, service-level not infrastructure-level"
+    ],
+    "C2": [
+      "none",
+      "N/A"
+    ],
+    "C3": [
+      "partial",
+      "Frames acceptance as an individual measurable affective/physiological state"
+    ],
+    "C4": [
+      "none",
+      "N/A"
+    ],
+    "C5": [
+      "none",
+      "N/A"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Engineering/Safety|Zoellick, J.C., Kuhlmey, A., Schenk, L., Schindel, D., & Bluher, S.|2019": {
+    "C1": [
+      "partial",
+      "Real shuttle service, not framed as infrastructure"
+    ],
+    "C2": [
+      "none",
+      "N/A"
+    ],
+    "C3": [
+      "partial",
+      "Refines standard technology-acceptance measurement instruments"
+    ],
+    "C4": [
+      "partial",
+      "Human safety operator's talkativeness shaped riders' perceptions, a rare relational finding"
+    ],
+    "C5": [
+      "partial",
+      "That relational finding is treated as a confound to control for, not to design around"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Engineering/Safety|Nordhoff, S., Stapel, J., van Arem, B., & Happee, R.|2020": {
+    "C1": [
+      "partial",
+      "Real shuttle service, not explicitly infrastructure-framed"
+    ],
+    "C2": [
+      "none",
+      "N/A"
+    ],
+    "C3": [
+      "direct",
+      "Whole encounter framed as perceived safety to optimize; non-compliant road users flagged to police"
+    ],
+    "C4": [
+      "partial",
+      "Relational cues, sharing the ride, trusting the operator, briefly surface"
+    ],
+    "C5": [
+      "direct",
+      "Explicitly shows the field approaching a relational framing, then turning back to safety/efficiency"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "none",
+      "N/A"
+    ]
+  },
+  "Equity|Levine|2024": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "ADA-compliant infrastructure built without disabled riders' participation reproduces exclusion"
+    ],
+    "C3": [
+      "partial",
+      "ADA compliance metrics are technical/compliance-driven"
+    ],
+    "C4": [
+      "direct",
+      "Own text: supports both halves; access unevenly distributed by disability, gender, race"
+    ],
+    "C5": [
+      "direct",
+      "Compliance metrics ignore first/last-mile and diverse disability needs"
+    ],
+    "C6": [
+      "direct",
+      "Direct non-AV evidence of the broader pattern"
+    ],
+    "C7": [
+      "partial",
+      "Participants excluded from decisions; touches relational trust but not full provisioning framing"
+    ]
+  },
+  "Equity|Zhang et al.|2024": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Own text: thinner fit, does not address community participation"
+    ],
+    "C3": [
+      "direct",
+      "Top down, metric driven inclusion framework"
+    ],
+    "C4": [
+      "direct",
+      "Supports unevenly distributed half directly"
+    ],
+    "C5": [
+      "direct",
+      "Metric-driven framework vs elderly travelers' own participation in defining inclusion"
+    ],
+    "C6": [
+      "direct",
+      "Non-AV evidence across three decades of research"
+    ],
+    "C7": [
+      "none",
+      "Framework is accessibility/cost metric based, not relational provisioning"
+    ]
+  },
+  "Equity|Pinski et al.|2024": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Community needs assessments reproduce representation gaps"
+    ],
+    "C3": [
+      "partial",
+      "Formal participatory processes still fail, a process critique more than efficiency-values one"
+    ],
+    "C4": [
+      "direct",
+      "Documents disadvantaged and hard-to-reach populations' access needs"
+    ],
+    "C5": [
+      "direct",
+      "Funded inclusive processes still fail to serve those needs"
+    ],
+    "C6": [
+      "direct",
+      "Traces pattern back to 1950s-60s highway displacement"
+    ],
+    "C7": [
+      "partial",
+      "Tokenism critique touches ongoing relational engagement"
+    ]
+  },
+  "Equity|Agrawaal et al.|2024": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Own text: directly supports reproduces exclusion half"
+    ],
+    "C3": [
+      "partial",
+      "Jargon-heavy technical planning tools are technocratic/efficiency-adjacent"
+    ],
+    "C4": [
+      "direct",
+      "Planners' focus on traffic counts over lived experience shows what should govern instead"
+    ],
+    "C5": [
+      "direct",
+      "Jargon tools and traffic-count focus vs lived experience"
+    ],
+    "C6": [
+      "direct",
+      "Kinetic elite/mobility poor divide is a historical, broader pattern"
+    ],
+    "C7": [
+      "partial",
+      "Path dependence framing is systemic but not fully relational-provisioning"
+    ]
+  },
+  "Equity|Gomes et al.|2026": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Own text: directly supports reproduces exclusion half"
+    ],
+    "C3": [
+      "partial",
+      "Top-down fixed templates critiqued vs co-created ones"
+    ],
+    "C4": [
+      "direct",
+      "Citizen-defined priorities (transit reliability, safe pedestrian access) govern the outcome"
+    ],
+    "C5": [
+      "direct",
+      "Fixed templates missed what residents needed, resolved via co-creation"
+    ],
+    "C6": [
+      "direct",
+      "15-Minute City/TOD/MaaS as broader non-AV paradigms"
+    ],
+    "C7": [
+      "direct",
+      "Co-creation across institutional, technical, citizen actors is close to ongoing relational provisioning"
+    ]
+  },
+  "Equity|Bailey et al.|2010": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Arnstein Gap is a persistent, structural shortfall"
+    ],
+    "C3": [
+      "partial",
+      "Geovisual decision support tools are procedural/technical, not explicitly efficiency-labeled"
+    ],
+    "C4": [
+      "direct",
+      "Cultural values elicited via SPI are meant to govern outcomes"
+    ],
+    "C5": [
+      "direct",
+      "Professional conceit vs the public's own reported experience"
+    ],
+    "C6": [
+      "direct",
+      "Framed as structural to U.S. transportation planning generally"
+    ],
+    "C7": [
+      "none",
+      "Procedural justice framing, not explicitly ongoing relational provisioning"
+    ]
+  },
+  "Equity|Soliz et al.|2026": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Planning built without disabled people's input structurally forecloses access"
+    ],
+    "C3": [
+      "partial",
+      "Official policy definitions are rigid categorical/bureaucratic logic"
+    ],
+    "C4": [
+      "direct",
+      "Disabled people's leadership should center infrastructure design"
+    ],
+    "C5": [
+      "direct",
+      "Formal definitions exclude actual mobility practices"
+    ],
+    "C6": [
+      "direct",
+      "Disability justice as a broader, non-AV framework"
+    ],
+    "C7": [
+      "partial",
+      "Crip time reframing is a relational, flexible-provisioning concept"
+    ]
+  },
+  "Equity|McCullough et al.|2024": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Own text: supports both halves"
+    ],
+    "C3": [
+      "partial",
+      "Performative work is surface-level process without power redistribution"
+    ],
+    "C4": [
+      "direct",
+      "Documents power/voice unevenly distributed among professionals of color"
+    ],
+    "C5": [
+      "direct",
+      "Performative vs authentic equity is an explicit misalignment concept"
+    ],
+    "C6": [
+      "direct",
+      "Applies across the transportation field broadly, non-AV"
+    ],
+    "C7": [
+      "direct",
+      "Authentic equity as sustained relational redistribution of power closely matches Mobility as Social Service"
+    ]
+  },
+  "Equity|Chen et al.|2025": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Own text: thinner fit, authors flag need for community engagement"
+    ],
+    "C3": [
+      "direct",
+      "Quantitative, top-down allocation formula"
+    ],
+    "C4": [
+      "direct",
+      "Supports unevenly distributed half directly"
+    ],
+    "C5": [
+      "direct",
+      "Own text: model lacks community engagement to capture residents' actual perspectives"
+    ],
+    "C6": [
+      "direct",
+      "Non-AV evidence across 394 municipalities and a decade"
+    ],
+    "C7": [
+      "none",
+      "No relational framing"
+    ]
+  },
+  "Equity|Golub et al.|2013": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Own text: directly supports both halves"
+    ],
+    "C3": [
+      "partial",
+      "Facially neutral technical funding formula produces racialized exclusion"
+    ],
+    "C4": [
+      "direct",
+      "Documents historically uneven mobility access"
+    ],
+    "C5": [
+      "direct",
+      "Technical criteria producing racialized exclusion, 'racism without racists'"
+    ],
+    "C6": [
+      "direct",
+      "Pre-dates AVs entirely; strong historical broader-pattern evidence"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|McCullogh et al.|2026": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Participation necessary for equitable implementation; groups deterred or excluded"
+    ],
+    "C3": [
+      "partial",
+      "Frameworks built by default for able-bodied road users"
+    ],
+    "C4": [
+      "direct",
+      "Community engagement and partnerships are central facilitators/barriers"
+    ],
+    "C5": [
+      "direct",
+      "Nominal engagement and marginalized-group exclusion documented"
+    ],
+    "C6": [
+      "direct",
+      "Cross-context, non-AV review evidence"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Twardzik et al.|2025": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Red Line cancelled without input from Baltimore residents, a concrete example"
+    ],
+    "C3": [
+      "partial",
+      "'Ideal rider' assumption is a default optimization logic"
+    ],
+    "C4": [
+      "direct",
+      "Black and disabled riders' needs should govern, intersectional framework"
+    ],
+    "C5": [
+      "direct",
+      "Ideal-rider design vs actual riders is an explicit misalignment"
+    ],
+    "C6": [
+      "direct",
+      "Traces to slavery, redlining, highway construction, deep historical pattern"
+    ],
+    "C7": [
+      "partial",
+      "Crip Mobility Justice includes interdependence, a relational concept"
+    ]
+  },
+  "Equity|Johnson et al.|2025": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Own text: gestures at participation half only in closing recommendation"
+    ],
+    "C3": [
+      "direct",
+      "Accessibility indices and affordability metrics are the primary tools reviewed"
+    ],
+    "C4": [
+      "partial",
+      "Own text: a thinner fit than most sources in this section"
+    ],
+    "C5": [
+      "partial",
+      "Implied by the review's own framing, not strongly demonstrated"
+    ],
+    "C6": [
+      "partial",
+      "Broad review, general pattern but described as a thinner fit"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Johnson et al.|2024": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "none",
+      "Own text: relevance is indirect, not an infrastructure planning process"
+    ],
+    "C3": [
+      "none",
+      "Not applicable, recreational social movement study"
+    ],
+    "C4": [
+      "partial",
+      "Touches equity/access/inclusion in cycling advocacy indirectly"
+    ],
+    "C5": [
+      "none",
+      "Not tested empirically per own text"
+    ],
+    "C6": [
+      "none",
+      "Own text: connection not empirically tested here"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Karner et al.|2017": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Own text: directly supports reproduces exclusion half"
+    ],
+    "C3": [
+      "partial",
+      "Quantitative equity analyses and distant forecasts critiqued as technical"
+    ],
+    "C4": [
+      "direct",
+      "Community-led identification of needs is central to the proposed model"
+    ],
+    "C5": [
+      "direct",
+      "Standard MPO involvement rarely translates input into funded action"
+    ],
+    "C6": [
+      "direct",
+      "Civil rights/EJ mandate history, broad non-AV pattern"
+    ],
+    "C7": [
+      "direct",
+      "Three-step ongoing model: identify needs, fund, track closely matches relational provisioning"
+    ]
+  },
+  "Equity|Mottee et al.|2020": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Own text: directly supports, consultation occurring too late in project lifecycle"
+    ],
+    "C3": [
+      "direct",
+      "'Predict and provide' technical, model-driven planning explicitly critiqued"
+    ],
+    "C4": [
+      "direct",
+      "Affected communities' needs should shape assessment early"
+    ],
+    "C5": [
+      "direct",
+      "Technical planning treats social impacts as secondary"
+    ],
+    "C6": [
+      "direct",
+      "Two rail megaprojects, broader non-AV pattern"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Klaever et al.|2025": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Own text: directly supports, invited spaces actively discouraged residents"
+    ],
+    "C3": [
+      "partial",
+      "Official participatory venues framed by planners on their own terms"
+    ],
+    "C4": [
+      "direct",
+      "Lived expertise vs technical planning expertise, strong community-concerns framing"
+    ],
+    "C5": [
+      "direct",
+      "Repeated negative experiences including public humiliation demonstrate misalignment"
+    ],
+    "C6": [
+      "direct",
+      "Direct evidence though the authors note limited generalizability"
+    ],
+    "C7": [
+      "partial",
+      "Transdisciplinary research format better reflecting lived expertise is relational, though not policy provisioning itself"
+    ]
+  },
+  "Equity|Pineo et al.|2026": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Own text: moderate fit, transportation is one of several domains"
+    ],
+    "C3": [
+      "partial",
+      "City processes and regulations 'stacked against transformative solutions'"
+    ],
+    "C4": [
+      "direct",
+      "Youth-led tactical urbanism is community-led action defining need"
+    ],
+    "C5": [
+      "direct",
+      "Own text: infrastructure change possible only after community-led action pushed a reluctant agency"
+    ],
+    "C6": [
+      "direct",
+      "Cross-domain (housing, parks, transportation), non-AV"
+    ],
+    "C7": [
+      "partial",
+      "Bottom-up transformation as ongoing organizing, relational but advocacy-framed"
+    ]
+  },
+  "Equity|Di Ruocco|2025": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Own text: touches participation half more lightly"
+    ],
+    "C3": [
+      "direct",
+      "ICT/MaaS solutions designed by default around urban digitally literate users"
+    ],
+    "C4": [
+      "direct",
+      "Own text: supports unevenly distributed half directly"
+    ],
+    "C5": [
+      "direct",
+      "Own text: digitizes the same exclusion by assuming urban, digitally literate users"
+    ],
+    "C6": [
+      "direct",
+      "Global review evidence, non-AV specific tech-mediated mobility"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Jensen|2026": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Design choices encode exclusion with no participation in design"
+    ],
+    "C3": [
+      "partial",
+      "Design choices reflect a default material/engineering logic"
+    ],
+    "C4": [
+      "direct",
+      "Unhoused, disabled, and aging people should be centered in design"
+    ],
+    "C5": [
+      "direct",
+      "City built for an able-bodied middle-class default"
+    ],
+    "C6": [
+      "direct",
+      "Broad framework beyond any single project, deeply historical"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|van Holstein et al.|2020": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Existing participatory mechanisms systematically underrepresent people with intellectual disability"
+    ],
+    "C3": [
+      "partial",
+      "Splintered, privatized transport governance is market/efficiency-driven fragmentation"
+    ],
+    "C4": [
+      "direct",
+      "People with intellectual disability's needs should govern network design"
+    ],
+    "C5": [
+      "direct",
+      "Access committees exclude intellectual disability; advocate expertise goes unpaid"
+    ],
+    "C6": [
+      "direct",
+      "Broader non-AV pattern of committee tokenism"
+    ],
+    "C7": [
+      "partial",
+      "Performative research method aimed at prompting collaboration is a relational engagement attempt"
+    ]
+  },
+  "Equity|Jeghers et al.|2024": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Own text: thinner on participation half, centers professionals not community"
+    ],
+    "C3": [
+      "partial",
+      "SWOT and funding-priority framing is institutional/technical"
+    ],
+    "C4": [
+      "partial",
+      "Own text: moderate fit for unevenly distributed half"
+    ],
+    "C5": [
+      "partial",
+      "Funding/priority misalignment documented via professional perceptions, not community voice directly"
+    ],
+    "C6": [
+      "partial",
+      "Smart Cities pilot context has some generalizability"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Yin et al.|2026": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "none",
+      "Own text: thinner fit, no infrastructure-without-participation case examined"
+    ],
+    "C3": [
+      "partial",
+      "Quantitative modeling of unmet demand is a technical framing"
+    ],
+    "C4": [
+      "partial",
+      "Social participation as the strongest predictor touches community concerns loosely"
+    ],
+    "C5": [
+      "none",
+      "Not demonstrated"
+    ],
+    "C6": [
+      "none",
+      "Own text: included only as background evidence"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Contreras et al.|2026": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Distinct mechanism: funding cuts remove the community-knowledge pipeline from decisions"
+    ],
+    "C3": [
+      "partial",
+      "Techno-rational planning explicitly contrasted with community knowledge"
+    ],
+    "C4": [
+      "direct",
+      "Community-reported dangers like poor lighting should govern route-safety decisions"
+    ],
+    "C5": [
+      "direct",
+      "Quantitative metrics can certify a route safe while missing community-reported dangers"
+    ],
+    "C6": [
+      "direct",
+      "Broader structural/funding pattern, non-AV"
+    ],
+    "C7": [
+      "partial",
+      "Epistemic justice treats community knowledge as legitimate ongoing input"
+    ]
+  },
+  "Equity|Bailey et al.|2012": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "VDOT committee shrank from nearly 70 to about 30 representatives, held up as a model process"
+    ],
+    "C3": [
+      "partial",
+      "Four process metrics are a procedural/technical measurement framework"
+    ],
+    "C4": [
+      "direct",
+      "Low-income and minority stakeholders' full participation is the stated EJ goal"
+    ],
+    "C5": [
+      "direct",
+      "Small-group advisory committees compromise the inclusiveness EJ mandates require"
+    ],
+    "C6": [
+      "direct",
+      "Procedural justice under-theorized broadly in transportation EJ work, historical, non-AV"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Chapman et al.|2024": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Own text: standards developed without embedding diverse disabled people's needs"
+    ],
+    "C3": [
+      "direct",
+      "Compliance-based accessibility standards are a rule/metric-driven default"
+    ],
+    "C4": [
+      "direct",
+      "Dignity depends on infrastructure, staff, and information across the whole journey"
+    ],
+    "C5": [
+      "direct",
+      "Standards met on paper while still excluding people whose needs fall outside them"
+    ],
+    "C6": [
+      "direct",
+      "Broader compliance-standards critique, non-AV, applies to ADA/DSAPT generally"
+    ],
+    "C7": [
+      "partial",
+      "Dignity across a whole journey is relational and ongoing, close to C7 but not explicitly provisioning"
+    ]
+  },
+  "Equity|Bahman et al.|2026": {
+    "C1": [
+      "direct",
+      "Explicitly about AV deployment as an infrastructure/policy matter"
+    ],
+    "C2": [
+      "partial",
+      "Names community engagement as a required component, conceptually not evidenced"
+    ],
+    "C3": [
+      "partial",
+      "Siloed AV research treating equity/sustainability separately is an institutional/technical silo logic"
+    ],
+    "C4": [
+      "partial",
+      "Equitable access is a stated principle, not empirically demonstrated"
+    ],
+    "C5": [
+      "partial",
+      "Warns AVs could burden marginalized communities unless equity is designed in"
+    ],
+    "C6": [
+      "none",
+      "Specific to AVs, does not generalize beyond"
+    ],
+    "C7": [
+      "partial",
+      "Adaptive governance hints at ongoing process but remains conceptual"
+    ]
+  },
+  "Equity|Nakshi et al.|2025": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Names undelivered infrastructure promises as a pattern of underinvestment"
+    ],
+    "C3": [
+      "partial",
+      "Delayed infrastructure investment reflects institutional/bureaucratic logic"
+    ],
+    "C4": [
+      "direct",
+      "Racism and harassment shaping travel attitudes puts relational trust explicitly at the center"
+    ],
+    "C5": [
+      "direct",
+      "Chronic underinvestment and distrust vs residents' needs"
+    ],
+    "C6": [
+      "direct",
+      "Broader urban transit disinvestment pattern, non-AV"
+    ],
+    "C7": [
+      "partial",
+      "Relational trust as a central foreclosed value, an ongoing distrust dynamic"
+    ]
+  },
+  "Equity|Linovski et al.|2026": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Locates the disconnect at the level of who holds decision-making power"
+    ],
+    "C3": [
+      "partial",
+      "Technical-rational model treats politicians as external to decision-making, an adjacent institutional logic"
+    ],
+    "C4": [
+      "direct",
+      "Decision-makers demographically and experientially unlike the communities decisions most affect"
+    ],
+    "C5": [
+      "direct",
+      "Officials distant from the barriers under discussion"
+    ],
+    "C6": [
+      "direct",
+      "Broader pattern about who makes decisions generally, non-AV"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Zhang et al.|2025": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Proactive outreach argued for, implying current lack of participation"
+    ],
+    "C3": [
+      "partial",
+      "Logit demand model is a quantitative, demand-responsive framing"
+    ],
+    "C4": [
+      "direct",
+      "Hispanic PWD trusting neighbors over formal services shows relational trust as a governing factor"
+    ],
+    "C5": [
+      "direct",
+      "Standard demand-responsive planning misses needs trust barriers keep people from voicing"
+    ],
+    "C6": [
+      "direct",
+      "Intersectional pattern, broader non-AV evidence"
+    ],
+    "C7": [
+      "partial",
+      "Community trust over formal services is a relational-provisioning concept"
+    ]
+  },
+  "Equity|Wander et al.|2026": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Connects to participation half via centering affected voices, conceptually"
+    ],
+    "C3": [
+      "partial",
+      "Past supply-side, one-size-fits-all policy is a uniform-efficiency default"
+    ],
+    "C4": [
+      "direct",
+      "Mobility justice requires centering voices of those experiencing disparities"
+    ],
+    "C5": [
+      "direct",
+      "One-size-fits-all approaches fail dispersed low-income communities"
+    ],
+    "C6": [
+      "direct",
+      "Traces historical car-access disparities, broader non-AV pattern"
+    ],
+    "C7": [
+      "direct",
+      "Mobility as capability, targeted universalism, ongoing subsidy-plus-service pairing closely matches Mobility as Social Service"
+    ]
+  },
+  "Equity|Mouratidis|2026": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Own text: briefly names participatory planning as needed but underused"
+    ],
+    "C3": [
+      "partial",
+      "Transit-led gentrification is a market-driven displacement mechanism"
+    ],
+    "C4": [
+      "partial",
+      "Mobility-related exclusion for non-drivers is documented"
+    ],
+    "C5": [
+      "partial",
+      "Accessibility benefits lost to displacement is a form of misalignment, though economic not efficiency-values based"
+    ],
+    "C6": [
+      "partial",
+      "Broad wellbeing review, a thinner fit per own text"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Situ|2025": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "none",
+      "Own text does not address participation, purely quantitative constraint modeling"
+    ],
+    "C3": [
+      "partial",
+      "Car-dependent planning assumes a baseline driving ability as default"
+    ],
+    "C4": [
+      "direct",
+      "Intersectional account of who bears constraints centers community needs"
+    ],
+    "C5": [
+      "partial",
+      "Car-dependent assumption compounding disadvantage is an implied, not process-based, misalignment"
+    ],
+    "C6": [
+      "direct",
+      "Broader structural pattern, non-AV"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Karner et al.|2020": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Own text: directly and centrally supports"
+    ],
+    "C3": [
+      "direct",
+      "Quantitative equity analyses and pro forma involvement explicitly named as insufficient technical process"
+    ],
+    "C4": [
+      "direct",
+      "Residents' active participation is essential per central claim"
+    ],
+    "C5": [
+      "direct",
+      "Incremental technical reforms leave underlying power positions unchanged"
+    ],
+    "C6": [
+      "direct",
+      "Broad historical framework spanning state and society-centered strategies, non-AV"
+    ],
+    "C7": [
+      "direct",
+      "Transportation justice as structural, ongoing redistribution of power and resources"
+    ]
+  },
+  "Equity|Cha et al.|2020": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Own text: does not address community participation, illustrating top-down technically-defined equity"
+    ],
+    "C3": [
+      "direct",
+      "Purely technical GIS optimization, explicit"
+    ],
+    "C4": [
+      "none",
+      "No described role for residents at all"
+    ],
+    "C5": [
+      "direct",
+      "Equity solved by planners selecting weights with no resident role"
+    ],
+    "C6": [
+      "direct",
+      "Exemplifies broader top-down technical pattern, non-AV"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Pan et al.|2024": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Pro forma public meetings; equity absent from tech-focused scenarios"
+    ],
+    "C3": [
+      "direct",
+      "Agencies use pro forma meetings; tech/economy-focused scenarios lack equity"
+    ],
+    "C4": [
+      "direct",
+      "Community participation as justice-building is explicitly proposed"
+    ],
+    "C5": [
+      "direct",
+      "Own text: input 'collected and set aside' rather than shaping plans"
+    ],
+    "C6": [
+      "direct",
+      "Broad review across scenario planning practice, non-AV though touches emerging tech like EVs"
+    ],
+    "C7": [
+      "partial",
+      "Training communities in the planning process is ongoing capacity-building, close to relational provisioning"
+    ]
+  },
+  "Equity|Vanderschuren et al.|2021": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Own text: recommends including community leaders/NGOs but did not investigate their actual role"
+    ],
+    "C3": [
+      "partial",
+      "Universal design vs superficial policy address is a default design logic"
+    ],
+    "C4": [
+      "direct",
+      "Disability-specific needs should shape policy"
+    ],
+    "C5": [
+      "direct",
+      "Superficial policy address is a misalignment; reduced trip-making evidences the real-world cost"
+    ],
+    "C6": [
+      "direct",
+      "29-country pattern, broad non-AV, historical policy neglect"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Sutcliffe et al.|2021": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Windsor mayor's unilateral shutdown without consulting transit groups or users"
+    ],
+    "C3": [
+      "partial",
+      "Emergency top-down authority bypassing consultation is a speed/efficiency logic under crisis"
+    ],
+    "C4": [
+      "direct",
+      "Low-income and marginalized riders disproportionately harmed by cuts"
+    ],
+    "C5": [
+      "direct",
+      "Own text: officials aware of equity concerns had little practical ability to consult"
+    ],
+    "C6": [
+      "direct",
+      "Broader emergency-decision-making pattern, non-AV"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Equity|Grasso et al.|2020": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "partial",
+      "Touches participation half through a policy recommendation for community-based design input, not evidenced directly"
+    ],
+    "C3": [
+      "partial",
+      "Uniform system design is a one-size-fits-all default"
+    ],
+    "C4": [
+      "direct",
+      "Documents who is left out and why: safety and cargo-carrying needs"
+    ],
+    "C5": [
+      "direct",
+      "Uniform design does not accommodate documented needs"
+    ],
+    "C6": [
+      "direct",
+      "Broader pattern of uniform-design mobility systems failing subgroups, non-AV"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Participatory Method|Baumann, K., Caldwell, B., Bar, F., & Stokes, B.|2018": {
+    "C1": [
+      "partial",
+      "Self-driving cars are one of several speculative techs discussed, not the primary infrastructure focus"
+    ],
+    "C2": [
+      "partial",
+      "Co-design proposed explicitly as an alternative to having a future imposed on a community"
+    ],
+    "C3": [
+      "none",
+      "Not about efficiency-driven values specifically"
+    ],
+    "C4": [
+      "direct",
+      "Residents author their own scenarios, values governing the process"
+    ],
+    "C5": [
+      "none",
+      "Method paper; does not document a specific misalignment case"
+    ],
+    "C6": [
+      "partial",
+      "Infrastructures of the imagination is a general capacity-building concept, not AV-specific"
+    ],
+    "C7": [
+      "partial",
+      "Long-term capacity building is an ongoing relational practice"
+    ]
+  },
+  "Participatory Method|Van Wynsberghe, A., & Guimarães Pereira, Â.|2022": {
+    "C1": [
+      "direct",
+      "About AVs' political and imaginary framing directly"
+    ],
+    "C2": [
+      "direct",
+      "Citizens redefine mobility on their own terms rather than the industry's"
+    ],
+    "C3": [
+      "direct",
+      "Own text: efficiency-driven industry visions of AVs don't match what communities actually value"
+    ],
+    "C4": [
+      "direct",
+      "Citizens redefining mobility on their own terms centers community concerns"
+    ],
+    "C5": [
+      "direct",
+      "Explicit mismatch between industry visions and community values"
+    ],
+    "C6": [
+      "none",
+      "Specific to AVs"
+    ],
+    "C7": [
+      "partial",
+      "Material deliberation with embodied knowledge is a relational method"
+    ]
+  },
+  "Participatory Method|Severs, R., Wu, J., Diels, C., Harrow, D., Singleton, J., & Winsor, R.|2022": {
+    "C1": [
+      "partial",
+      "AV interiors are vehicle-level, not full infrastructure framing"
+    ],
+    "C2": [
+      "direct",
+      "Transport-excluded groups' needs missed by mainstream AV design"
+    ],
+    "C3": [
+      "partial",
+      "Mainstream AV design as the unexamined default implies an efficiency/mainstream-optimized logic"
+    ],
+    "C4": [
+      "direct",
+      "Transport-excluded groups hold specific, identifiable design needs"
+    ],
+    "C5": [
+      "direct",
+      "Mainstream AV design misses those needs"
+    ],
+    "C6": [
+      "none",
+      "AV-specific"
+    ],
+    "C7": [
+      "partial",
+      "Journey mapping is a relational method surfacing ongoing mobility practice"
+    ]
+  },
+  "Participatory Method|Tan, Y., Soh, K.X., Zhang, R., Lee, J., Meng, H., Sen, B., & Lee, Y.-C.|2025": {
+    "C1": [
+      "none",
+      "Not about AVs or infrastructure; AI casework tool"
+    ],
+    "C2": [
+      "partial",
+      "Co-design workshops proposed as an antidote to imposed technology, same underlying pattern"
+    ],
+    "C3": [
+      "none",
+      "Not about efficiency-engineering values; about professional identity and skill loss"
+    ],
+    "C4": [
+      "direct",
+      "Frontline workers' relational-trust concerns surfaced via workshops"
+    ],
+    "C5": [
+      "partial",
+      "Implied risk of overreliance and lost skills if not co-designed"
+    ],
+    "C6": [
+      "partial",
+      "Parallel domain (social service) demonstrates the general pattern outside mobility"
+    ],
+    "C7": [
+      "direct",
+      "Own text explicitly names relational-trust and human-connection concerns, a strong direct match"
+    ]
+  },
+  "Participatory Method|Aranda-Muñoz, Á., Bozic Yams, N., & Carlgren, L.|2025": {
+    "C1": [
+      "none",
+      "Healthcare-worker training domain, not AVs"
+    ],
+    "C2": [
+      "partial",
+      "Own text: proves the method works outside its original context"
+    ],
+    "C3": [
+      "none",
+      "Not applicable"
+    ],
+    "C4": [
+      "partial",
+      "Participants' agency over their own future is strengthened"
+    ],
+    "C5": [
+      "none",
+      "Not applicable"
+    ],
+    "C6": [
+      "partial",
+      "Own text: explicit generalizability evidence across domains, non-AV"
+    ],
+    "C7": [
+      "partial",
+      "Experiential futures are an ongoing relational engagement"
+    ]
+  },
+  "Participatory Method|Liao, Q.V., & Muller, M.|2019": {
+    "C1": [
+      "none",
+      "AI systems generally, not infrastructure"
+    ],
+    "C2": [
+      "partial",
+      "Method exists because neither current-practice study nor speculation alone surfaces values for a non-existent technology"
+    ],
+    "C3": [
+      "none",
+      "Not applicable"
+    ],
+    "C4": [
+      "direct",
+      "Stakeholder values are central to the method's purpose"
+    ],
+    "C5": [
+      "none",
+      "Methodological paper, not a documented misalignment case"
+    ],
+    "C6": [
+      "partial",
+      "Value Sensitive Design is an established approach beyond just AVs"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Participatory Method|Barendregt, L., Bendor, R., & van Eekelen, B.F.|2024": {
+    "C1": [
+      "none",
+      "Not about AVs"
+    ],
+    "C2": [
+      "direct",
+      "Own text: mostly includes only experts and professionals rather than affected publics"
+    ],
+    "C3": [
+      "none",
+      "Not applicable"
+    ],
+    "C4": [
+      "partial",
+      "Arnstein's ladder critique implies communities should hold real power"
+    ],
+    "C5": [
+      "direct",
+      "Process often not designed to genuinely empower, even when publics are included"
+    ],
+    "C6": [
+      "direct",
+      "Field-level review across participatory futuring broadly, non-AV, strong broader-pattern evidence"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Participatory Method|Forlano, L., & Mathew, A.|2014": {
+    "C1": [
+      "none",
+      "General urban technology, not AV/infrastructure specific"
+    ],
+    "C2": [
+      "partial",
+      "Friction from resistance and reframing is a symptom of imposed technology meeting resistance"
+    ],
+    "C3": [
+      "none",
+      "Not applicable"
+    ],
+    "C4": [
+      "direct",
+      "Embedded values become visible and contestable through friction"
+    ],
+    "C5": [
+      "partial",
+      "Friction as the site where misalignment surfaces, meta-level not case-specific"
+    ],
+    "C6": [
+      "partial",
+      "Mixed policy actor stakeholders, broader than just AVs"
+    ],
+    "C7": [
+      "partial",
+      "Design friction as ongoing negotiation is a relational process"
+    ]
+  },
+  "Participatory Method|Omori, M., & Lim, Y.|2025": {
+    "C1": [
+      "none",
+      "Not applicable"
+    ],
+    "C2": [
+      "none",
+      "Method-focused single case, not documented exclusion"
+    ],
+    "C3": [
+      "none",
+      "Not applicable"
+    ],
+    "C4": [
+      "partial",
+      "Provokes people to reflect on their own values"
+    ],
+    "C5": [
+      "none",
+      "Not applicable"
+    ],
+    "C6": [
+      "none",
+      "Single design case, no generalization claim"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  },
+  "Participatory Method|Sörries, P., Leimstädtner, D., & Müller-Birn, C.|2024": {
+    "C1": [
+      "none",
+      "Healthcare/legal data-donation domain, not AVs"
+    ],
+    "C2": [
+      "partial",
+      "Method for converting stakeholder values into design requirements avoids imposed design"
+    ],
+    "C3": [
+      "none",
+      "Not applicable"
+    ],
+    "C4": [
+      "direct",
+      "Vulnerable stakeholders' values are converted into concrete design requirements"
+    ],
+    "C5": [
+      "none",
+      "Positive/successful case, not documenting a misalignment"
+    ],
+    "C6": [
+      "partial",
+      "Single healthcare/legal context; own text notes transferability to mobility is untested"
+    ],
+    "C7": [
+      "direct",
+      "Own text: closes the workshop-to-values-to-design pipeline, directly analogous to ongoing equitable provisioning"
+    ]
+  },
+  "Participatory Method|Wong, R.Y., Mulligan, D.K., Van Wyk, E., Pierce, J., & Chuang, J.|2017": {
+    "C1": [
+      "none",
+      "Privacy technology domain, not AVs"
+    ],
+    "C2": [
+      "partial",
+      "Design workbook is a deliberate values-surfacing alternative to imposed design"
+    ],
+    "C3": [
+      "none",
+      "Not applicable"
+    ],
+    "C4": [
+      "direct",
+      "Values levers foreground values as central to design"
+    ],
+    "C5": [
+      "none",
+      "Methodological demonstration, not a misalignment case"
+    ],
+    "C6": [
+      "partial",
+      "Privacy by Design is an established broader design paradigm"
+    ],
+    "C7": [
+      "none",
+      "No relational provisioning framing"
+    ]
+  }
+}
