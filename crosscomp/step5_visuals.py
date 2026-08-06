@@ -14,12 +14,20 @@ import matplotlib.font_manager as fm
 BASE = "/Users/adityanaik/Documents/Work/UDMA-/crosscomp"
 OUT = f"{BASE}/outputs"
 
+# Fixed categorical order (blue, orange, aqua, yellow) validated by the
+# dataviz skill's checker for adjacent-pair CVD safety in both light and
+# dark modes (used by: radar lines, heatmap columns are sequential so no
+# concern, who-is-centered stacked bar). Timeline is a scatter (all-pairs
+# case) where no 4th hue holds up against blue/orange/aqua under the skill's
+# validator; kept anyway because thread identity there is already carried
+# redundantly by row position and the y-axis label, not by hue alone.
 THREAD_COLOR = {
     "Engineering/Safety": "#2a78d6",
     "Equity": "#eb6834",
     "Participatory Method": "#1baf7a",
+    "Food Justice": "#eda100",
 }
-THREAD_ORDER = ["Engineering/Safety", "Equity", "Participatory Method"]
+THREAD_ORDER = ["Engineering/Safety", "Equity", "Participatory Method", "Food Justice"]
 INK = "#0b0b0b"
 SECONDARY_INK = "#52514e"
 MUTED = "#898781"
@@ -92,13 +100,13 @@ for m in mechanisms:
     for p in m["papers"]:
         heat.loc[m["name"], p["thread"]] += 1
 
-fig, ax = plt.subplots(figsize=(8, 6))
+fig, ax = plt.subplots(figsize=(9, 6.5))
 from matplotlib.colors import LinearSegmentedColormap
 blue_ramp = LinearSegmentedColormap.from_list("blue_seq", ["#fcfcfb", "#cde2fb", "#6da7ec", "#2a78d6", "#0d366b"])
 im = ax.imshow(heat.values, cmap=blue_ramp, vmin=0, vmax=heat.values.max(), aspect="auto")
 
 ax.set_xticks(range(len(THREAD_ORDER)))
-ax.set_xticklabels(THREAD_ORDER, fontsize=10, color=SECONDARY_INK)
+ax.set_xticklabels(THREAD_ORDER, fontsize=10, color=SECONDARY_INK, rotation=20, ha="right")
 ax.set_yticks(range(len(mech_names)))
 ax.set_yticklabels(mech_names, fontsize=10, color=SECONDARY_INK)
 ax.set_xticks(np.arange(-.5, len(THREAD_ORDER), 1), minor=True)
@@ -127,9 +135,12 @@ print("saved mechanism_heatmap.png")
 # ============================================================
 from step5c_who_is_centered import WHO_CENTERED
 
+# Bucket order matches the validated fixed adjacent-pair sequence (slots
+# 1-6: blue, orange, aqua, yellow, magenta, green) so consecutive stacked
+# segments are always a validated-safe adjacent pair, in both modes.
 bucket_order = ["Community members/residents", "Advocates/CBOs", "Frontline practitioners",
                 "Regulators/officials", "Researchers synthesizing literature", "Engineers/technical experts"]
-bucket_colors = ["#1baf7a", "#008300", "#4a3aa7", "#eda100", "#e34948", "#2a78d6"]
+bucket_colors = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300"]
 
 counts = pd.DataFrame(0, index=THREAD_ORDER, columns=bucket_order)
 for (thread, author, year), bucket in WHO_CENTERED.items():

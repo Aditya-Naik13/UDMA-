@@ -1,9 +1,9 @@
 # Cross-Thread Literature Synthesis
 
-*Mobility as Social Service: synthesis across Engineering/Safety, Equity, and Participatory Method threads.*
-*Food Justice thread skipped this pass. 67 papers: 17 Engineering/Safety (Amy, Saanvi), 39 Equity (Shashi, Aditya), 11 Participatory Method (Mariya).*
+*Mobility as Social Service: synthesis across Engineering/Safety, Equity, Participatory Method, and Food Justice threads.*
+*82 papers across all four threads: 17 Engineering/Safety (Amy, Saanvi), 39 Equity (Shashi, Aditya), 11 Participatory Method (Mariya), 15 Food Justice (Joy, Crystal).*
 
-The presentable version of this report is `final_report.docx`. This file is the git-tracked plain-text companion; see `outputs/` for the source PNGs.
+The presentable version of this report is `final_report.docx`, which also preserves the yellow highlights added by hand to an earlier 3-thread review pass (see `highlighted_spans.py` for the exact preserved phrases). This file is the git-tracked plain-text companion; see `outputs/` for the source PNGs.
 
 ## The Thesis
 
@@ -11,47 +11,59 @@ The presentable version of this report is `final_report.docx`. This file is the 
 
 ## Cross-Cutting Mechanisms: Narrative Synthesis
 
-See `synthesis_narrative.md` for the full six-paragraph synthesis (Participation without power transfer; Trust reduced to a calibratable metric; Efficiency optimization crowds out purpose; Credentialed experts centered, communities counted; Friction as signal, not noise; Community-led alternatives outperform agency defaults), reproduced in full inside `final_report.docx`.
+See `synthesis_narrative.md` for the full seven-paragraph synthesis, reproduced in full inside `final_report.docx`:
+
+1. Participation without power transfer (4 threads)
+2. Trust reduced to a calibratable metric (3 threads: Engineering/Safety, Equity, Participatory Method)
+3. Efficiency optimization crowds out purpose (4 threads)
+4. Credentialed experts centered, communities counted (4 threads)
+5. Friction as signal, not noise (4 threads)
+6. Community-led alternatives outperform agency defaults (3 threads: Equity, Participatory Method, Food Justice)
+7. Dignity as a designable, structural property (2 threads: Equity, Food Justice), new, unlocked only once the Food Justice thread was added
 
 ## Visuals
 
-- `outputs/radar_chart.png`: Share of each thread's papers giving DIRECT support to each of the 7 thesis clauses.
-- `outputs/mechanism_heatmap.png`: Count of papers per mechanism per thread.
-- `outputs/who_is_centered.png`: Who is centered, by thread (Participatory Method's buckets are inferred from Central claim/Relevance text, since that thread's tracker has no Who-is-centered column).
-- `outputs/timeline.png` (optional): Publication year by thread.
+- `outputs/radar_chart.png`: Share of each thread's papers giving DIRECT support to each of the 7 thesis clauses, now with a 4th line for Food Justice.
+- `outputs/mechanism_heatmap.png`: Count of papers per mechanism per thread, now 7 rows x 4 columns.
+- `outputs/who_is_centered.png`: Who is centered, by thread. Food Justice splits roughly 47% community members / 53% researchers synthesizing literature; both Participatory Method's and Food Justice's buckets are inferred from Central claim/Relevance text, since neither tracker has a Who-is-centered column.
+- `outputs/timeline.png` (optional): Publication year by thread, now with Food Justice's 2017-2026 range added.
+
+Color note: the 4th thread (Food Justice) uses the dataviz skill's documented fixed-order yellow slot, validated with the skill's checker for adjacent-pair CVD safety (radar lines, heatmap, stacked bar) in both light and dark modes. The timeline is a scatter, where the skill's checker confirms no 4th hue holds up under an all-pairs read; kept anyway because thread identity there is already carried redundantly by row position and the y-axis label, not by hue alone.
 
 ## Thesis-Clause Summary
 
 Percent of each thread's papers giving DIRECT support to each clause. Full per-paper detail in `thesis_clause_matrix.csv`; counts in `thesis_clause_summary.csv`.
 
-| Thesis clause | Engineering/Safety (n=17) | Equity (n=39) | Participatory Method (n=11) |
-|---|---|---|---|
-| 1. AVs are infrastructure, not simply transportation vehicles | 35% | 3% | 9% |
-| 2. Infrastructure-scale technology typically arrives in communities without their input | 12% | 59% | 27% |
-| 3. AVs carry efficiency-driven values inherited from transportation engineering | 71% | 23% | 9% |
-| 4. Community concerns actually govern mobility in this context | 0% | 82% | 73% |
-| 5. Efficiency-driven values are misaligned with those community concerns | 6% | 82% | 27% |
-| 6. This misalignment reflects a broader pattern, not a one-off AV problem | 0% | 85% | 9% |
-| 7. Mobility as Social Service: ongoing, relational, equitable provisioning | 0% | 13% | 18% |
+| Thesis clause | Engineering/Safety (n=17) | Equity (n=39) | Participatory Method (n=11) | Food Justice (n=15) |
+|---|---|---|---|---|
+| 1. AVs are infrastructure, not simply transportation vehicles | 35% | 3% | 9% | 0% |
+| 2. Infrastructure-scale technology typically arrives in communities without their input | 12% | 59% | 27% | 40% |
+| 3. AVs carry efficiency-driven values inherited from transportation engineering | 71% | 23% | 9% | 13% |
+| 4. Community concerns actually govern mobility in this context | 0% | 82% | 73% | 80% |
+| 5. Efficiency-driven values are misaligned with those community concerns | 6% | 82% | 27% | 47% |
+| 6. This misalignment reflects a broader pattern, not a one-off AV problem | 0% | 85% | 9% | 53% |
+| 7. Mobility as Social Service: ongoing, relational, equitable provisioning | 0% | 13% | 18% | 27% |
 
 ## Gaps
 
-**Thinnest clauses overall (all 67 papers pooled):** clause 1 (AVs as infrastructure, 11.9% direct / 26.9% direct-or-partial) and clause 7 (Mobility as Social Service, 10.4% direct / 38.8% direct-or-partial). Both are expected gaps rather than review failures: clause 1 is AV-specific and most of the corpus (the 39-paper Equity thread) is about existing, non-AV infrastructure; clause 7 is the paper's own new concept, which existing literature was not written to evidence. These two clauses will need to be carried primarily by the paper's own workshop data, not secondary literature. Strongest existing anchors if more support is needed: Engineering/Safety for clause 1 (35% partial-or-direct), and Karner et al. (2020) and Wander et al. (2026) for clause 7.
+**Thinnest clauses overall (all 82 papers pooled):** clause 1 (AVs as infrastructure, 9.8% direct / 23.2% direct-or-partial) and clause 7 (Mobility as Social Service, 13.4% direct / 43.9% direct-or-partial). Both improved slightly after Food Justice was added (clause 7's direct-or-partial rose from 38.8% to 43.9%, mostly on the strength of the dignity literature) but neither closed. Expected rather than alarming: clause 1 is AV-specific and 61 of 82 papers (Equity plus Food Justice) are about existing, non-AV systems; clause 7 is the paper's own new concept, which existing literature was not written to evidence. Both clauses will still need to lean on the paper's own workshop data. Strongest existing anchors: Engineering/Safety for clause 1 (35% partial-or-direct); Karner et al. (2020) and Wander et al. (2026) from Equity plus Prost et al. (2018), Heitlinger et al. (2021), and Brenton et al. (2025) from Food Justice for clause 7.
 
-**Mechanisms in only 2 of 3 threads:** Community-led alternatives outperform agency defaults has zero Engineering/Safety support (that sub-field is almost entirely diagnostic, not solution-oriented). Worth a quick check with Amy and Saanvi in case a relevant paper was screened out rather than genuinely absent.
+**Mechanisms in fewer than 4 threads:** Trust reduced to a calibratable metric has no Food Justice support (no paper there frames trust itself as a metric to calibrate, so none was forced in). Community-led alternatives outperform agency defaults still has zero Engineering/Safety support, likely reflecting what that sub-field studies rather than a screening gap, worth a quick check with Amy and Saanvi. Dignity as a designable, structural property, the mechanism Food Justice unlocked, currently has only Equity and Food Justice support; worth watching whether the paper's own food-pantry workshop data eventually supplies a third thread's worth of direct evidence.
 
-**Thread not yet included:** Food Justice (Joy, Crystal) was skipped this pass at the user's request. Given the paper's case study is set in a food pantry, adding that tracker and re-running Steps 1 to 6 is likely to shift the clause 4 and clause 7 numbers, and the mechanism list, more than any other single addition would.
+**Highlighted-content preservation:** the user's manual yellow highlights from the prior 3-thread review pass (20 phrases across mechanisms 1-6) were preserved verbatim in the updated paragraph text and re-applied in `final_report.docx`; see `highlighted_spans.py` for the exact list.
+
+**Workbook highlight (Food Justice source, unresolved):** 6 of the 14 rows in the Food Justice source workbook's main sheet are shaded cream in the original file; the user clarified this question was about the docx highlights, not the source workbook, so the meaning of that xlsx shading is still unconfirmed. It is carried forward as a `WorkbookHighlighted` boolean column on the Food Justice frame in `thread_frames.pkl` rather than silently dropped, in case it turns out to matter later.
 
 ## Deliverables
 
-- [x] `unified_lit_review.csv`
-- [x] `mechanisms.json`
-- [x] `thesis_clause_matrix.csv`
-- [x] `thesis_clause_summary.csv`
-- [x] `synthesis_narrative.md`
+- [x] `unified_lit_review.csv` (82 rows)
+- [x] `mechanisms.json` (7 mechanisms)
+- [x] `thesis_clause_matrix.csv` (82 rows)
+- [x] `thesis_clause_summary.csv` (28 rows: 7 clauses x 4 threads)
+- [x] `synthesis_narrative.md` (7 paragraphs)
 - [x] `outputs/radar_chart.png`
 - [x] `outputs/mechanism_heatmap.png`
 - [x] `outputs/who_is_centered.png`
 - [x] `outputs/timeline.png` (optional, included)
 - [x] `final_report.md` (this file)
-- [x] `final_report.docx` (presentable deliverable)
+- [x] `final_report.docx` (presentable deliverable, with highlights preserved)

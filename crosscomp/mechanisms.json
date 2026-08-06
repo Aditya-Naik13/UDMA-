@@ -51,6 +51,18 @@
           "reviewers": "Mariya",
           "author": "Barendregt, Bendor, & van Eekelen",
           "year": 2024
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Cresswell Riol & Connelly",
+          "year": 2025
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Joassart-Marcelli, Bosco, & McFadden",
+          "year": 2026
         }
       ]
     },
@@ -159,6 +171,18 @@
           "reviewers": "Mariya",
           "author": "Van Wynsberghe & Guimarães Pereira",
           "year": 2022
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Joassart-Marcelli, Bosco, & McFadden",
+          "year": 2026
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Deener",
+          "year": 2017
         }
       ]
     },
@@ -213,6 +237,18 @@
           "reviewers": "Mariya",
           "author": "Barendregt, Bendor, & van Eekelen",
           "year": 2024
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Murray, Gale, Adams, & Dalton",
+          "year": 2023
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Shaker, Grineski, Collins, & Flores",
+          "year": 2023
         }
       ]
     },
@@ -243,6 +279,12 @@
           "reviewers": "Amy, Saanvi",
           "author": "Nordhoff, Stapel, van Arem, & Happee",
           "year": 2020
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Engelbutzeder, Bollmann, Berns, Landwehr, Randell, & Wulf",
+          "year": 2023
         }
       ]
     },
@@ -284,6 +326,54 @@
           "thread": "Participatory Method",
           "reviewers": "Mariya",
           "author": "Sörries, Leimstädtner, & Müller-Birn",
+          "year": 2024
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Gripper, Nethery, Cowger, White, Kawachi, & Adamkiewicz",
+          "year": 2022
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Prost, Crivellaro, Haddon, & Comber",
+          "year": 2018
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Heitlinger, Houston, Taylor, & Catlow",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "name": "Dignity as a designable, structural property",
+      "definition": "Whether a service preserves or strips a recipient's dignity is treated as a concrete, structural design property of the service itself, not an unavoidable side effect of receiving help.",
+      "papers": [
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Cresswell Riol & Connelly",
+          "year": 2023
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Cresswell Riol & Connelly",
+          "year": 2025
+        },
+        {
+          "thread": "Food Justice",
+          "reviewers": "Joy, Crystal",
+          "author": "Brenton, Tindall, Glanz, & Virudachalam",
+          "year": 2025
+        },
+        {
+          "thread": "Equity",
+          "reviewers": "Shashi, Aditya",
+          "author": "Chapman et al.",
           "year": 2024
         }
       ]

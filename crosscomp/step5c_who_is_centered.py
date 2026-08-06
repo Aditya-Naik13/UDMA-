@@ -1,11 +1,12 @@
 """Who-is-centered bucket assignments, hand-coded by reading the 'Who is
 centered' field for Engineering/Safety and Equity, and inferred from Central
-claim/Relevance to argument for Participatory Method (which has no Who is
-centered column at all, noted in the report)."""
+claim/Relevance to argument for Participatory Method and Food Justice
+(neither has a Who is centered column at all, noted in the report)."""
 
 ENG = "Engineering/Safety"
 EQ = "Equity"
 PM = "Participatory Method"
+FJ = "Food Justice"
 
 WHO_CENTERED = {
     (ENG, "Hicks, D., Kingsley, G., & Isett, K.R.", 2025): "Regulators/officials",
@@ -77,4 +78,20 @@ WHO_CENTERED = {
     (PM, "Omori, M., & Lim, Y.", 2025): "Engineers/technical experts",
     (PM, "Sörries, P., Leimstädtner, D., & Müller-Birn, C.", 2024): "Community members/residents",
     (PM, "Wong, R.Y., Mulligan, D.K., Van Wyk, E., Pierce, J., & Chuang, J.", 2017): "Engineers/technical experts",
+
+    (FJ, "Lindemann", 2026): "Community members/residents",
+    (FJ, "Gripper", 2022): "Researchers synthesizing literature",
+    (FJ, "Murray", 2023): "Researchers synthesizing literature",
+    (FJ, "Cresswell Riol", 2023): "Researchers synthesizing literature",
+    (FJ, "Engelbutzeder", 2023): "Community members/residents",
+    (FJ, "Talhouk", 2022): "Community members/residents",
+    (FJ, "Joassart-Marcelli", 2026): "Researchers synthesizing literature",
+    (FJ, "Deener", 2017): "Researchers synthesizing literature",
+    (FJ, "Shaker", 2023): "Researchers synthesizing literature",
+    (FJ, "Prost", 2018): "Community members/residents",
+    (FJ, "Cresswell Riol", 2025): "Researchers synthesizing literature",
+    (FJ, "Brenton", 2025): "Community members/residents",
+    (FJ, "Boling", 2023): "Researchers synthesizing literature",
+    (FJ, "Heitlinger", 2021): "Community members/residents",
+    (FJ, "Reese", 2019): "Community members/residents",
 }
