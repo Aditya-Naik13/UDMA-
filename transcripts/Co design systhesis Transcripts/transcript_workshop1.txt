@@ -1,0 +1,232 @@
+WORKSHOP 1 — TMF INTERNAL CO-DESIGN SESSION
+FIRST-LEVEL AFFINITY MAP TRANSCRIPT (RAW, UNSYNTHESIZED)
+Facilitator/notetaker: Crystal Habib
+Compiled from FigJam board screenshots
+
+LEGEND
+[Idea] = raw verbatim workshop idea/response (white outlined box, no attribution shown, declarative statement)
+[HMW]  = "How Might We" design prompt written by facilitator (colored sticky, attributed Crystal Habib)
+Note: a small number of colored stickies contain raw ideas rather than HMW prompts — these are still
+tagged [Idea] to preserve accurate content type regardless of sticky color.
+
+================================================================
+CLUSTER: Optimal operation based on environmental condition
+================================================================
+[Idea] AVS could do the crazy 8 for me when I run out of ideas. Self generating solutions
+[Idea] Traffic and weather is an obstacle
+[Fragment] Comm.
+[HMW] How might we use AVs to track/predict environmental conditions/hazards
+
+================================================================
+CLUSTER: Modular AV (features)
+================================================================
+[Idea] AVs (road) can reach to common destination points and can launch 4-6 drones so it could deliver 2-3 items in one go.
+[Idea] AVs → connect to a smart home appliances to get things done under users consent
+[Idea] Sky hub → Hubs that stay in sky and deliver to multiple location in times
+[Idea] AV (robot) (Boston Dynamics) can act as a pet and also for fetching your food.
+[HMW] How might AV's be connected to current smart features to enhance logistics
+[HMW] How might we position AV as integrated node in smart home ecosystem
+[HMW] How might we envision AVs as modules service supporting isolated community infrastructure
+[HMW] How might we envision AV as modular system to solve lacking infrastructure to enhance service accessibility
+[HMW] How might drones/flight AVs to address last mile
+[HMW] HMW use modular AVs to address rural areas/places lacking modern infrastructure
+[HMW] How might AV as a modular system enhance/address community lacking modern infrastructure
+
+================================================================
+CLUSTER: Privacy
+================================================================
+[Idea] Should have some sort of face verification to ensure food is handed to the right person
+[HMW] How might AV ensure data and user privacy of pantry clients
+
+================================================================
+CLUSTER: Communication (features)
+================================================================
+[Idea] Could handle communications for pantries and be used when needed?
+[Idea] Become 100% effective by having access to centralized information and connecting suppliers (farmers/food banks) with the users (food pantries/families)
+[Idea] AV can anticipate the shortage of food. No communication from human
+[HMW] How might we envision AV's as a central communications between pantry, banks, neighbor and logistics
+[HMW] How might we envision AVs as a form of communication during food shortage
+
+================================================================
+CLUSTER: Community Resource Connection (effect) — includes inner "second tier ()" sub-circle
+================================================================
+[Idea] Avs can be used to pick up food that are in community (restaurants, farmers markets, and distribute to people that use pantries.
+[Idea] Using Av to help bring services buy and food to serve neighborhoods
+[Idea] AV can be used to bring awareness of food pantries with graphics or something to travel to different areas.
+[Idea] Prepare diverse food supply by coordinating the delivery of different types of food, e.g. fruits/dairy/protein
+[Idea] AV over here can help with smaller logistic - pick up of food (e.g. from community gardens, urban farms, roof top gardens)
+[HMW] How might pantries use AVs as a means to raise awareness?
+[HMW] How might we use AVs to track data and synthesize [AI] areas of improvement that pantries can adapt to become more efficient
+[HMW] How might we design a moving spaces to solve neighbors service access issues (time constraint, information gap). Augmenting their capacity to enhance their well being
+[HMW] How might we use AVs to connect with local businesses
+[HMW] How might we use AVs to expand the circle of resources to those beyond traditional pantry food sources.
+[HMW] How might AVs help to diversify food resources?
+
+================================================================
+CLUSTER: Integrated Logistics
+================================================================
+[Idea] Deliver food but also, help bring it into the pantries to reduce labor issues
+[Idea] Should be able to coordinate with pantry and banks and should know when to pick up food
+[HMW] How might AVs optimize deliveries?
+
+================================================================
+CLUSTER: Waste Reduction
+================================================================
+[Idea] Better utilize unused food from events and stores at any time of the day - decrease food waste
+[Idea] Avoid food going bad by quickly picking and delivering through real-time operation
+[Idea] AV to collect extra food from restaurants
+[HMW] How might AVS enhance community help by managing perishables
+[HMW] How might we use AVs to minimize pantry waste
+[Fragment] optimization?
+
+================================================================
+CLUSTER: Workforce Optimization (effect)
+================================================================
+[Idea] More options to optimize routes with more vehicles available *more "drivers"
+[Idea] 913 has AV Trucks that handle the entire deliver process
+[Idea] Replace 913 (vehicles?)
+[Idea] AV over here can...AV Impact Level 1: Replace the driver, so one person can organize boxes and delivers
+[HMW] How might AVs enhance route optimization?
+[HMW] How might we use AVs to reduce driver needs so manpower can focus on logistics/other business needs
+[HMW] How might AV help small scale companies to reduce costs (logistics)
+[HMW] How might AVs being opportunity to explore new workforce development
+[HMW] How might we use AV to help small scale business to reduce costs (workforce)
+[HMW] How might we use AVs to reduce logistic company cost (labor, time, asset) to improve the distribution efficiency and have workforce capacity to fulfill other social services needs
+
+================================================================
+CLUSTER: Expanding operational hours (effect)
+================================================================
+[Idea] Continuous deliveries no down time between deliveries
+[Idea] Removes the dependence on truck drivers availability and skill set → able to operate at all hours
+[HMW] How might AVs increase access to feed pantry services
+[HMW] How might AVs help with emergency hunger needs outside traditional pantry hours?
+
+================================================================
+CLUSTER: Mobile Common Places (effect)
+================================================================
+[Idea] AV over here is able to deliver food at door steps having a common area to park these devices
+[Idea] AV would have time in an area to wait for neighbors there.
+[HMW] How might AV integrated infrastructure. Enact community space
+
+================================================================
+CLUSTER: Physical Labor
+================================================================
+[Idea] AV that helps specifically with unloading items when needed.
+[Idea] AVs can have forklifts like trucks so that human dependency (ineligible) a lot.
+[Idea] AV can carry heavy loads reducing the change of injury and removing limitations
+[Idea] Flow of movement within a pantry or a bank. Within bank being able to generate the pantry's order
+[HMW] How might AV reduce human dependency within food banks (forklifts)
+[HMW] How might we use AV's and modular concept to help in food bank internal logistics? (Packing boxes, etc)
+[HMW] How might we envision modular system resolve burden physical within food bank pantry internal logistics system
+
+================================================================
+CLUSTER: Volunteer Work Optimization (effect)
+================================================================
+(shares physical space/stickies with Physical Labor cluster above — no additional isolated items)
+
+================================================================
+CLUSTER: Overuse of volunteer resource
+================================================================
+[Idea] AV over here can be used at each pantry for smaller orders so volunteers do not have to use their cars/manpower
+[HMW] How might we use AVs to reduce the extra workload generated for volunteers
+
+================================================================
+CLUSTER: Food Desert (challenge)
+================================================================
+[Idea] AVs can act as food delivery hot spots. (out as food pantries)
+[HMW] How might AVs mitigate the food dessert issues?
+
+================================================================
+CLUSTER: Food Supply Demand
+================================================================
+[Idea] Anticipate the needs of food pantry when threshold is met → place order → got to pick up order • no communication between people
+[Idea] Community AV that all pantries have access to for pantry to pantry transportation (volunteers, food, supplies)
+[Idea] AVs can help food pantries place order from food banks and get them delivered
+[Idea] Food bank → O/ Food pantry → O/ Food surplus → whomever in needs
+[HMW] How might AVs help with supply demand for things beyond food (supplies + volunteers)
+[HMW] How might AV's help with the food supply + demand
+[HMW] How might we envision avs as a demand understanding system to solve supply ↔ demand problem
+
+================================================================
+CLUSTER: Food Logistics (touch point)
+Sub-branches: "Role of AV (Storage)" and "Role of Pantries (Social Hub)" — connected via "cause and effect"
+================================================================
+[Idea] Eliminate logistical issues between pantries and drivers
+[Idea] No food bank surplus to scarcity direct AV
+[Idea] Refrigerated AV unit for pantries who cannot store for large quantities. Meat + Produce
+[HMW] How might we envision AVs as logistics and storage unit for pantries
+[HMW] How might we design a moving space food storage to solve food surplus/reduce problem in the food distribution system?
+[HMW] How might we automate logistics for surplus goods in food pantries
+[HMW] How might we extend pantry refrigeration storage for those who lack the space through AV
+[HMW] How might AV resolve infrastructure issues within the pantry
+[HMW] How might we design a moving space food storage to address the physical labor problem loading, moving, distributing items in food pantry
+[HMW] How might we envision food pantries as social hubs and logistical hubs to coordinate AVs as mobile pantries
+[HMW] How might we envision food pantry as a social hub? pantry
+[HMW] How might we enhance the social service amenity at food banks when food distribution task is eased by AVs
+[HMW] How might we envision food pantry as a social hub/service
+
+================================================================
+CLUSTER: Logistics / "AV's + AI Robot + Human Touch point at delivery"
+Sub-branches: Distributing (Storaging) | Logistical Carrying and Physical | Logistical Coordination Social Connection
+Label: (Last Mile, touchpoint)
+================================================================
+[Idea] Senior citizens are lonely, become friends with AV
+[Idea] (?) covered up
+[Idea] Using AV's to pick up people instead of food
+[Idea] AI Robot with (?) AV
+[Idea] AVs can be friends with senior citizens as they are alone and feel lonely
+[Idea] AV over here can AV impact level 5: Be part of an eco-system with robots doing delivery in each building
+[Idea] Should be able to deliver food to the exact building number inside an apartment
+[Idea] AV over here can contact Arthur till he answers and gives the access code so food can be delivered in hand
+[HMW] How might we resolve last mile issues and social connection using human co-ordination and robots in on AV Service.
+[HMW] How might we design a carrying robotic and human to fill the last mile service delivery gap to immobile people, fostering social support and connection
+[HMW] How might we ensure there is a human element/touch with AVs used as a social service for those they serve → delivery
+
+================================================================
+CLUSTER: Accessibility? (for disabled people)
+Sub-circles: Seniors | Integrated Services | On Demand
+================================================================
+--- Seniors ---
+[Idea] Can serve as emergency transportation while delivering food to senior citizen if they wanna visit a hospital or elsewhere
+[HMW] How might AVs provide emergency services to seniors? (E.g. hospital)
+
+--- Integrated Services ---
+[Idea] Coordinate the delivery of food and other needed supplies such as medicine
+[HMW] How might AVs provide integrated services
+
+--- On Demand ---
+[Idea] App that controls deliver ATVs for you or can pickup for you. Even though you are not available.
+[HMW] How might we envision AV as on demand service to reduce the friction to access to services
+
+================================================================
+CLUSTER: Neighbors / Friends
+================================================================
+(label only — connects via arrow to "Seniors" cluster above; no independent content)
+
+================================================================
+CLUSTER: Home Bound Neighbors
+================================================================
+[HMW] How might AV help home bound neighbors come to the pantry
+
+================================================================
+CLUSTER: Aging Volunteers
+================================================================
+[Idea] (?) Av to bring clients to the food (?) (not just volunteers)
+[HMW] How might AVs help assist aging volunteers reach the pantry
+
+================================================================
+CLUSTER: Neighbors with time constrain challenges (educational needs)
+================================================================
+[Idea] AV can help me be more productive
+[HMW] How might pantries provide mobile educational/coaching services
+[HMW] How might AV help neighbors with → time constraints → educational needs → career development
+[HMW] How might we envision AVs for on demand services for neighbors with time constraints
+[HMW] How might AV help neighbors save time while juggling multiple tasks
+
+================================================================
+END OF TRANSCRIPT
+================================================================
+Total clusters captured: 22
+Content type breakdown: [Idea] = raw workshop responses | [HMW] = facilitator-authored design prompts
+All entries attributed to facilitator/notetaker Crystal Habib unless marked [Idea] with no visible attribution
+(white boxes), which reflects direct, unattributed participant statements as captured on the board.

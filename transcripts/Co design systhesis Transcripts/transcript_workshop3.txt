@@ -1,0 +1,194 @@
+WORKSHOP 3 — COMMUNITY STAKEHOLDERS SYNTHESIS MAP
+RAW TRANSCRIPT
+Compiled from FigJam board screenshots. Contributor names omitted — ideas and group
+structure only. Cross-cluster arrows/correlations preserved as they exist on the board.
+
+FRAMING QUESTIONS ON BOARD
+These function as section headers organizing the clusters beneath them, not as content
+themselves:
+  - "Barriers for AVs adoption"
+  - "How would AV works in terms of service?"
+  - "What would AV Address"
+
+Excluded from this transcript: "do pilot test" cluster (excluded per instruction),
+including an illegible handwritten/sketched note it contained.
+
+================================================================================
+SECTION: BARRIERS FOR AVS ADOPTION
+================================================================================
+
+## Funding & decision criteria
+- School bus has grants - is federal. Indy Go: from federal state, budget approved by city council
+- IndyGo: Food Insecurity supported, at 31% food insecurity, 29% transport, childcare, education
+- Transportation funding gap: a poll of non profits revealed that while transportation is a top client barrier it receives disproportionately low and restricted funding. It is often bundled as a need with grants for other areas rather than being funded as a primary service
+- Challenges IHN: funding, FD network support, duplication, grants duplication
+- Public safety, BRT System, public mass transit fund, 11% of funding to Indy Go for bus replacement
+- Indy Go has higher fares x Social Service Agents. A survey among 136 organizations, with funding up to 340 million: 8 different basic needs, only 1.2M was for funding. Main issue in transportation but no funding
+
+## Awareness
+- Within MPO, reluctancy & hesitancy within midwest about AVs. Also lack of knowledge + understanding about the technology in general
+- MPO: reluctancy is adopting AV
+- Conception of AV → reluctance of AV adoption → lack knowledge → barrier that fund only projects this is brought to us
+
+## Fare
+- IndyGo: serve the most people in access. Foundation is different
+- IndyGo increases fares → bus passes are given out to mitigate that (not a problem)
+- IndyGo's intent is to serve most people with access, where they need to go, not everyone. IndyGo serving everyone → not feasible. IndyGo foundation perspective: yes wants to make transport accessible and equitable
+
+## Route design
+- Density of houses → routes have been made intentionally
+- Monitoring food desert → MPO, whenever there is a project
+- MPO topic: food desert is a decision factor for route. Monitoring food desert, but not yet
+- MPO route depends on numbers of houses, schools, and other essential infrastructure
+- Transportation is made faster and quicker → route design
+
+## IHN
+- IHN redundancy with Gleaners (funding grants)
+- IHN - collaborative support
+- IHN support food pantry network (community compass)
+
+## Shepherds
+- Gleaners operates 3 programs through shepherds:
+  1. Groceries to go
+  2. TFAB (govt program with lots of reporting)
+  3. DAB (food pickup across)
+
+================================================================================
+SECTION: HOW WOULD AV WORKS IN TERMS OF SERVICE?
+================================================================================
+
+## ROI
+- Measuring impact: the discussion questions traditional financial ROI for public good projects, suggesting a need for new metrics that measure the "weights of burden" and capture the ultimate benefit to the end user
+- AV can help in some regard → ROI of social device
+
+## Emergency Box
+(region containing the following three groupings)
+
+**Shepherd / Gleaners (inner circle)**
+- Shepherd: AV - more useful to bringing people. More useful to design it so it can be served right out of pantry
+- Gleaners: how would AV work in terms of Service (starred note)
+- Targeted use case with beta volunteers: moving people with food, or move people to food
+
+**Communication friction among stakeholder**
+- Communication is complex, so many people involved
+- 3 programs — Gleaners runs through Sheppard
+
+**operational performance**
+- Weather. Access barriers → predictability
+- Sheppard: traffic, weather, construction
+
+## Current Infrastructure → Infrastructure
+- IHN pantry sponsors AV
+- IHN: AV as a tool to increase capacity
+- Infrastructure development to adopt AV serviced ecosystem
+- Biggest ROI of AV as a social service is the adoption rate of AV
+
+↳ Correlation (Automaker/ROI loop): an arrow from "Automaker" points into "Biggest ROI of
+AV as a social service is the adoption rate of AV," annotated "More AV adoption — Serving
+Automakers interest in building infrastructure." The same loop curves up to "IHN pantry
+sponsors AV" / "IHN: AV as a tool to increase capacity," annotated "AV purchased by non
+profits by seeking federal grant like how IHN provides grant for refrigerators." Read
+together: automaker interest in AV adoption is framed as driving infrastructure
+investment, modeled on how IHN already grants equipment (refrigerators) to pantries —
+suggesting the same mechanism could fund AV acquisition.
+
+## Micro transit
+- Microtransit: busstop 1 mile away from pantry. AV can drop off user to the pantry to fill the walking gap
+- Microtransit: a key idea is using small AV's as micro transit shuttles to solve the first and last mile problem, connecting locations like food pantries to main public transit lines
+- Indy Go: Indygo foundation helps connect Indygo. Indygo services are not always close enough to Arthur to go to food pantry
+- MPO has a Serve committee which has users of both transit users and micro transit users representing the community
+- AV implementation idea by MPO: pantry opens at a particular time, we can do inter-shuttling with bigger shuttles, substitute BRT line
+
+↳ Correlation: fed by "limitations of macro transit" below (solid arrow points up into
+this cluster) — the macro-transit limitations are positioned as the motivation for the
+micro-transit ideas.
+
+## limitations of macro transit
+- Indy Go Barrier → mobility problem for food pantry
+- Challenges for shepherd is not people but how the system is set (federal program creates challenges)
+- Indy Go AV can't serve singular person. But transit is the motive; foundation wants to do this kind of activities
+
+================================================================================
+SECTION: WHAT WOULD AV ADDRESS
+================================================================================
+
+## Food Desert
+(top-level node, no content of its own)
+
+↳ Correlation: branches via arrow into two clusters below — Home Bound and Last mile.
+
+## Home Bound
+- People who are home bound can't even use transportation. Need to look for an angle which can help people like Arthur
+- Delivery person might be the only point of human contact the home bound people might have
+- Homebound people miss out on transportation ideations
+
+## Last mile
+- Last mile challenge → possible ecosystem like Uber pickups. Connect all notification, ring, door bell
+
+## Time (End Users)
+- Time is a factor - beyond 9-5. Food pantry works on Saturday mornings - many families work at that time
+- Working jobs → miss out pantry
+
+## wraparound service
+- IndyGo solving other problems of Arthur along with pantry problems
+- Solving transportation issues should include other entities and needs as well
+
+## Features of AV's
+- Sheppard: AV feature that can utilize the ring the door bell. Software that could be built from the ground up
+- G2G Program: 85% success with AV, 15% face issues, but ROI
+- Sheppard: Home Bound Arthur, time conflict with work hours
+- AVs as a tool to boost capacity (optimization)
+
+## People centered
+
+**Input/decision making**
+- Neighbor have ideas imposed on them. Their needs are not accommodated
+- Lack of experience in planning and the perspective for planning
+
+**Personalized services**
+- AV cannot be designed for everyone. It's not the next big solution. A solution that could solve challenges for all the people
+- All personas are not the same. They have different needs
+- Perspective of access to pantry might be different for different people
+
+↳ Correlation: fed by "Social service meaning relational engagement not transactional"
+below (dashed arrow points up into Input/decision making).
+↳ Correlation: see Emergency Box junction below — this cluster is also one of two
+downstream destinations from that junction.
+
+## Social service meaning relational engagement not transactional
+- Indygo: home delivery might be the only personal interaction
+- AV barrier: it needs to be intentional about the relation
+- Sheppard barrier: intentional about being relational
+- Maintaining the human relation
+
+================================================================================
+CROSS-CLUSTER CONNECTIONS (full list of arrows on board)
+================================================================================
+1. Emergency Box junction (three-way): a vertical line runs from the Emergency Box
+   circle down to the "Current Infrastructure" label, and two further arrows branch out
+   from that same junction — one to Home Bound, one to People centered. The Emergency
+   Box region (Shepherd/Gleaners notes + "How would AV works in terms of service?")
+   sits at a point connecting the infrastructure/funding side of the board to both the
+   Home Bound and People centered findings on the community side.
+
+2. Food Desert (top oval) branches via arrow into Home Bound and Last mile.
+
+3. "limitations of macro transit" → arrow up → "Micro transit" — macro-transit
+   limitations positioned as the motivating problem for the micro-transit ideas.
+
+4. "Social service meaning relational engagement not transactional" → dashed arrow →
+   "People centered / Input/decision making" — relational-engagement findings feed
+   directly into the input/decision-making insight.
+
+5. Automaker/ROI loop (within Infrastructure cluster): "Automaker" → arrow → "Biggest
+   ROI of AV as a social service is the adoption rate of AV" (annotated "More AV
+   adoption / Serving Automakers interest in building infrastructure"); same loop
+   curves to "IHN pantry sponsors AV" / "IHN: AV as a tool to increase capacity"
+   (annotated "AV purchased by non profits by seeking federal grant like how IHN
+   provides grant for refrigerators").
+
+================================================================================
+END OF TRANSCRIPT
+================================================================================
+Total clusters captured: 22 (excludes "do pilot test")
+Total cross-cluster correlations captured: 5
