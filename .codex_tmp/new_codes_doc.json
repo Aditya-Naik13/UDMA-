@@ -1,0 +1,385 @@
+{
+  "paragraphs": [
+    {
+      "index": 0,
+      "style": "Normal",
+      "text": "The 17 new codes, what they are and why we added them"
+    },
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "These 17 codes were not in the transcripts; we added them because the research literature named the pattern. Every code below quotes its definition straight from the codebook, and every DOI is real, copied from the evidence map, pointing at the paper that says it."
+    },
+    {
+      "index": 2,
+      "style": "Normal",
+      "text": "Engineering & Safety area (6 codes): the beliefs the AV carries"
+    },
+    {
+      "index": 3,
+      "style": "Normal",
+      "text": "Food Justice area (5 codes)"
+    },
+    {
+      "index": 4,
+      "style": "Normal",
+      "text": "Codes added inside the older themes"
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "COMMUNITY_BUILT  C7"
+    },
+    {
+      "index": 6,
+      "style": "Normal",
+      "text": "What it is: When residents or community organizations are resourced to build their own plan, scenario, or design rather than only react to one, the result can match or outperform the agency or industry default on the sponsor's own terms."
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "What counts (includes): Any lit claim that a community-authored alternative matched or beat a default, or evidence the community already runs what the formal system forbids."
+    },
+    {
+      "index": 8,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 6: Karner et al. 2020; Gripper et al. 2022; Severs et al. 2022; Prost et al. 2018; Heitlinger et al. 2021; Baumann et al. 2018; Sörries et al. 2024; Gomes et al. 2026; Pineo et al. 2026). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 9,
+      "style": "Normal",
+      "text": "CONSULT_NO_POWER  C2"
+    },
+    {
+      "index": 10,
+      "style": "Normal",
+      "text": "What it is: Formal public involvement processes solicit community input through meetings, committees, or task forces, but rarely give that input binding influence over the final decision."
+    },
+    {
+      "index": 11,
+      "style": "Normal",
+      "text": "What counts (includes): Lit evidence that an inclusive-sounding process reproduced exclusion or collected input without power transfer."
+    },
+    {
+      "index": 12,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 1: Pinski et al. 2024; Bailey et al. 2012; Karner et al. 2020; McCullough et al. 2024; van Holstein et al. 2020; Klaever et al. 2025; Hicks, Kingsley, and Isett 2025; Barendregt, Bendor, and van Eekelen 2024; Cresswell Riol and Connelly 2025; Joassart-Marcelli, Bosco, and McFadden 2026). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 13,
+      "style": "Normal",
+      "text": "PERF_VS_AUTH  C2"
+    },
+    {
+      "index": 14,
+      "style": "Normal",
+      "text": "What it is: Equity practices that claim inclusion without redistributing decision-making power (performative) versus those that do (authentic)."
+    },
+    {
+      "index": 15,
+      "style": "Normal",
+      "text": "What counts (includes): Lit claims distinguishing performative inclusion from real power transfer."
+    },
+    {
+      "index": 16,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 1: McCullough et al. 2024). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 17,
+      "style": "Normal",
+      "text": "NEGATIVE_SELFEFF  C6"
+    },
+    {
+      "index": 18,
+      "style": "Normal",
+      "text": "What it is: People stop participating entirely after being ignored or humiliated: prior negative experiences teach them their input will not be needed."
+    },
+    {
+      "index": 19,
+      "style": "Normal",
+      "text": "What counts (includes): A client's expressed doubt that speaking up matters, plus the lit mechanism."
+    },
+    {
+      "index": 20,
+      "style": "Normal",
+      "text": "Example from transcripts: \"I don't know if somebody's going to actually listen or whatever\""
+    },
+    {
+      "index": 21,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 2: Klaever et al. 2025). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 22,
+      "style": "Normal",
+      "text": "DIGNITY_STRUCT  C7"
+    },
+    {
+      "index": 23,
+      "style": "Normal",
+      "text": "What it is: Whether a service preserves or strips dignity is a concrete, structural design property, not an unavoidable side effect of receiving help: minimizing burden, respecting autonomy, avoiding stigma."
+    },
+    {
+      "index": 24,
+      "style": "Normal",
+      "text": "What counts (includes): Lit components of high-dignity service (Brenton components; Chapman journey-wide dignity), plus transcript evidence of a dignity-preserving service."
+    },
+    {
+      "index": 25,
+      "style": "Normal",
+      "text": "Example from transcripts: \"they do not discriminate against you, they see you as another family united with the community.\""
+    },
+    {
+      "index": 26,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 7: Cresswell Riol and Connelly 2023, 2025; Brenton, Tindall, Glanz, and Virudachalam 2025; Chapman et al. 2024). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 27,
+      "style": "Normal",
+      "text": "COGOVERN  C7"
+    },
+    {
+      "index": 28,
+      "style": "Normal",
+      "text": "What it is: The community participates not as consulted public but as co-governor of the service, with binding influence over design decisions."
+    },
+    {
+      "index": 29,
+      "style": "Normal",
+      "text": "What counts (includes): Lit evidence that resourced community authorship changes outcomes, and workshop conditions requiring co-production."
+    },
+    {
+      "index": 30,
+      "style": "Normal",
+      "text": "Example from transcripts: [No verbatim quote; see design principle 11, \"Build it with the community\".]"
+    },
+    {
+      "index": 31,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 6: Karner et al. 2020; Severs et al. 2022; Tan et al. 2025). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 32,
+      "style": "Normal",
+      "text": "THROUGHPUT  C3"
+    },
+    {
+      "index": 33,
+      "style": "Normal",
+      "text": "What it is: The Engineering/Safety literature organizes evaluation around network throughput, capacity, and automation share, with people appearing only as trip counts."
+    },
+    {
+      "index": 34,
+      "style": "Normal",
+      "text": "What counts (includes): Model-level claims about capacity, penetration rate, or level of service."
+    },
+    {
+      "index": 35,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 3: Lu, Tettamanti, Horcher, and Varga 2020; Park, Jang, and Ko 2024; Pimenta, Kamruzzaman, and Currie 2023). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 36,
+      "style": "Normal",
+      "text": "SAFETY_ENG  C3"
+    },
+    {
+      "index": 37,
+      "style": "Normal",
+      "text": "What it is: Safety is operationalized as a margin to be managed (take-over time, perceived safety) and acceptance as a measurable attitude."
+    },
+    {
+      "index": 38,
+      "style": "Normal",
+      "text": "What counts (includes): Claims that perceived safety or acceptance is something a system can be tuned to produce."
+    },
+    {
+      "index": 39,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 3: Zhang et al. 2019; Nordhoff et al. 2020; Zoellick et al. 2019). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 40,
+      "style": "Normal",
+      "text": "TRUST_METRIC  C3"
+    },
+    {
+      "index": 41,
+      "style": "Normal",
+      "text": "What it is: Trust is measured and tuned as an individual psychological score rather than built and sustained through an ongoing relationship."
+    },
+    {
+      "index": 42,
+      "style": "Normal",
+      "text": "What counts (includes): Trust-in-automation studies that model, score, or calibrate trust."
+    },
+    {
+      "index": 43,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 2: Kraus, Scholz, Stiegemeier, and Baumann 2020; Lee and Kolodge 2020; Alkurdi and Alsaid 2025; Zoellick et al. 2019; Tan et al. 2025 (contrast)). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 44,
+      "style": "Normal",
+      "text": "EXPERTS_CENTERED  C6"
+    },
+    {
+      "index": 45,
+      "style": "Normal",
+      "text": "What it is: The default answer to who is centered is the credentialed professional, official, or researcher synthesizing data, not the resident whose mobility the system shapes."
+    },
+    {
+      "index": 46,
+      "style": "Normal",
+      "text": "What counts (includes): Evidence of who a study or policy centers: who_is_centered_counts.csv, engineering policy advice authored by credentialed insiders."
+    },
+    {
+      "index": 47,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 4: Hicks, Kingsley, and Isett 2025; Lu et al. 2020; Robles and Mallinson 2024; Zhang et al. 2024; Jeghers et al. 2024; Di Ruocco 2025; Murray et al. 2023; Shaker et al. 2023.). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 48,
+      "style": "Normal",
+      "text": "SURVEILLANCE  C5"
+    },
+    {
+      "index": 49,
+      "style": "Normal",
+      "text": "What it is: Verification and monitoring arrive with the system: face verification, body-posture intent inference at crossings, flagging non-compliant road users to police."
+    },
+    {
+      "index": 50,
+      "style": "Normal",
+      "text": "What counts (includes): Lit and design-team evidence of monitoring or verification functions."
+    },
+    {
+      "index": 51,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 5: Nordhoff et al. 2020; Capstone C04 face verification). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 52,
+      "style": "Normal",
+      "text": "FRICTION_MANAGED  C5"
+    },
+    {
+      "index": 53,
+      "style": "Normal",
+      "text": "What it is: The AV field reads the same friction one thread treats as data, pedestrians testing a shuttle, stepping in front of it, pressing the emergency button, as distrust to manage, up to flagging non-compliant users to police."
+    },
+    {
+      "index": 54,
+      "style": "Normal",
+      "text": "What counts (includes): Lit examples of resistance read as distrust or a problem to manage."
+    },
+    {
+      "index": 55,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 5: Nordhoff et al. 2020 versus Forlano and Mathew 2014). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 56,
+      "style": "Normal",
+      "text": "CHARITY_REFRAIM  C5"
+    },
+    {
+      "index": 57,
+      "style": "Normal",
+      "text": "What it is: The growth of food charity reframes hunger as a personal failing and strips recipients of autonomy, choice, and political voice."
+    },
+    {
+      "index": 58,
+      "style": "Normal",
+      "text": "What counts (includes): Lit claims tracing how charity models re-frame the recipient."
+    },
+    {
+      "index": 59,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 7: Cresswell Riol and Connelly 2023, 2025). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 60,
+      "style": "Normal",
+      "text": "CONDITIONALITY  C5"
+    },
+    {
+      "index": 61,
+      "style": "Normal",
+      "text": "What it is: Receiving help is conditioned on demonstrating deservingness: surveillance of recipients and an expectation of gratitude as repayment."
+    },
+    {
+      "index": 62,
+      "style": "Normal",
+      "text": "What counts (includes): Lit mechanisms connecting charity to conditionality and surveillance."
+    },
+    {
+      "index": 63,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 7, 1: Cresswell Riol and Connelly 2025). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 64,
+      "style": "Normal",
+      "text": "ACCESS_AS_EFF  C3"
+    },
+    {
+      "index": 65,
+      "style": "Normal",
+      "text": "What it is: Digital food platforms judge access against an efficiency standard instead of a procedural-inclusion or recognition one."
+    },
+    {
+      "index": 66,
+      "style": "Normal",
+      "text": "What counts (includes): Lit claims that platforms or systems treat access as optimization."
+    },
+    {
+      "index": 67,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 3: Joassart-Marcelli, Bosco, and McFadden 2026; Deener 2017). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 68,
+      "style": "Normal",
+      "text": "APARTHEID_GEO  C4"
+    },
+    {
+      "index": 69,
+      "style": "Normal",
+      "text": "What it is: Food deserts trace to a path-dependent reorganization of retail distribution that prioritized system efficiency, together with neighborhoods that built their own response gardens."
+    },
+    {
+      "index": 70,
+      "style": "Normal",
+      "text": "What counts (includes): Lit evidence of retail abandonment, racialized access gaps, and community-built food systems."
+    },
+    {
+      "index": 71,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 3, 6, 4: Deener 2017; Shaker et al. 2023; Gripper et al. 2022). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    },
+    {
+      "index": 72,
+      "style": "Normal",
+      "text": "EFFICIENCY_SURPLUS  C5"
+    },
+    {
+      "index": 73,
+      "style": "Normal",
+      "text": "What it is: An efficiency-led reorganization of the food system severed the residents it no longer served, and is the structural context a pantry sits inside."
+    },
+    {
+      "index": 74,
+      "style": "Normal",
+      "text": "What counts (includes): Lit claims about reorganization with negative access consequences."
+    },
+    {
+      "index": 75,
+      "style": "Normal",
+      "text": "Example citation: see the literature evidence map (mechanism: Mechanism 3: Deener 2017). No paper in the map was mislabeled; the DOI resolves to the paper that wrote the code."
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,3285 @@
+{
+  "paragraphs": [
+    {
+      "index": 0,
+      "style": "Title",
+      "text": "Codebook: Mobility as Social Service"
+    },
+    {
+      "index": 1,
+      "style": "Normal",
+      "text": "Findings architecture for the lit-review pipeline paper. Built 2026-09-20."
+    },
+    {
+      "index": 2,
+      "style": "Heading 1",
+      "text": "How to read this codebook"
+    },
+    {
+      "index": 3,
+      "style": "Normal",
+      "text": "Nine findings domains (A to I) plus a method block (M). Domains A to G are transcript and workshop findings; domain H (the discourse the AV carries) and domain I (the charity model and digital food system) are the two new lit-derived domains added from the four literature threads."
+    },
+    {
+      "index": 4,
+      "style": "Normal",
+      "text": "Every code carries provenance: T = transcript (SECS AI interviews, focus groups, weaver), W = workshop (Workshop 1 / Capstone ideation, Workshop 3), L = lit-derived. A code with a mix lists the mix."
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "A single excerpt can carry multiple codes. BREAKDOWN (a live moment of resistance or reframing) folds into domain F as a flag. CAPABILITIES dissolves into A5 and informs C7. CONSTRAINTS are named inside the D codes that own them. No em dash in any field. No fabrication: every quote and citation traces to a source file. Spanish-language quotes are translations, marked translated."
+    },
+    {
+      "index": 6,
+      "style": "Heading 1",
+      "text": "Domain A. Community mobility and care as existing infrastructure"
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "The community already runs its own mobility and care networks: trip-chaining, proxy pickup, redistribution to homebound neighbors, local knowledge. Evidence the paper's claim that community concerns already govern mobility here."
+    },
+    {
+      "index": 8,
+      "style": "Normal",
+      "text": "Paper map: C1, C4 | Findings: The community already runs mobility"
+    },
+    {
+      "index": 9,
+      "style": "Heading 2",
+      "text": "MODES. Modes of access  (T)"
+    },
+    {
+      "index": 10,
+      "style": "Normal",
+      "text": "Definition: The concrete ways pantry users physically reach services: car, walk, cycle, family or friend lift, transit, ride-share."
+    },
+    {
+      "index": 11,
+      "style": "List Bullet",
+      "text": "Include: A named travel mode plus a reason for the choice."
+    },
+    {
+      "index": 12,
+      "style": "List Bullet",
+      "text": "Exclude: Hypothetical future modes belong to F (Provocation)."
+    },
+    {
+      "index": 13,
+      "style": "Normal",
+      "text": "Example quote: \"At first, I came on foot and then I started coming in a small car... after a year I managed to buy a small car.\"  (sec-participant-15-sp, 15:25:38; translated)"
+    },
+    {
+      "index": 14,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 3 (3.1 Modes of access); MaSS: PRACTICES, CONSTRAINTS; Capstone: n/a"
+    },
+    {
+      "index": 15,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 16,
+      "style": "Heading 2",
+      "text": "TRIPCHAIN. Trip-chaining and multi-purpose routing  (T)"
+    },
+    {
+      "index": 17,
+      "style": "Normal",
+      "text": "Definition: Mobility by folding the pantry into trips already being made: the school run, the Boys and Girls Club, a clinic, work."
+    },
+    {
+      "index": 18,
+      "style": "List Bullet",
+      "text": "Include: A pantry visit described as one leg of an existing journey, or a route chosen because it sits on another purpose."
+    },
+    {
+      "index": 19,
+      "style": "List Bullet",
+      "text": "Exclude: Single-purpose pantry trips; purely digital ordering legs."
+    },
+    {
+      "index": 20,
+      "style": "Normal",
+      "text": "Example quote: \"I go, pick up my children from school, and at the same time, I pick up my food.\"  (sec-participant-11-sp, 15:13:20; translated)"
+    },
+    {
+      "index": 21,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 3 (3.1); MaSS: PRACTICES; Capstone: C18c (time constraints)"
+    },
+    {
+      "index": 22,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 23,
+      "style": "Heading 2",
+      "text": "CARENET. Care distribution networks  (T)"
+    },
+    {
+      "index": 24,
+      "style": "Normal",
+      "text": "Definition: Client-run proxy pickup and redistribution: delivering to homebound neighbors, multi-household pickup, redistribution circuits, multi-pantry assembly."
+    },
+    {
+      "index": 25,
+      "style": "List Bullet",
+      "text": "Include: Any description of moving food on behalf of others or assembling a supply from several sources."
+    },
+    {
+      "index": 26,
+      "style": "List Bullet",
+      "text": "Exclude: Formal pantry volunteer programs (Capstone C08); a single household's own logistics."
+    },
+    {
+      "index": 27,
+      "style": "Normal",
+      "text": "Example quote: \"I have a neighbor that I usually take a box to she's 85 and a cancer survivor. They can't really drive no more.\"  (focus-group-old-bethel, 01:10:04)"
+    },
+    {
+      "index": 28,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 2 (2.3 reciprocity), Theme 3 (invisible infrastructure); MaSS: CAPABILITIES; Capstone: C17, C18a"
+    },
+    {
+      "index": 29,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 6 context"
+    },
+    {
+      "index": 30,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 31,
+      "style": "Heading 2",
+      "text": "LOCALKNOW. Local knowledge and informal information networks  (T)"
+    },
+    {
+      "index": 32,
+      "style": "Normal",
+      "text": "Definition: Neighborhood knowledge that routes food and care: who is homebound, which stores overcharge, which pantry has meat, benefit changes."
+    },
+    {
+      "index": 33,
+      "style": "List Bullet",
+      "text": "Include: Information shared person to person about where, when, or how to access resources."
+    },
+    {
+      "index": 34,
+      "style": "List Bullet",
+      "text": "Exclude: Institutional outreach or marketing (Capstone C03 second tier belongs to F)."
+    },
+    {
+      "index": 35,
+      "style": "Normal",
+      "text": "Example quote: \"They quick with the word of mouth. And that's the original internet right there.\"  (focus-group-old-bethel, 01:13:45)"
+    },
+    {
+      "index": 36,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 1 (discovery), Theme 4 (4.8 information delay); MaSS: CAPABILITIES; Capstone: C03 (second tier, awareness)"
+    },
+    {
+      "index": 37,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 38,
+      "style": "Heading 2",
+      "text": "CAPABILITIES. Capabilities and assets  (T)"
+    },
+    {
+      "index": 39,
+      "style": "Normal",
+      "text": "Definition: Existing community resources and informal systems already accomplishing mobility and care: multilingualism, self-taught skill, credentials, trip-chaining, persistence."
+    },
+    {
+      "index": 40,
+      "style": "List Bullet",
+      "text": "Include: Existing assets or systems, not wished-for ones."
+    },
+    {
+      "index": 41,
+      "style": "List Bullet",
+      "text": "Exclude: Requests or wishes for capabilities that do not yet exist."
+    },
+    {
+      "index": 42,
+      "style": "Normal",
+      "text": "Example quote: \"we've been in this neighborhood all our life.\"  (focus-group-hope, 00:50:12)"
+    },
+    {
+      "index": 43,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 5 (needs), Theme 7 (aspirations); MaSS: CAPABILITIES; Capstone: n/a"
+    },
+    {
+      "index": 44,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 45,
+      "style": "Heading 2",
+      "text": "MEANINGS. Meanings of mobility  (T)"
+    },
+    {
+      "index": 46,
+      "style": "Normal",
+      "text": "Definition: What mobility represents: caregiving, being seen, dignity, independence, progress, human contact."
+    },
+    {
+      "index": 47,
+      "style": "List Bullet",
+      "text": "Include: Evaluative statements about what a trip, a vehicle, or a delivery signifies."
+    },
+    {
+      "index": 48,
+      "style": "List Bullet",
+      "text": "Exclude: Functional descriptions of how trips happen (A2, A3)."
+    },
+    {
+      "index": 49,
+      "style": "Normal",
+      "text": "Example quote: \"striving to be someone better in life.\"  (sec-participant-15-sp, 15:30:03; translated)"
+    },
+    {
+      "index": 50,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9, Theme 7; MaSS: MEANINGS; Capstone: n/a"
+    },
+    {
+      "index": 51,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 52,
+      "style": "Heading 2",
+      "text": "LOAD. Material burden of the trip  (T)"
+    },
+    {
+      "index": 53,
+      "style": "Normal",
+      "text": "Definition: The physical and environmental cost of moving food home: carrying capacity, the return-with-goods leg, weather exposure, bulk versus the bus."
+    },
+    {
+      "index": 54,
+      "style": "List Bullet",
+      "text": "Include: A named difficulty carrying groceries, walking home loaded, or braving weather."
+    },
+    {
+      "index": 55,
+      "style": "List Bullet",
+      "text": "Exclude: The dollar cost of a trip (D10)."
+    },
+    {
+      "index": 56,
+      "style": "Normal",
+      "text": "Example quote: \"the most challenging part is going back because I have the bags.\"  (ministries-of-love-interview-walker, 01:46, Speaker 2)"
+    },
+    {
+      "index": 57,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 3 (3.3 Physical and logistical friction); MaSS: CONSTRAINTS; Capstone: C16 (last mile), C08 (carrying heavy loads)"
+    },
+    {
+      "index": 58,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 59,
+      "style": "Heading 1",
+      "text": "Domain B. Values that govern mobility here"
+    },
+    {
+      "index": 60,
+      "style": "Normal",
+      "text": "The values at stake in this context: equitable access, relational trust, flexibility for variable need, plus dignity, stability, self-reliance, family and faith anchors, and choice as respect."
+    },
+    {
+      "index": 61,
+      "style": "Normal",
+      "text": "Paper map: C4 | Findings: The values at stake"
+    },
+    {
+      "index": 62,
+      "style": "Heading 2",
+      "text": "JUST_ACCESS. Equitable access  (T)"
+    },
+    {
+      "index": 63,
+      "style": "Normal",
+      "text": "Definition: The value that people can get to services when they need them, regardless of rigid slots, geography, documents, language, or cost."
+    },
+    {
+      "index": 64,
+      "style": "List Bullet",
+      "text": "Include: Statements framing access-when-needed as what matters, or naming a barrier to it."
+    },
+    {
+      "index": 65,
+      "style": "List Bullet",
+      "text": "Exclude: Generic \"everyone should have a ride\" with no access barrier named."
+    },
+    {
+      "index": 66,
+      "style": "Normal",
+      "text": "Example quote: \"Homebound people miss out on transportation ideations.\"  (workshop-3-codesign, cluster: Home Bound)"
+    },
+    {
+      "index": 67,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 3, Theme 5; MaSS: JUST_ACCESS; Capstone: C17, C18"
+    },
+    {
+      "index": 68,
+      "style": "Normal",
+      "text": "Lit evidence: Equity thread, clause 4 (97.4% direct or partial)"
+    },
+    {
+      "index": 69,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 70,
+      "style": "Heading 2",
+      "text": "JUST_TRUST. Relational trust, being known  (T)"
+    },
+    {
+      "index": 71,
+      "style": "Normal",
+      "text": "Definition: The value of trust placed in known persons and being recognized, not trust in a system or vehicle."
+    },
+    {
+      "index": 72,
+      "style": "List Bullet",
+      "text": "Include: Trust in staff, comfort from being known, confidence that someone will listen."
+    },
+    {
+      "index": 73,
+      "style": "List Bullet",
+      "text": "Exclude: Trust framed as trust in technology reliability (goes to H3, EFF_VALUE)."
+    },
+    {
+      "index": 74,
+      "style": "Normal",
+      "text": "Example quote: \"here with them, they give you confidence, they listen to you... anything, they let me know through a message or text message or WhatsApp message.\"  (sec-participant-15-sp, 15:27:26; translated)"
+    },
+    {
+      "index": 75,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9 (staff kindness), Theme 4 (4.7 trust building); MaSS: JUST_TRUST; Capstone: F11 IDEA_TRUST (privacy and trust family)"
+    },
+    {
+      "index": 76,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 2, read as contrast"
+    },
+    {
+      "index": 77,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 78,
+      "style": "Heading 2",
+      "text": "JUST_FLEX. Flexibility for variable need  (T)"
+    },
+    {
+      "index": 79,
+      "style": "Normal",
+      "text": "Definition: The value that the service adapts to fluctuating, unpredictable need: household size, timing, one-off vs recurring."
+    },
+    {
+      "index": 80,
+      "style": "List Bullet",
+      "text": "Include: Statements valuing adaptability, spontaneity, or being served when the opportunity arises."
+    },
+    {
+      "index": 81,
+      "style": "List Bullet",
+      "text": "Exclude: Fixed scheduling described neutrally with no flexibility concern."
+    },
+    {
+      "index": 82,
+      "style": "Normal",
+      "text": "Example quote: \"Whenever I have the opportunity, whenever I have the opportunity, chances to go.\"  (sec-participant-13-sp, 15:14:56; translated)"
+    },
+    {
+      "index": 83,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 4, Theme 5 (5.4 flexible scheduling); MaSS: JUST_FLEXIBILITY; Capstone: C18c"
+    },
+    {
+      "index": 84,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 85,
+      "style": "Heading 2",
+      "text": "DIGNITY. Dignity, non-judgment, being seen  (T)"
+    },
+    {
+      "index": 86,
+      "style": "Normal",
+      "text": "Definition: The value of being treated without shame or surveillance, and being seen as a person, not a case."
+    },
+    {
+      "index": 87,
+      "style": "List Bullet",
+      "text": "Include: Statements about shame, stigma, comfort, non-discrimination, being looked down on."
+    },
+    {
+      "index": 88,
+      "style": "List Bullet",
+      "text": "Exclude: Stigma as a system-side barrier belongs to D or E; here it is the value being asserted."
+    },
+    {
+      "index": 89,
+      "style": "Normal",
+      "text": "Example quote: \"To be looked down upon.\"  (sec-participant-06, 15:52:46)"
+    },
+    {
+      "index": 90,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 4 (4.10 fear of judgment), Theme 9; MaSS: VALUES; Capstone: n/a"
+    },
+    {
+      "index": 91,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 7 (dignity literature)"
+    },
+    {
+      "index": 92,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 93,
+      "style": "Heading 2",
+      "text": "STABILITY. Stability, not abundance  (T)"
+    },
+    {
+      "index": 94,
+      "style": "Normal",
+      "text": "Definition: The aspiration is steadiness and predictability, not more: sufficiency, income predictability, a quiet place."
+    },
+    {
+      "index": 95,
+      "style": "List Bullet",
+      "text": "Include: Statements naming steadiness, predictability, or modest sufficiency as the goal."
+    },
+    {
+      "index": 96,
+      "style": "List Bullet",
+      "text": "Exclude: Growth-oriented aspirations coded under A6."
+    },
+    {
+      "index": 97,
+      "style": "Normal",
+      "text": "Example quote: \"they just want stability. They want to be able to. Have what they need, have it, and then be able to get what they want.\"  (ministries-of-love-interview-walker, 03:18, Speaker 2)"
+    },
+    {
+      "index": 98,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 7 (7.1 foundation of stability); MaSS: VALUES; Capstone: n/a"
+    },
+    {
+      "index": 99,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 100,
+      "style": "Heading 2",
+      "text": "SELFRELY. Self-reliance and autonomy  (T)"
+    },
+    {
+      "index": 101,
+      "style": "Normal",
+      "text": "Definition: The value placed on independence and being able to take care of oneself, which can both motivate and delay asking for help."
+    },
+    {
+      "index": 102,
+      "style": "List Bullet",
+      "text": "Include: Statements naming self-reliance as a virtue or as a barrier to receiving help."
+    },
+    {
+      "index": 103,
+      "style": "List Bullet",
+      "text": "Exclude: Design recommendations about user control (C3)."
+    },
+    {
+      "index": 104,
+      "style": "Normal",
+      "text": "Example quote: \"I want freedom from being broke.\"  (focus-group-hope, 00:14:09, Speaker 1)"
+    },
+    {
+      "index": 105,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 2 (2.4 autonomy); MaSS: VALUES; Capstone: n/a"
+    },
+    {
+      "index": 106,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 107,
+      "style": "Heading 2",
+      "text": "ANCHORS. Family, faith, and community as anchors  (T)"
+    },
+    {
+      "index": 108,
+      "style": "Normal",
+      "text": "Definition: The named sources of endurance: family and children, faith, community belonging, personal will."
+    },
+    {
+      "index": 109,
+      "style": "List Bullet",
+      "text": "Include: Anything that keeps someone going, named as the motivation to persist."
+    },
+    {
+      "index": 110,
+      "style": "List Bullet",
+      "text": "Exclude: Motivations for pantry use specifically (OG Theme 2)."
+    },
+    {
+      "index": 111,
+      "style": "Normal",
+      "text": "Example quote: \"Family.\" then \"Willingness to help.\"  (sec-participant-14, 15:24:06 and 15:24:20)"
+    },
+    {
+      "index": 112,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 8 (motivations); MaSS: VALUES; Capstone: n/a"
+    },
+    {
+      "index": 113,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 114,
+      "style": "Heading 2",
+      "text": "CHOICE. Choice and personalization as respect  (T)"
+    },
+    {
+      "index": 115,
+      "style": "Normal",
+      "text": "Definition: The value that being able to select items and paths is itself a form of respect and dignity."
+    },
+    {
+      "index": 116,
+      "style": "List Bullet",
+      "text": "Include: Statements that choosing mattered, or that inability to choose felt like disrespect."
+    },
+    {
+      "index": 117,
+      "style": "List Bullet",
+      "text": "Exclude: Food selection as a pure logistics detail."
+    },
+    {
+      "index": 118,
+      "style": "Normal",
+      "text": "Example quote: \"You could choose your own items... So we didn't get stuff we didn't need and not use it.\"  (sec-participant-02, turns 3 and 4)"
+    },
+    {
+      "index": 119,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9 (cannot choose items), Theme 6; MaSS: VALUES, JUST_FLEXIBILITY; Capstone: n/a"
+    },
+    {
+      "index": 120,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 121,
+      "style": "Heading 1",
+      "text": "Domain C. Alignment: what works"
+    },
+    {
+      "index": 122,
+      "style": "Normal",
+      "text": "Design features that already work in this context and why: human connection, being known, choice, dual contact paths, operational ease, efficiency that serves. Includes one lit-derived positive finding (community-built alternatives)."
+    },
+    {
+      "index": 123,
+      "style": "Normal",
+      "text": "Paper map: C4, C7 | Findings: What already works"
+    },
+    {
+      "index": 124,
+      "style": "Heading 2",
+      "text": "STICKY. Human connection as the sticky factor  (T)"
+    },
+    {
+      "index": 125,
+      "style": "Normal",
+      "text": "Definition: What keeps clients returning is the personal, non-discriminatory treatment, not the food supply."
+    },
+    {
+      "index": 126,
+      "style": "List Bullet",
+      "text": "Include: Praise of staff kindness, sincerity, welcome; loyalty explained by relationship."
+    },
+    {
+      "index": 127,
+      "style": "List Bullet",
+      "text": "Exclude: Praise for operational ease (C5) or for choice (C3)."
+    },
+    {
+      "index": 128,
+      "style": "Normal",
+      "text": "Example quote: \"they feel comfortable with Old Bethel because they know it's a church pantry... more compassionate, more understanding, more empathetic.\"  (focus-group-old-bethel, 01:20:40)"
+    },
+    {
+      "index": 129,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9 (9.1 staff kindness); MaSS: JUST_TRUST, VALUES; Capstone: C16 (human touch at delivery)"
+    },
+    {
+      "index": 130,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 7"
+    },
+    {
+      "index": 131,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 132,
+      "style": "Heading 2",
+      "text": "EXCEPTIONS. Being known earns exceptions  (T)"
+    },
+    {
+      "index": 133,
+      "style": "Normal",
+      "text": "Definition: Staff who recognize a client personally grant flexibility that written policy forbids."
+    },
+    {
+      "index": 134,
+      "style": "List Bullet",
+      "text": "Include: Instances where personal recognition produced a rule exception."
+    },
+    {
+      "index": 135,
+      "style": "List Bullet",
+      "text": "Exclude: Policy-level flexibility; hypothetical flexibility."
+    },
+    {
+      "index": 136,
+      "style": "Normal",
+      "text": "Example quote: \"she knows I come. So when she has to go to work on those Saturdays, she allows me to pick it up for her and my dad. And some people are like, nope, they got to be here.\"  (focus-group-hope, 00:51:15, Speaker 8)"
+    },
+    {
+      "index": 137,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9; MaSS: JUST_TRUST; Capstone: n/a"
+    },
+    {
+      "index": 138,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 139,
+      "style": "Heading 2",
+      "text": "CHOICEWORKS. Choice as a working design feature  (T)"
+    },
+    {
+      "index": 140,
+      "style": "Normal",
+      "text": "Definition: Where choice exists it works: SEC's selection model and clothing program are praised on both dignity and waste grounds."
+    },
+    {
+      "index": 141,
+      "style": "List Bullet",
+      "text": "Include: Evidence that user selection reduced waste, met dietary need, or felt respectful."
+    },
+    {
+      "index": 142,
+      "style": "List Bullet",
+      "text": "Exclude: The no-choice box model (D2, D3)."
+    },
+    {
+      "index": 143,
+      "style": "Normal",
+      "text": "Example quote: \"they have a lot of food options.\"  (sec-participant-22, 16:40:18)"
+    },
+    {
+      "index": 144,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9; MaSS: JUST_FLEXIBILITY, JUST_ACCESS; Capstone: n/a"
+    },
+    {
+      "index": 145,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 146,
+      "style": "Heading 2",
+      "text": "DUALPATH. Low- and high-contact paths, user-chosen  (T)"
+    },
+    {
+      "index": 147,
+      "style": "Normal",
+      "text": "Definition: Both a low-contact path (drive-through) and a high-contact path (personal greeting) serve different clients; the ideal is client choice."
+    },
+    {
+      "index": 148,
+      "style": "List Bullet",
+      "text": "Include: Preferences for either path, or evidence each path serves someone specific."
+    },
+    {
+      "index": 149,
+      "style": "List Bullet",
+      "text": "Exclude: Adoption-metric logic (G3)."
+    },
+    {
+      "index": 150,
+      "style": "Normal",
+      "text": "Example quote: \"Having the sense of not being around a lot of people and being able to just drive through.\"  (sec-participant-05, 15:55:08)"
+    },
+    {
+      "index": 151,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9 (operational ease); MaSS: JUST_FLEXIBILITY; Capstone: C16 (human touch at delivery)"
+    },
+    {
+      "index": 152,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 6 (workshop case work)"
+    },
+    {
+      "index": 153,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 154,
+      "style": "Heading 2",
+      "text": "OPEASE. Operational ease and reliability  (T)"
+    },
+    {
+      "index": 155,
+      "style": "Normal",
+      "text": "Definition: Praise for how easy and reliable the operation is: simple ordering, food ready on arrival, drive-through pickup."
+    },
+    {
+      "index": 156,
+      "style": "List Bullet",
+      "text": "Include: Positive statements about the mechanics of pickup or ordering."
+    },
+    {
+      "index": 157,
+      "style": "List Bullet",
+      "text": "Exclude: Efficiency that constrains or excludes (D domain, F8)."
+    },
+    {
+      "index": 158,
+      "style": "Normal",
+      "text": "Example quote: \"I'm usually coming here right after work.\"  (sec-participant-16, 15:53:46)"
+    },
+    {
+      "index": 159,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9 (operational ease); MaSS: PRACTICES; Capstone: n/a"
+    },
+    {
+      "index": 160,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 161,
+      "style": "Heading 2",
+      "text": "EFF_SERVES. Efficiency that serves  (T)"
+    },
+    {
+      "index": 162,
+      "style": "Normal",
+      "text": "Definition: The paper should not treat efficiency and community value as always opposed: appointment slots serve the fixed-shift worker, the drive-through serves the anxious client."
+    },
+    {
+      "index": 163,
+      "style": "List Bullet",
+      "text": "Include: An efficiency feature working for a specific client type, with the client named."
+    },
+    {
+      "index": 164,
+      "style": "List Bullet",
+      "text": "Exclude: Efficiency adopted for its own sake (D1, F8)."
+    },
+    {
+      "index": 165,
+      "style": "Normal",
+      "text": "Example quote: \"That I don't have to miss work.\"  (sec-participant-16, 15:54:21)"
+    },
+    {
+      "index": 166,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9; MaSS: JUST_ACCESS; Capstone: n/a"
+    },
+    {
+      "index": 167,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 168,
+      "style": "Heading 2",
+      "text": "COMMUNITY_BUILT. Community-built alternatives outperform agency defaults  (L)"
+    },
+    {
+      "index": 169,
+      "style": "Normal",
+      "text": "Definition: When residents or community organizations are resourced to build their own plan, scenario, or design rather than only react to one, the result can match or outperform the agency or industry default on the sponsor's own terms."
+    },
+    {
+      "index": 170,
+      "style": "List Bullet",
+      "text": "Include: Any lit claim that a community-authored alternative matched or beat a default, or evidence the community already runs what the formal system forbids."
+    },
+    {
+      "index": 171,
+      "style": "List Bullet",
+      "text": "Exclude: Consultation that collects input without influence (E7)."
+    },
+    {
+      "index": 172,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar yet; see Lit evidence map."
+    },
+    {
+      "index": 173,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: CAPABILITIES close; Capstone: n/a"
+    },
+    {
+      "index": 174,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 6: Karner et al. 2020; Gripper et al. 2022; Severs et al. 2022; Prost et al. 2018; Heitlinger et al. 2021; Baumann et al. 2018; Sörries et al. 2024; Gomes et al. 2026; Pineo et al. 2026"
+    },
+    {
+      "index": 175,
+      "style": "Normal",
+      "text": "Thesis clause: C7"
+    },
+    {
+      "index": 176,
+      "style": "Heading 1",
+      "text": "Domain D. Misalignment: system logic vs. community value"
+    },
+    {
+      "index": 177,
+      "style": "Normal",
+      "text": "The system side does X for efficiency or legibility and it costs value Y. Each code names the operative logic (efficiency, rationing, verification, scheduling, digitization, language, eligibility, cost externalization)."
+    },
+    {
+      "index": 178,
+      "style": "Normal",
+      "text": "Paper map: C3, C5 | Findings: Where system logic costs community value"
+    },
+    {
+      "index": 179,
+      "style": "Heading 2",
+      "text": "EFF_VALUE. Efficiency framing: throughput, optimization, automation-as-improvement  (T)"
+    },
+    {
+      "index": 180,
+      "style": "Normal",
+      "text": "Definition: The system side invokes efficiency logic: speed, optimized routing, throughput, scheduling precision, automation-as-improvement."
+    },
+    {
+      "index": 181,
+      "style": "List Bullet",
+      "text": "Include: A named efficiency or optimization logic on the provider side, including the design team's own instinct."
+    },
+    {
+      "index": 182,
+      "style": "List Bullet",
+      "text": "Exclude: Vehicle or tech mention with no efficiency framing."
+    },
+    {
+      "index": 183,
+      "style": "Normal",
+      "text": "Example quote: \"How might we use AVs to reduce logistic company cost (labor, time, asset) to improve the distribution efficiency and have workforce capacity to fulfill other social services needs\"  (workshop-1-codesign, CLUSTER: Workforce Optimization (effect), HMW)"
+    },
+    {
+      "index": 184,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9 (rigid policies implicit); MaSS: EFF_VALUE; Capstone: C05, C08, C09, C10"
+    },
+    {
+      "index": 185,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 3: Park, Jang, and Ko 2024; Lu et al. 2020; Pimenta et al. 2023; Zhang et al. 2019"
+    },
+    {
+      "index": 186,
+      "style": "Normal",
+      "text": "Thesis clause: C3"
+    },
+    {
+      "index": 187,
+      "style": "Heading 2",
+      "text": "RATIONING. Rationing and standardization  (T)"
+    },
+    {
+      "index": 188,
+      "style": "Normal",
+      "text": "Definition: The system side caps frequency, runs lotteries, or pre-packs uniform boxes; the client loses the ability to plan and loses selection."
+    },
+    {
+      "index": 189,
+      "style": "List Bullet",
+      "text": "Include: Caps, lotteries, apps that run out, standard boxes, experienced as unfair, unplannable, or unhealthy."
+    },
+    {
+      "index": 190,
+      "style": "List Bullet",
+      "text": "Exclude: A neutral description of a scheduling system with no burden named."
+    },
+    {
+      "index": 191,
+      "style": "Normal",
+      "text": "Example quote: \"What, once a week? No, once a month.\"  (sec-participant-22, 16:39:27)"
+    },
+    {
+      "index": 192,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 4, Theme 9 (supply gaps); MaSS: MISALIGNMENT; Capstone: n/a"
+    },
+    {
+      "index": 193,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 194,
+      "style": "Heading 2",
+      "text": "VERIFY. Verification and legibility regimes  (T)"
+    },
+    {
+      "index": 195,
+      "style": "Normal",
+      "text": "Definition: The system side requires the beneficiary to appear in person with ID, or substitutes machine verification for recognition, to keep the count legible and prevent fraud."
+    },
+    {
+      "index": 196,
+      "style": "List Bullet",
+      "text": "Include: ID and self-collection requirements, face verification, the \"show your ID, move on\" line, and what the rule criminalizes."
+    },
+    {
+      "index": 197,
+      "style": "List Bullet",
+      "text": "Exclude: Permission to use a proxy or delivery is the positive counter (C2, G2)."
+    },
+    {
+      "index": 198,
+      "style": "Normal",
+      "text": "Example quote: \"everybody's got a card, their number, show their ID, move on.\"  (focus-group-old-bethel, 14:46)"
+    },
+    {
+      "index": 199,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 3 (pantry policy), Theme 9 (rigid policies); MaSS: MISALIGNMENT; Capstone: C04 (face verification)"
+    },
+    {
+      "index": 200,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 5 (surveillance side)"
+    },
+    {
+      "index": 201,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 202,
+      "style": "Heading 2",
+      "text": "FIXEDSCHED. Fixed scheduling and appointment slots  (T)"
+    },
+    {
+      "index": 203,
+      "style": "Normal",
+      "text": "Definition: The system side runs fixed distribution windows and appointment slots, which serve the predictable-schedule user and fail the variable-hours user."
+    },
+    {
+      "index": 204,
+      "style": "List Bullet",
+      "text": "Include: Named schedules, Saturday-morning windows, appointment-only models, and who they exclude or serve."
+    },
+    {
+      "index": 205,
+      "style": "List Bullet",
+      "text": "Exclude: Scheduling praised as serving a specific client (C5, EFF_SERVES)."
+    },
+    {
+      "index": 206,
+      "style": "Normal",
+      "text": "Example quote: \"Food pantry works on Saturday mornings - many families work at that time.\"  (workshop-3-codesign, cluster: Time)"
+    },
+    {
+      "index": 207,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 4, Theme 5 (5.4 flexible scheduling); MaSS: JUST_FLEXIBILITY close; Capstone: C12 (expanding hours as contrast)"
+    },
+    {
+      "index": 208,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 209,
+      "style": "Heading 2",
+      "text": "DIGITONLY. Digital-only access  (T)"
+    },
+    {
+      "index": 210,
+      "style": "Normal",
+      "text": "Definition: Moving resource navigation, job applications, and pantry ordering online assumes a device, a data plan, and literacy."
+    },
+    {
+      "index": 211,
+      "style": "List Bullet",
+      "text": "Include: Named digital assumptions: no paper application, \"not everybody has the phone\", online ordering that hides services."
+    },
+    {
+      "index": 212,
+      "style": "List Bullet",
+      "text": "Exclude: SEC's online ordering praised by the digitally fluent (C5)."
+    },
+    {
+      "index": 213,
+      "style": "Normal",
+      "text": "Example quote: \"not everybody has the phone.\"  (focus-group-ministries-of-love, 00:45:16, Speaker 3)"
+    },
+    {
+      "index": 214,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 4 (pathway uncertainty); MaSS: MISALIGNMENT; Capstone: n/a"
+    },
+    {
+      "index": 215,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 3: Joassart-Marcelli et al. 2026; Deener 2017"
+    },
+    {
+      "index": 216,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 217,
+      "style": "Heading 2",
+      "text": "LANGTRANS. Language as transaction, not trust  (T)"
+    },
+    {
+      "index": 218,
+      "style": "Normal",
+      "text": "Definition: The system side provides a translator at the counter; what Spanish-speaking clients want is a relationship in their language, which an interpreter does not build."
+    },
+    {
+      "index": 219,
+      "style": "List Bullet",
+      "text": "Include: Requests for Spanish-speaking staff, for classes, or statements that a translator alone does not create trust."
+    },
+    {
+      "index": 220,
+      "style": "List Bullet",
+      "text": "Exclude: Language as a desired service outcome (OG Theme 5.2)."
+    },
+    {
+      "index": 221,
+      "style": "Normal",
+      "text": "Example quote: \"They always have a translator, but it would be good to have someone who can assist us in Spanish a bit and teach us to speak a bit of English.\"  (sec-participant-04-sp, 16:14:37; translated)"
+    },
+    {
+      "index": 222,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 5 (5.2 language and cultural integration); MaSS: JUST_TRUST; Capstone: n/a"
+    },
+    {
+      "index": 223,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 224,
+      "style": "Heading 2",
+      "text": "INVISIBLE. Wraparound invisibility: services are unknown and un-navigable  (T)"
+    },
+    {
+      "index": 225,
+      "style": "Normal",
+      "text": "Definition: Job coaching, financial guidance, and education services exist alongside food, but most clients do not know they exist, and when told cannot find a usable path in; referrals go unanswered."
+    },
+    {
+      "index": 226,
+      "style": "List Bullet",
+      "text": "Include: Not knowing services exist, website not describing them, a referral that never generates follow-up."
+    },
+    {
+      "index": 227,
+      "style": "List Bullet",
+      "text": "Exclude: Awareness of food services only."
+    },
+    {
+      "index": 228,
+      "style": "Normal",
+      "text": "Example quote: \"It's not really described on the website very well. I would say that I'm not at the right, you know, location on the website.\"  (sec-participant-21, 16:39:01)"
+    },
+    {
+      "index": 229,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 4 (4.1 to 4.9); MaSS: MISALIGNMENT; Capstone: C03 (awareness)"
+    },
+    {
+      "index": 230,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 231,
+      "style": "Heading 2",
+      "text": "ELIGGATE. Eligibility gates: zip code, benefit thresholds, documents  (T)"
+    },
+    {
+      "index": 232,
+      "style": "Normal",
+      "text": "Definition: Defining a service area and verifying eligibility gates people out of better-stocked pantries by where they live and what they can produce."
+    },
+    {
+      "index": 233,
+      "style": "List Bullet",
+      "text": "Include: Zip-code exclusions, income or document gates, turning people away at intake."
+    },
+    {
+      "index": 234,
+      "style": "List Bullet",
+      "text": "Exclude: Benefit cliffs are coded as D9."
+    },
+    {
+      "index": 235,
+      "style": "Normal",
+      "text": "Example quote: \"You can't go under the zip code.\"  (focus-group-hope, 00:43:39)"
+    },
+    {
+      "index": 236,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 3 (pantry policy); MaSS: MISALIGNMENT; Capstone: n/a"
+    },
+    {
+      "index": 237,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 238,
+      "style": "Heading 2",
+      "text": "CLIFFS. Benefit cliffs and policy traps  (T)"
+    },
+    {
+      "index": 239,
+      "style": "Normal",
+      "text": "Definition: Benefits cut off at thresholds: $74 over earns nothing, food-stamp ineligibility, childcare vouchers on hold, hours cut while costs stay."
+    },
+    {
+      "index": 240,
+      "style": "List Bullet",
+      "text": "Include: A named threshold or policy rule that eliminated a benefit or trapped a household."
+    },
+    {
+      "index": 241,
+      "style": "List Bullet",
+      "text": "Exclude: General mention of low income with no threshold named."
+    },
+    {
+      "index": 242,
+      "style": "Normal",
+      "text": "Example quote: \"my dad was $74 over. $74 over, so you don't get nothing.\"  (focus-group-hope, 00:41:07)"
+    },
+    {
+      "index": 243,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 6 (9.10 policy barriers); MaSS: CONSTRAINTS close; Capstone: n/a"
+    },
+    {
+      "index": 244,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 245,
+      "style": "Heading 2",
+      "text": "COSTOUT. Cost externalization: the trip is on the client  (T)"
+    },
+    {
+      "index": 246,
+      "style": "Normal",
+      "text": "Definition: The pantry addresses food, not the cost of reaching it: gas, a car payment, $25 to $30 for a ride against a $2 bus that does not stop nearby."
+    },
+    {
+      "index": 247,
+      "style": "List Bullet",
+      "text": "Include: Any named trip cost the service leaves to the client, including fuel poverty."
+    },
+    {
+      "index": 248,
+      "style": "List Bullet",
+      "text": "Exclude: Carrying or weather burden (A7)."
+    },
+    {
+      "index": 249,
+      "style": "Normal",
+      "text": "Example quote: \"not having gas all the time.\"  (sec-participant-12, 15:05:44)"
+    },
+    {
+      "index": 250,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 3 (3.2 financial mobility barriers); MaSS: CONSTRAINTS; Capstone: n/a"
+    },
+    {
+      "index": 251,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 252,
+      "style": "Heading 1",
+      "text": "Domain E. Participation gap: infrastructure without community"
+    },
+    {
+      "index": 253,
+      "style": "Normal",
+      "text": "How decisions land on people who had no say. Extends the three MaSS input codes with lit-derived codes on consultation without power, performative vs authentic equity, and negative political self-efficacy."
+    },
+    {
+      "index": 254,
+      "style": "Normal",
+      "text": "Paper map: C2, C6 | Findings: Infrastructure without the community"
+    },
+    {
+      "index": 255,
+      "style": "Heading 2",
+      "text": "INPUT_ABSENT. No say: plans land without the community  (T)"
+    },
+    {
+      "index": 256,
+      "style": "Normal",
+      "text": "Definition: The community currently has no say in how mobility and services are decided: decisions land on people who had no seat at the table."
+    },
+    {
+      "index": 257,
+      "style": "List Bullet",
+      "text": "Include: Statements that needs are not accommodated, that routes, sites, or services are decided elsewhere."
+    },
+    {
+      "index": 258,
+      "style": "List Bullet",
+      "text": "Exclude: Lacking a ride rather than lacking a say (code as D10 or A)."
+    },
+    {
+      "index": 259,
+      "style": "Normal",
+      "text": "Example quote: \"Neighbor have ideas imposed on them. Their needs are not accommodated\"  (workshop-3-codesign, cluster: People centered, Input/decision making)"
+    },
+    {
+      "index": 260,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 4; MaSS: INPUT_PART_ABSENT; Capstone: n/a"
+    },
+    {
+      "index": 261,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 1, 4: Pinski et al. 2024; Hicks et al. 2025; van Holstein et al. 2020"
+    },
+    {
+      "index": 262,
+      "style": "Normal",
+      "text": "Thesis clause: C2"
+    },
+    {
+      "index": 263,
+      "style": "Heading 2",
+      "text": "INPUT_PRESENT. Rare participation that did shape a decision  (W)"
+    },
+    {
+      "index": 264,
+      "style": "Normal",
+      "text": "Definition: A moment where participation did shape a decision, including this co-design workshop being named as a rare instance."
+    },
+    {
+      "index": 265,
+      "style": "List Bullet",
+      "text": "Include: Evidence that community or stakeholder input changed an outcome."
+    },
+    {
+      "index": 266,
+      "style": "List Bullet",
+      "text": "Exclude: Hypothetical \"it would be nice to be asked\" codes as INPUT_ABSENT."
+    },
+    {
+      "index": 267,
+      "style": "Normal",
+      "text": "Example quote: [No verbatim quote; this co-design session is itself the instance. Coders log workshop ID and speaker role.]"
+    },
+    {
+      "index": 268,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: INPUT_PART_PRESENT; Capstone: The Capstone ideation itself"
+    },
+    {
+      "index": 269,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 1, 6"
+    },
+    {
+      "index": 270,
+      "style": "Normal",
+      "text": "Thesis clause: C2"
+    },
+    {
+      "index": 271,
+      "style": "Heading 2",
+      "text": "PURPOSE. Purpose exclusion: who decided this was the goal  (T)"
+    },
+    {
+      "index": 272,
+      "style": "Normal",
+      "text": "Definition: Questions not just how the AV or service is built but why it exists and who decided the goal; the design point is pulled by sponsor interest and adoption rather than need."
+    },
+    {
+      "index": 273,
+      "style": "List Bullet",
+      "text": "Include: Challenges to the goal itself, including ROI and adoption framing on the design side."
+    },
+    {
+      "index": 274,
+      "style": "List Bullet",
+      "text": "Exclude: Questions about design details only (routing, hours)."
+    },
+    {
+      "index": 275,
+      "style": "Normal",
+      "text": "Example quote: \"Biggest ROI of AV as a social service is the adoption rate of AV\"  (workshop-3-codesign, SECTION: How would AV works in terms of service?, cluster: Current Infrastructure)"
+    },
+    {
+      "index": 276,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: PURPOSE_EXCLUSION; Capstone: n/a"
+    },
+    {
+      "index": 277,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 3: Van Wynsberghe and Guimaraes Pereira 2022; McCullough et al. 2024"
+    },
+    {
+      "index": 278,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 279,
+      "style": "Heading 2",
+      "text": "IMPOSITION. Imposition and displacement  (T)"
+    },
+    {
+      "index": 280,
+      "style": "Normal",
+      "text": "Definition: Things get put in the neighborhood regardless of protest: a shelter, a data center, a route."
+    },
+    {
+      "index": 281,
+      "style": "List Bullet",
+      "text": "Include: Named decisions imposed on a community, whether they happened or were resisted."
+    },
+    {
+      "index": 282,
+      "style": "List Bullet",
+      "text": "Exclude: Renaming and erasure (E5)."
+    },
+    {
+      "index": 283,
+      "style": "Normal",
+      "text": "Example quote: \"the people that got the money, they're going to do it anyhow. It don't matter if you protest or not.\"  (focus-group-hope, 00:45:02, Speaker 7)"
+    },
+    {
+      "index": 284,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 4; MaSS: INPUT_PART_ABSENT; Capstone: n/a"
+    },
+    {
+      "index": 285,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 4"
+    },
+    {
+      "index": 286,
+      "style": "Normal",
+      "text": "Thesis clause: C2"
+    },
+    {
+      "index": 287,
+      "style": "Heading 2",
+      "text": "ERASURE. Symbolic exclusion: renaming and erasing  (T)"
+    },
+    {
+      "index": 288,
+      "style": "Normal",
+      "text": "Definition: Institutions rename themselves away from community and service, and data rules erase the capacities staff relied on."
+    },
+    {
+      "index": 289,
+      "style": "List Bullet",
+      "text": "Include: Renaming that removed \"community\" or \"service\" from a name; a data-collection rule that erased interpreter planning."
+    },
+    {
+      "index": 290,
+      "style": "List Bullet",
+      "text": "Exclude: Neutral rebranding with no stated loss."
+    },
+    {
+      "index": 291,
+      "style": "Normal",
+      "text": "Example quote: \"you took the community out\"  (focus-group-hope, 00:57:03)"
+    },
+    {
+      "index": 292,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 4; MaSS: INPUT_PART_ABSENT; Capstone: n/a"
+    },
+    {
+      "index": 293,
+      "style": "Normal",
+      "text": "Thesis clause: C2"
+    },
+    {
+      "index": 294,
+      "style": "Heading 2",
+      "text": "STAGED_EFF. Participation staged but efficiency-run  (W)"
+    },
+    {
+      "index": 295,
+      "style": "Normal",
+      "text": "Definition: Even in a room asked to design for the community, the first design instinct is efficiency: driver reduction, 24/7 operation, face verification, waste extraction."
+    },
+    {
+      "index": 296,
+      "style": "List Bullet",
+      "text": "Include: Logistics and optimization ideas produced in the co-design sessions."
+    },
+    {
+      "index": 297,
+      "style": "List Bullet",
+      "text": "Exclude: The people-and-place family of the same sessions codes to F9, F10, F12."
+    },
+    {
+      "index": 298,
+      "style": "Normal",
+      "text": "Example quote: \"AV can anticipate the shortage of food. No communication from human\"  (workshop-1-codesign, CLUSTER: Communication (features), Idea)"
+    },
+    {
+      "index": 299,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: EFF_VALUE close; Capstone: C05, C07, C10"
+    },
+    {
+      "index": 300,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 5 (friction lens)"
+    },
+    {
+      "index": 301,
+      "style": "Normal",
+      "text": "Thesis clause: C2"
+    },
+    {
+      "index": 302,
+      "style": "Heading 2",
+      "text": "CONSULT_NO_POWER. Consultation without binding influence  (L)"
+    },
+    {
+      "index": 303,
+      "style": "Normal",
+      "text": "Definition: Formal public involvement processes solicit community input through meetings, committees, or task forces, but rarely give that input binding influence over the final decision."
+    },
+    {
+      "index": 304,
+      "style": "List Bullet",
+      "text": "Include: Lit evidence that an inclusive-sounding process reproduced exclusion or collected input without power transfer."
+    },
+    {
+      "index": 305,
+      "style": "List Bullet",
+      "text": "Exclude: Community-built alternatives with real authority (C7)."
+    },
+    {
+      "index": 306,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar yet; see Lit evidence map."
+    },
+    {
+      "index": 307,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: INPUT_PART_ABSENT close; Capstone: n/a"
+    },
+    {
+      "index": 308,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 1: Pinski et al. 2024; Bailey et al. 2012; Karner et al. 2020; McCullough et al. 2024; van Holstein et al. 2020; Klaever et al. 2025; Hicks, Kingsley, and Isett 2025; Barendregt, Bendor, and van Eekelen 2024; Cresswell Riol and Connelly 2025; Joassart-Marcelli, Bosco, and McFadden 2026"
+    },
+    {
+      "index": 309,
+      "style": "Normal",
+      "text": "Thesis clause: C2"
+    },
+    {
+      "index": 310,
+      "style": "Heading 2",
+      "text": "PERF_VS_AUTH. Performative vs authentic equity  (L)"
+    },
+    {
+      "index": 311,
+      "style": "Normal",
+      "text": "Definition: Equity practices that claim inclusion without redistributing decision-making power (performative) versus those that do (authentic)."
+    },
+    {
+      "index": 312,
+      "style": "List Bullet",
+      "text": "Include: Lit claims distinguishing performative inclusion from real power transfer."
+    },
+    {
+      "index": 313,
+      "style": "List Bullet",
+      "text": "Exclude: Simple consultation logistics."
+    },
+    {
+      "index": 314,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar yet; see Lit evidence map."
+    },
+    {
+      "index": 315,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: INPUT_PART_ABSENT close; Capstone: n/a"
+    },
+    {
+      "index": 316,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 1: McCullough et al. 2024"
+    },
+    {
+      "index": 317,
+      "style": "Normal",
+      "text": "Thesis clause: C2"
+    },
+    {
+      "index": 318,
+      "style": "Heading 2",
+      "text": "NEGATIVE_SELFEFF. Negative political self-efficacy  (L)"
+    },
+    {
+      "index": 319,
+      "style": "Normal",
+      "text": "Definition: People stop participating entirely after being ignored or humiliated: prior negative experiences teach them their input will not be needed."
+    },
+    {
+      "index": 320,
+      "style": "List Bullet",
+      "text": "Include: A client's expressed doubt that speaking up matters, plus the lit mechanism."
+    },
+    {
+      "index": 321,
+      "style": "List Bullet",
+      "text": "Exclude: General service distrust without a participation referent."
+    },
+    {
+      "index": 322,
+      "style": "Normal",
+      "text": "Example quote: \"I don't know if somebody's going to actually listen or whatever\"  (sec-participant-01, turn 21, Interviewee)"
+    },
+    {
+      "index": 323,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 10.1 (legitimacy and trust); MaSS: INPUT_PART_ABSENT close; Capstone: n/a"
+    },
+    {
+      "index": 324,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 2: Klaever et al. 2025"
+    },
+    {
+      "index": 325,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 326,
+      "style": "Heading 1",
+      "text": "Domain F. Provocation: what happens when we ask about AVs"
+    },
+    {
+      "index": 327,
+      "style": "Normal",
+      "text": "What the speculative AV prompt surfaced, by respondent group: community, stakeholders, and the design team (Workshop 1 / Capstone ideation). Design-team ideas sit here as contrast."
+    },
+    {
+      "index": 328,
+      "style": "Normal",
+      "text": "Paper map: C6 | Findings / method: What the AV prompt surfaced"
+    },
+    {
+      "index": 329,
+      "style": "Heading 2",
+      "text": "SPEC_UPTAKE. Speculative uptake  (T)"
+    },
+    {
+      "index": 330,
+      "style": "Normal",
+      "text": "Definition: Community response to the driverless-vehicle prompt, framed immediately through a personal mobility gap rather than logistics."
+    },
+    {
+      "index": 331,
+      "style": "List Bullet",
+      "text": "Include: A community member saying what they would do with a driverless vehicle, anchored in their own trip."
+    },
+    {
+      "index": 332,
+      "style": "List Bullet",
+      "text": "Exclude: Design-team ideation (F8 to F12)."
+    },
+    {
+      "index": 333,
+      "style": "Normal",
+      "text": "Example quote: \"I would take a car. You know why?... I don't know how to drive. I've never had a license. If a car could drive me... like the Uber, I could put the address in and I'll just sit there and go, la, listen to my music, dance, and the car just be rolling.\"  (focus-group-hope, 00:47:10, Speaker 7)"
+    },
+    {
+      "index": 334,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: PROVOCATION; Capstone: n/a"
+    },
+    {
+      "index": 335,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 336,
+      "style": "Heading 2",
+      "text": "SPEC_CONDITIONS. Community design conditions  (T)"
+    },
+    {
+      "index": 337,
+      "style": "Normal",
+      "text": "Definition: When community members do speculate, they attach design conditions: bound the destinations, worry about misuse."
+    },
+    {
+      "index": 338,
+      "style": "List Bullet",
+      "text": "Include: A proposed constraint on the service coming from a community member."
+    },
+    {
+      "index": 339,
+      "style": "List Bullet",
+      "text": "Exclude: Automation-anxiety backdrop (F4)."
+    },
+    {
+      "index": 340,
+      "style": "Normal",
+      "text": "Example quote: \"you need to put in a destination... limit the destinations to like pantries and grocery store.\"  (focus-group-ministries-of-love, 00:49:07 to 00:49:19, Speakers 3 and 7)"
+    },
+    {
+      "index": 341,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: PROVOCATION; Capstone: n/a"
+    },
+    {
+      "index": 342,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 343,
+      "style": "Heading 2",
+      "text": "LOWTECH. Low-tech preference for the same need  (T)"
+    },
+    {
+      "index": 344,
+      "style": "Normal",
+      "text": "Definition: Repeatedly the low-tech version of the same need is what participants actually propose: bus vouchers, bus passes, gas cards."
+    },
+    {
+      "index": 345,
+      "style": "List Bullet",
+      "text": "Include: A concrete non-AV request that would meet the same mobility need."
+    },
+    {
+      "index": 346,
+      "style": "List Bullet",
+      "text": "Exclude: Requests for AV-specific features."
+    },
+    {
+      "index": 347,
+      "style": "Normal",
+      "text": "Example quote: \"bus vouchers would be good for people, too.\"  (focus-group-hope, 00:48:32)"
+    },
+    {
+      "index": 348,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 3 (3.2 transit affordability); MaSS: PROVOCATION, JUST_ACCESS; Capstone: n/a"
+    },
+    {
+      "index": 349,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 350,
+      "style": "Heading 2",
+      "text": "AUTOMATION_ANX. Automation-anxiety backdrop  (T)"
+    },
+    {
+      "index": 351,
+      "style": "Normal",
+      "text": "Definition: The AV question lands inside existing anxiety about automation taking jobs."
+    },
+    {
+      "index": 352,
+      "style": "List Bullet",
+      "text": "Include: Statements about being dominated, replaced, or dehumanized by technology."
+    },
+    {
+      "index": 353,
+      "style": "List Bullet",
+      "text": "Exclude: Technology skepticism with no AV or work referent."
+    },
+    {
+      "index": 354,
+      "style": "Normal",
+      "text": "Example quote: \"it's not fair for all of us to be dominated, replaced by all this kind of technology conversation.\"  (focus-group-hope, 00:53:35)"
+    },
+    {
+      "index": 355,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: PROVOCATION; Capstone: n/a"
+    },
+    {
+      "index": 356,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 357,
+      "style": "Heading 2",
+      "text": "STAKE_SKEPT. Stakeholder skepticism  (W)"
+    },
+    {
+      "index": 358,
+      "style": "Normal",
+      "text": "Definition: Regional and institutional actors doubt AV is a general solution."
+    },
+    {
+      "index": 359,
+      "style": "List Bullet",
+      "text": "Include: Skeptical statements by stakeholders that AV is not the next big solution, that personas differ."
+    },
+    {
+      "index": 360,
+      "style": "List Bullet",
+      "text": "Exclude: Community skepticism (F1 to F4)."
+    },
+    {
+      "index": 361,
+      "style": "Normal",
+      "text": "Example quote: \"AV cannot be designed for everyone. It's not the next big solution.\"  (workshop-3-codesign, cluster: People centered, Personalized services)"
+    },
+    {
+      "index": 362,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: PROVOCATION; Capstone: n/a"
+    },
+    {
+      "index": 363,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 364,
+      "style": "Heading 2",
+      "text": "STAKE_USE. The endorsed use case  (W)"
+    },
+    {
+      "index": 365,
+      "style": "Normal",
+      "text": "Definition: The most concrete positive use case stakeholders endorsed: small AVs as micro-transit shuttles for the first and last mile between transit lines and pantries."
+    },
+    {
+      "index": 366,
+      "style": "List Bullet",
+      "text": "Include: Stakeholder endorsements of a bounded AV role."
+    },
+    {
+      "index": 367,
+      "style": "List Bullet",
+      "text": "Exclude: Design-team feature lists (F8 to F12)."
+    },
+    {
+      "index": 368,
+      "style": "Normal",
+      "text": "Example quote: [Paraphrase in coding notes: small AVs as micro-transit shuttles for the first and last mile between transit lines and pantries.]  (workshop-3-codesign, cluster: Micro transit)"
+    },
+    {
+      "index": 369,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: PROVOCATION; Capstone: n/a"
+    },
+    {
+      "index": 370,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 371,
+      "style": "Heading 2",
+      "text": "STAKE_BIND. Binding conditions  (W)"
+    },
+    {
+      "index": 372,
+      "style": "Normal",
+      "text": "Definition: Stakeholders attach conditions to any AV social service: it must be intentional about the relation and maintain the human connection."
+    },
+    {
+      "index": 373,
+      "style": "List Bullet",
+      "text": "Include: A stated condition or requirement for AV-as-service."
+    },
+    {
+      "index": 374,
+      "style": "List Bullet",
+      "text": "Exclude: The relational-value codes (G1) for the positive articulation."
+    },
+    {
+      "index": 375,
+      "style": "Normal",
+      "text": "Example quote: \"AV barrier: it needs to be intentional about the relation\"  (workshop-3-codesign, cluster: Social service meaning relational engagement not transactional)"
+    },
+    {
+      "index": 376,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: JUST_TRUST close; Capstone: n/a"
+    },
+    {
+      "index": 377,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 378,
+      "style": "Heading 2",
+      "text": "IDEA_LOGISTICS. Design team: the logistics and optimization family  (W)"
+    },
+    {
+      "index": 379,
+      "style": "Normal",
+      "text": "Definition: The dominant family of design-team ideas: route optimization, driver and labor reduction, expanding hours, waste extraction, integrated supply-demand."
+    },
+    {
+      "index": 380,
+      "style": "List Bullet",
+      "text": "Include: Capstone clusters C01, C02, C05, C07, C08, C09, C10, C11, C12, C13, C15 plus Workshop 1 logistics HMWs."
+    },
+    {
+      "index": 381,
+      "style": "List Bullet",
+      "text": "Exclude: People-and-place ideas (F9 to F12)."
+    },
+    {
+      "index": 382,
+      "style": "Normal",
+      "text": "Example quote: \"AV to collect extra food from restaurants\"  (Capstone map, C07 Waste Reduction, statement)"
+    },
+    {
+      "index": 383,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: EFF_VALUE close; Capstone: C01, C02, C05, C07, C08, C09, C10, C11, C12, C13, C15"
+    },
+    {
+      "index": 384,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 3"
+    },
+    {
+      "index": 385,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 386,
+      "style": "Heading 2",
+      "text": "IDEA_PLACE. Design team: the people-and-place family  (W)"
+    },
+    {
+      "index": 387,
+      "style": "Normal",
+      "text": "Definition: The smaller family that keeps the people in: mobile common places that park and wait, the pantry as a social hub."
+    },
+    {
+      "index": 388,
+      "style": "List Bullet",
+      "text": "Include: Capstone C14, C15 (Role of Pantries), and the repeated \"food pantry as a social hub\" thread in Workshop 1."
+    },
+    {
+      "index": 389,
+      "style": "List Bullet",
+      "text": "Exclude: Pure logistics ideas (F8)."
+    },
+    {
+      "index": 390,
+      "style": "Normal",
+      "text": "Example quote: \"AV would have time in an area to wait for neighbors there.\"  (Capstone map, C14 Mobile Common Places, statement)"
+    },
+    {
+      "index": 391,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: VALUES close; Capstone: C14, C15 (Role of Pantries)"
+    },
+    {
+      "index": 392,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 393,
+      "style": "Heading 2",
+      "text": "IDEA_ACCESS. Design team: access for marginalized neighbors  (W)"
+    },
+    {
+      "index": 394,
+      "style": "Normal",
+      "text": "Definition: Ideas aimed at people the current system misses: seniors, homebound neighbors, aging volunteers, disabled neighbors, the time-constrained."
+    },
+    {
+      "index": 395,
+      "style": "List Bullet",
+      "text": "Include: Capstone C17 (seniors, integrated services, on demand), C18 (homebound, aging volunteers, time constraints)."
+    },
+    {
+      "index": 396,
+      "style": "List Bullet",
+      "text": "Exclude: Logistics ideas (F8)."
+    },
+    {
+      "index": 397,
+      "style": "Normal",
+      "text": "Example quote: \"How might AVs provide integrated services\"  (Capstone map, C17b Integrated Services, HMW)"
+    },
+    {
+      "index": 398,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: JUST_ACCESS close; Capstone: C17, C18, C16"
+    },
+    {
+      "index": 399,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 400,
+      "style": "Heading 2",
+      "text": "IDEA_TRUST. Design team: trust, privacy, and verification family  (W)"
+    },
+    {
+      "index": 401,
+      "style": "Normal",
+      "text": "Definition: Ideas that trade on verification rather than relationship: face verification, access codes, privacy framing."
+    },
+    {
+      "index": 402,
+      "style": "List Bullet",
+      "text": "Include: Capstone C04 and Workshop 1 privacy ideas."
+    },
+    {
+      "index": 403,
+      "style": "List Bullet",
+      "text": "Exclude: Relational-trust codes (B2)."
+    },
+    {
+      "index": 404,
+      "style": "Normal",
+      "text": "Example quote: \"Should have some sort of face verification to ensure food is handed to the right person\"  (workshop-1-codesign, CLUSTER: Privacy, Idea)"
+    },
+    {
+      "index": 405,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: D3 VERIFY close; Capstone: C04"
+    },
+    {
+      "index": 406,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 5 (surveillance side)"
+    },
+    {
+      "index": 407,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 408,
+      "style": "Heading 2",
+      "text": "IDEA_HUMAN. Design team: the human-touch-at-delivery family  (W)"
+    },
+    {
+      "index": 409,
+      "style": "Normal",
+      "text": "Definition: A minority of the team pushed back for the human: AV plus a human touch at delivery, the delivery as a relationship."
+    },
+    {
+      "index": 410,
+      "style": "List Bullet",
+      "text": "Include: Capstone C16 and the Workshop 1 HMW insisting on a human element."
+    },
+    {
+      "index": 411,
+      "style": "List Bullet",
+      "text": "Exclude: Rides-for-people ideas (F10)."
+    },
+    {
+      "index": 412,
+      "style": "Normal",
+      "text": "Example quote: \"How might we ensure there is a human element/touch with AVs used as a social service for those they serve, delivery\"  (workshop-1-codesign, CLUSTER: Logistics, HMW)"
+    },
+    {
+      "index": 413,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: JUST_TRUST close; Capstone: C16"
+    },
+    {
+      "index": 414,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 415,
+      "style": "Heading 1",
+      "text": "Domain G. Mobility as Social Service (target state)"
+    },
+    {
+      "index": 416,
+      "style": "Normal",
+      "text": "Mobility as an ongoing, relational practice of equitable provisioning: relational, equitable, burden-based metrics, dignity as a designable structural property, community co-governance, and the design principles."
+    },
+    {
+      "index": 417,
+      "style": "Normal",
+      "text": "Paper map: C7 | Discussion / proposal: Mobility as Social Service"
+    },
+    {
+      "index": 418,
+      "style": "Heading 2",
+      "text": "MASS_RELATIONAL. Relational provisioning  (W)"
+    },
+    {
+      "index": 419,
+      "style": "Normal",
+      "text": "Definition: Mobility as Social Service is an ongoing relational practice: social service means relational engagement, not transactional."
+    },
+    {
+      "index": 420,
+      "style": "List Bullet",
+      "text": "Include: Statements that the service is judged by the relationship it maintains."
+    },
+    {
+      "index": 421,
+      "style": "List Bullet",
+      "text": "Exclude: Transactional provisioning features."
+    },
+    {
+      "index": 422,
+      "style": "Normal",
+      "text": "Example quote: \"Maintaining the human relation\"  (workshop-3-codesign, cluster: Social service meaning relational engagement not transactional)"
+    },
+    {
+      "index": 423,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: VALUES close; Capstone: C16 (human touch)"
+    },
+    {
+      "index": 424,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 2 (contrast with trust-as-metric)"
+    },
+    {
+      "index": 425,
+      "style": "Normal",
+      "text": "Thesis clause: C7"
+    },
+    {
+      "index": 426,
+      "style": "Heading 2",
+      "text": "MASS_EQUITABLE. Equitable provisioning  (T)"
+    },
+    {
+      "index": 427,
+      "style": "Normal",
+      "text": "Definition: The target service reaches the people the current rules exclude, including those for whom in-person pickup is impossible."
+    },
+    {
+      "index": 428,
+      "style": "List Bullet",
+      "text": "Include: Positive evidence of a service designed to reach proxy users, homebound people, or the excluded."
+    },
+    {
+      "index": 429,
+      "style": "List Bullet",
+      "text": "Exclude: The inverse, exclusionary rules (D3, D8)."
+    },
+    {
+      "index": 430,
+      "style": "Normal",
+      "text": "Example quote: \"it's one of the only ones that allow you to get something for somebody that can't come.\"  (focus-group-hope, 00:51:15)"
+    },
+    {
+      "index": 431,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9; MaSS: JUST_ACCESS close; Capstone: C17, C18"
+    },
+    {
+      "index": 432,
+      "style": "Normal",
+      "text": "Thesis clause: C7"
+    },
+    {
+      "index": 433,
+      "style": "Heading 2",
+      "text": "BURDEN_METRICS. Burden-lifted, not adoption, as the metric  (W)"
+    },
+    {
+      "index": 434,
+      "style": "Normal",
+      "text": "Definition: Success should be measured by whether anyone's load got lighter, against product-adoption logic."
+    },
+    {
+      "index": 435,
+      "style": "List Bullet",
+      "text": "Include: Either side: the adoption-rate pull or the counter-proposal of burden metrics."
+    },
+    {
+      "index": 436,
+      "style": "List Bullet",
+      "text": "Exclude: Design details without a metric referent."
+    },
+    {
+      "index": 437,
+      "style": "Normal",
+      "text": "Example quote: \"new metrics that measure the weights of burden and capture the ultimate benefit to the end user\"  (workshop-3-codesign, SECTION: How would AV works in terms of service?, cluster: ROI)"
+    },
+    {
+      "index": 438,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: PURPOSE_EXCLUSION close; Capstone: n/a"
+    },
+    {
+      "index": 439,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 3 (contrast)"
+    },
+    {
+      "index": 440,
+      "style": "Normal",
+      "text": "Thesis clause: C7"
+    },
+    {
+      "index": 441,
+      "style": "Heading 2",
+      "text": "DIGNITY_STRUCT. Dignity as a designable structural property  (L)"
+    },
+    {
+      "index": 442,
+      "style": "Normal",
+      "text": "Definition: Whether a service preserves or strips dignity is a concrete, structural design property, not an unavoidable side effect of receiving help: minimizing burden, respecting autonomy, avoiding stigma."
+    },
+    {
+      "index": 443,
+      "style": "List Bullet",
+      "text": "Include: Lit components of high-dignity service (Brenton components; Chapman journey-wide dignity), plus transcript evidence of a dignity-preserving service."
+    },
+    {
+      "index": 444,
+      "style": "List Bullet",
+      "text": "Exclude: Dignity as a value only (B4)."
+    },
+    {
+      "index": 445,
+      "style": "Normal",
+      "text": "Example quote: \"they do not discriminate against you, they see you as another family united with the community.\"  (sec-participant-11-sp, 15:13:44; translated)"
+    },
+    {
+      "index": 446,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: VALUES close; Capstone: n/a"
+    },
+    {
+      "index": 447,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 7: Cresswell Riol and Connelly 2023, 2025; Brenton, Tindall, Glanz, and Virudachalam 2025; Chapman et al. 2024"
+    },
+    {
+      "index": 448,
+      "style": "Normal",
+      "text": "Thesis clause: C7"
+    },
+    {
+      "index": 449,
+      "style": "Heading 2",
+      "text": "COGOVERN. Community as co-governor  (L)"
+    },
+    {
+      "index": 450,
+      "style": "Normal",
+      "text": "Definition: The community participates not as consulted public but as co-governor of the service, with binding influence over design decisions."
+    },
+    {
+      "index": 451,
+      "style": "List Bullet",
+      "text": "Include: Lit evidence that resourced community authorship changes outcomes, and workshop conditions requiring co-production."
+    },
+    {
+      "index": 452,
+      "style": "List Bullet",
+      "text": "Exclude: Consultation with no power transfer (E7)."
+    },
+    {
+      "index": 453,
+      "style": "Normal",
+      "text": "Example quote: [No verbatim quote; see design principle 11, \"Build it with the community\".]"
+    },
+    {
+      "index": 454,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a; MaSS: INPUT_PART_PRESENT close; Capstone: n/a"
+    },
+    {
+      "index": 455,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 6: Karner et al. 2020; Severs et al. 2022; Tan et al. 2025"
+    },
+    {
+      "index": 456,
+      "style": "Normal",
+      "text": "Thesis clause: C7"
+    },
+    {
+      "index": 457,
+      "style": "Heading 2",
+      "text": "PRINCIPLES. Design principles  (T)"
+    },
+    {
+      "index": 458,
+      "style": "Normal",
+      "text": "Definition: The concrete, evidence-backed design principles for a MaSS intervention: design the return-with-goods leg, allow authorized proxies, bound the destinations, keep a human at the point of contact, offer chosen contact levels, route through existing trips, fund the first and last mile, make wraparound services navigable, protect predictability, measure burden lifted, build with the community."
+    },
+    {
+      "index": 459,
+      "style": "List Bullet",
+      "text": "Include: Any evidence supporting or refining one of the eleven design implications from the transcript synthesis."
+    },
+    {
+      "index": 460,
+      "style": "List Bullet",
+      "text": "Exclude: Principles stated without evidence."
+    },
+    {
+      "index": 461,
+      "style": "Normal",
+      "text": "Example quote: \"Delivery person might be the only point of human contact the home bound people might have.\"  (workshop-3-codesign, cluster: Home Bound)"
+    },
+    {
+      "index": 462,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 9; MaSS: VALUES close; Capstone: C16, C17, C18"
+    },
+    {
+      "index": 463,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 6"
+    },
+    {
+      "index": 464,
+      "style": "Normal",
+      "text": "Thesis clause: C7"
+    },
+    {
+      "index": 465,
+      "style": "Heading 1",
+      "text": "Domain H. The discourse the AV carries (lit-derived)"
+    },
+    {
+      "index": 466,
+      "style": "Normal",
+      "text": "What the Engineering/Safety thread centers: throughput logic, safety and acceptance as engineering, trust as a calibratable metric, experts centered and communities counted, the surveillance that comes along, and friction managed as noise. The concrete content of clause 3."
+    },
+    {
+      "index": 467,
+      "style": "Normal",
+      "text": "Paper map: C3, C5, C6 | Literature context: The values the AV carries"
+    },
+    {
+      "index": 468,
+      "style": "Heading 2",
+      "text": "THROUGHPUT. Throughput and capacity logic  (L)"
+    },
+    {
+      "index": 469,
+      "style": "Normal",
+      "text": "Definition: The Engineering/Safety literature organizes evaluation around network throughput, capacity, and automation share, with people appearing only as trip counts."
+    },
+    {
+      "index": 470,
+      "style": "List Bullet",
+      "text": "Include: Model-level claims about capacity, penetration rate, or level of service."
+    },
+    {
+      "index": 471,
+      "style": "List Bullet",
+      "text": "Exclude: Trade-offs named with riders as humans."
+    },
+    {
+      "index": 472,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar; see Lit evidence map."
+    },
+    {
+      "index": 473,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: EFF_VALUE; Capstone: n/a"
+    },
+    {
+      "index": 474,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 3: Lu, Tettamanti, Horcher, and Varga 2020; Park, Jang, and Ko 2024; Pimenta, Kamruzzaman, and Currie 2023"
+    },
+    {
+      "index": 475,
+      "style": "Normal",
+      "text": "Thesis clause: C3"
+    },
+    {
+      "index": 476,
+      "style": "Heading 2",
+      "text": "SAFETY_ENG. Safety margin and acceptance as engineering  (L)"
+    },
+    {
+      "index": 477,
+      "style": "Normal",
+      "text": "Definition: Safety is operationalized as a margin to be managed (take-over time, perceived safety) and acceptance as a measurable attitude."
+    },
+    {
+      "index": 478,
+      "style": "List Bullet",
+      "text": "Include: Claims that perceived safety or acceptance is something a system can be tuned to produce."
+    },
+    {
+      "index": 479,
+      "style": "List Bullet",
+      "text": "Exclude: Relational trust or lived access concerns."
+    },
+    {
+      "index": 480,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar; see Lit evidence map."
+    },
+    {
+      "index": 481,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: EFF_VALUE; Capstone: n/a"
+    },
+    {
+      "index": 482,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 3: Zhang et al. 2019; Nordhoff et al. 2020; Zoellick et al. 2019"
+    },
+    {
+      "index": 483,
+      "style": "Normal",
+      "text": "Thesis clause: C3"
+    },
+    {
+      "index": 484,
+      "style": "Heading 2",
+      "text": "TRUST_METRIC. Trust as a calibratable metric  (L)"
+    },
+    {
+      "index": 485,
+      "style": "Normal",
+      "text": "Definition: Trust is measured and tuned as an individual psychological score rather than built and sustained through an ongoing relationship."
+    },
+    {
+      "index": 486,
+      "style": "List Bullet",
+      "text": "Include: Trust-in-automation studies that model, score, or calibrate trust."
+    },
+    {
+      "index": 487,
+      "style": "List Bullet",
+      "text": "Exclude: Relational trust, being known (B2)."
+    },
+    {
+      "index": 488,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar; see Lit evidence map."
+    },
+    {
+      "index": 489,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: JUST_TRUST (contrast); Capstone: n/a"
+    },
+    {
+      "index": 490,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 2: Kraus, Scholz, Stiegemeier, and Baumann 2020; Lee and Kolodge 2020; Alkurdi and Alsaid 2025; Zoellick et al. 2019; Tan et al. 2025 (contrast)"
+    },
+    {
+      "index": 491,
+      "style": "Normal",
+      "text": "Thesis clause: C3"
+    },
+    {
+      "index": 492,
+      "style": "Heading 2",
+      "text": "EXPERTS_CENTERED. Experts centered, communities counted  (L)"
+    },
+    {
+      "index": 493,
+      "style": "Normal",
+      "text": "Definition: The default answer to who is centered is the credentialed professional, official, or researcher synthesizing data, not the resident whose mobility the system shapes."
+    },
+    {
+      "index": 494,
+      "style": "List Bullet",
+      "text": "Include: Evidence of who a study or policy centers: who_is_centered_counts.csv, engineering policy advice authored by credentialed insiders."
+    },
+    {
+      "index": 495,
+      "style": "List Bullet",
+      "text": "Exclude: Studies that do center residents or clients."
+    },
+    {
+      "index": 496,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar; see Lit evidence map."
+    },
+    {
+      "index": 497,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: INPUT_PART_ABSENT; Capstone: n/a"
+    },
+    {
+      "index": 498,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 4: Hicks, Kingsley, and Isett 2025; Lu et al. 2020; Robles and Mallinson 2024; Zhang et al. 2024; Jeghers et al. 2024; Di Ruocco 2025; Murray et al. 2023; Shaker et al. 2023."
+    },
+    {
+      "index": 499,
+      "style": "Normal",
+      "text": "Thesis clause: C6"
+    },
+    {
+      "index": 500,
+      "style": "Heading 2",
+      "text": "SURVEILLANCE. The surveillance that comes along  (L)"
+    },
+    {
+      "index": 501,
+      "style": "Normal",
+      "text": "Definition: Verification and monitoring arrive with the system: face verification, body-posture intent inference at crossings, flagging non-compliant road users to police."
+    },
+    {
+      "index": 502,
+      "style": "List Bullet",
+      "text": "Include: Lit and design-team evidence of monitoring or verification functions."
+    },
+    {
+      "index": 503,
+      "style": "List Bullet",
+      "text": "Exclude: Verification rules already in the pantry (D3)."
+    },
+    {
+      "index": 504,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar; see Lit evidence map and Capstone C04."
+    },
+    {
+      "index": 505,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: D3 VERIFY; Capstone: C04"
+    },
+    {
+      "index": 506,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 5: Nordhoff et al. 2020; Capstone C04 face verification"
+    },
+    {
+      "index": 507,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 508,
+      "style": "Heading 2",
+      "text": "FRICTION_MANAGED. Friction read as noise to be managed  (L)"
+    },
+    {
+      "index": 509,
+      "style": "Normal",
+      "text": "Definition: The AV field reads the same friction one thread treats as data, pedestrians testing a shuttle, stepping in front of it, pressing the emergency button, as distrust to manage, up to flagging non-compliant users to police."
+    },
+    {
+      "index": 510,
+      "style": "List Bullet",
+      "text": "Include: Lit examples of resistance read as distrust or a problem to manage."
+    },
+    {
+      "index": 511,
+      "style": "List Bullet",
+      "text": "Exclude: Friction as signal (see Lite evidence map contrast)."
+    },
+    {
+      "index": 512,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar; see Lit evidence map."
+    },
+    {
+      "index": 513,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: BREAKDOWN close; Capstone: C04, C16"
+    },
+    {
+      "index": 514,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 5: Nordhoff et al. 2020 versus Forlano and Mathew 2014"
+    },
+    {
+      "index": 515,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 516,
+      "style": "Heading 1",
+      "text": "Domain I. The charity model and digital food system (lit-derived)"
+    },
+    {
+      "index": 517,
+      "style": "Normal",
+      "text": "The analytical frame for the site itself: charity reframes hunger as personal failing, conditionality and enforced gratitude, access optimized as an efficiency problem, and the food-apartheid geography. The transcripts show the symptoms; the lit names the mechanism."
+    },
+    {
+      "index": 518,
+      "style": "Normal",
+      "text": "Paper map: C4, C5, C7 | Literature context: The charity model and digital food system"
+    },
+    {
+      "index": 519,
+      "style": "Heading 2",
+      "text": "CHARITY_REFRAIM. Charity reframes hunger as personal failing  (L)"
+    },
+    {
+      "index": 520,
+      "style": "Normal",
+      "text": "Definition: The growth of food charity reframes hunger as a personal failing and strips recipients of autonomy, choice, and political voice."
+    },
+    {
+      "index": 521,
+      "style": "List Bullet",
+      "text": "Include: Lit claims tracing how charity models re-frame the recipient."
+    },
+    {
+      "index": 522,
+      "style": "List Bullet",
+      "text": "Exclude: Individual-client evidence of stigma (B4)."
+    },
+    {
+      "index": 523,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar; see Lit evidence map."
+    },
+    {
+      "index": 524,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: B4 DIGNITY; Capstone: n/a"
+    },
+    {
+      "index": 525,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 7: Cresswell Riol and Connelly 2023, 2025"
+    },
+    {
+      "index": 526,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 527,
+      "style": "Heading 2",
+      "text": "CONDITIONALITY. Conditionality, surveillance, and enforced gratitude  (L)"
+    },
+    {
+      "index": 528,
+      "style": "Normal",
+      "text": "Definition: Receiving help is conditioned on demonstrating deservingness: surveillance of recipients and an expectation of gratitude as repayment."
+    },
+    {
+      "index": 529,
+      "style": "List Bullet",
+      "text": "Include: Lit mechanisms connecting charity to conditionality and surveillance."
+    },
+    {
+      "index": 530,
+      "style": "List Bullet",
+      "text": "Exclude: The ID-card rule at the pantry (D3)."
+    },
+    {
+      "index": 531,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar; see Lit evidence map."
+    },
+    {
+      "index": 532,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: D3 VERIFY; Capstone: n/a"
+    },
+    {
+      "index": 533,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 7, 1: Cresswell Riol and Connelly 2025"
+    },
+    {
+      "index": 534,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 535,
+      "style": "Heading 2",
+      "text": "ACCESS_AS_EFF. Access optimized as an efficiency problem  (L)"
+    },
+    {
+      "index": 536,
+      "style": "Normal",
+      "text": "Definition: Digital food platforms judge access against an efficiency standard instead of a procedural-inclusion or recognition one."
+    },
+    {
+      "index": 537,
+      "style": "List Bullet",
+      "text": "Include: Lit claims that platforms or systems treat access as optimization."
+    },
+    {
+      "index": 538,
+      "style": "List Bullet",
+      "text": "Exclude: Digital-only pantry rules in the transcripts (D5)."
+    },
+    {
+      "index": 539,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar; see Lit evidence map."
+    },
+    {
+      "index": 540,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: D5 DIGITONLY; Capstone: n/a"
+    },
+    {
+      "index": 541,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 3: Joassart-Marcelli, Bosco, and McFadden 2026; Deener 2017"
+    },
+    {
+      "index": 542,
+      "style": "Normal",
+      "text": "Thesis clause: C3"
+    },
+    {
+      "index": 543,
+      "style": "Heading 2",
+      "text": "APARTHEID_GEO. Food-apartheid geography  (L)"
+    },
+    {
+      "index": 544,
+      "style": "Normal",
+      "text": "Definition: Food deserts trace to a path-dependent reorganization of retail distribution that prioritized system efficiency, together with neighborhoods that built their own response gardens."
+    },
+    {
+      "index": 545,
+      "style": "List Bullet",
+      "text": "Include: Lit evidence of retail abandonment, racialized access gaps, and community-built food systems."
+    },
+    {
+      "index": 546,
+      "style": "List Bullet",
+      "text": "Exclude: Predatory-pricing observations in the transcripts."
+    },
+    {
+      "index": 547,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar; see Lit evidence map."
+    },
+    {
+      "index": 548,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: JUST_ACCESS; Capstone: n/a"
+    },
+    {
+      "index": 549,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 3, 6, 4: Deener 2017; Shaker et al. 2023; Gripper et al. 2022"
+    },
+    {
+      "index": 550,
+      "style": "Normal",
+      "text": "Thesis clause: C4"
+    },
+    {
+      "index": 551,
+      "style": "Heading 2",
+      "text": "EFFICIENCY_SURPLUS. Efficiency-led reorganization severs residents  (L)"
+    },
+    {
+      "index": 552,
+      "style": "Normal",
+      "text": "Definition: An efficiency-led reorganization of the food system severed the residents it no longer served, and is the structural context a pantry sits inside."
+    },
+    {
+      "index": 553,
+      "style": "List Bullet",
+      "text": "Include: Lit claims about reorganization with negative access consequences."
+    },
+    {
+      "index": 554,
+      "style": "List Bullet",
+      "text": "Exclude: Clause 7 positive design discussion (G)."
+    },
+    {
+      "index": 555,
+      "style": "Normal",
+      "text": "Example quote: [LIT] No transcript exemplar; see Lit evidence map."
+    },
+    {
+      "index": 556,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: n/a (new); MaSS: D1 EFF_VALUE; Capstone: n/a"
+    },
+    {
+      "index": 557,
+      "style": "Normal",
+      "text": "Lit evidence: Mechanism 3: Deener 2017"
+    },
+    {
+      "index": 558,
+      "style": "Normal",
+      "text": "Thesis clause: C5"
+    },
+    {
+      "index": 559,
+      "style": "Heading 1",
+      "text": "Domain M. Method"
+    },
+    {
+      "index": 560,
+      "style": "Normal",
+      "text": "Critique of the two instruments used to collect this corpus: the AI interview and the workshop / Insight Box format."
+    },
+    {
+      "index": 561,
+      "style": "Normal",
+      "text": "Paper map: n/a | Methods"
+    },
+    {
+      "index": 562,
+      "style": "Heading 2",
+      "text": "AI_INSTRUMENT. The AI interview as instrument critique  (T)"
+    },
+    {
+      "index": 563,
+      "style": "Normal",
+      "text": "Definition: The automated interviewer loops scripted lines, cuts clients off, mishears, cannot answer operational questions, drops connection, interviews people who are driving, and extracts without giving back. It enacts the transactional mode it is studying. Counter-evidence: it lowered the Spanish language barrier."
+    },
+    {
+      "index": 564,
+      "style": "List Bullet",
+      "text": "Include: Named failures or successes of the AI interview as a research instrument."
+    },
+    {
+      "index": 565,
+      "style": "List Bullet",
+      "text": "Exclude: Client data collected by the interview."
+    },
+    {
+      "index": 566,
+      "style": "Normal",
+      "text": "Example quote: \"Alex, are you still there?\"  (sec-participant-21, 16:36:38)"
+    },
+    {
+      "index": 567,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 10 (10.1); MaSS: BREAKDOWN close; Capstone: n/a"
+    },
+    {
+      "index": 568,
+      "style": "Normal",
+      "text": "Thesis clause: "
+    },
+    {
+      "index": 569,
+      "style": "Heading 2",
+      "text": "WORKSHOP_FORMAT. The workshop and Insight Box as instruments  (T)"
+    },
+    {
+      "index": 570,
+      "style": "Normal",
+      "text": "Definition: Evidence about the co-design workshop format and the Insight Box exercise: what they surfaced, their limits, and the emotional depth they reached."
+    },
+    {
+      "index": 571,
+      "style": "List Bullet",
+      "text": "Include: Observations about the methods themselves, including the Insight Box's emotional resonance."
+    },
+    {
+      "index": 572,
+      "style": "List Bullet",
+      "text": "Exclude: Findings generated by the methods."
+    },
+    {
+      "index": 573,
+      "style": "Normal",
+      "text": "Example quote: \"Colors of markers brought memories of late husband\"  (OG codebook, Theme 10.2, Others evidence)"
+    },
+    {
+      "index": 574,
+      "style": "Normal",
+      "text": "Source cross-refs: OG: OG Theme 10 (10.2); MaSS: BREAKDOWN close; Capstone: n/a"
+    },
+    {
+      "index": 575,
+      "style": "Normal",
+      "text": "Thesis clause: "
+    },
+    {
+      "index": 576,
+      "style": "Heading 1",
+      "text": "Cross-thread mechanisms from the literature"
+    },
+    {
+      "index": 577,
+      "style": "Heading 2",
+      "text": "1. Participation without power transfer"
+    },
+    {
+      "index": 578,
+      "style": "Normal",
+      "text": "Formal public involvement collects community input but rarely gives it binding influence."
+    },
+    {
+      "index": 579,
+      "style": "Normal",
+      "text": "Feeds codes: E7 CONSULT_NO_POWER; E8 PERF_VS_AUTH; E1 INPUT_ABSENT; H4 EXPERTS_CENTERED"
+    },
+    {
+      "index": 580,
+      "style": "List Bullet",
+      "text": "Pinski et al. (2024). Bridging the gap: Do community needs assessments enhance public participation in transportation planning?. Transportation Research Interdisciplinary Perspectives, 25, 101114. https://doi.org/10.1016/j.trip.2024.101114"
+    },
+    {
+      "index": 581,
+      "style": "List Bullet",
+      "text": "Bailey et al. (2012). Towards Environmental Justice in Transportation Decision Making using Structured Public Involvement. Transportation Research Board (TRB) Annual Meeting. https://doi.org/10.3141/2320-13"
+    },
+    {
+      "index": 582,
+      "style": "List Bullet",
+      "text": "Karner et al. (2020). From transportation equity to transportation justice: Within, through, and beyond the state. Journal of Planning Literature. https://doi.org/10.1177/0885412220927691"
+    },
+    {
+      "index": 583,
+      "style": "List Bullet",
+      "text": "McCullough et al. (2024). Performative versus Authentic Equity Work: An Assessment of Current Practices in Transportation Planning. Transportation Research Record, 2678(5), 884-903. https://doi.org/10.1177/03611981231193409"
+    },
+    {
+      "index": 584,
+      "style": "List Bullet",
+      "text": "van Holstein et al. (2020). Mobility justice and accessible public transport networks for people with intellectual disability. Applied Mobilities. https://doi.org/10.1080/23800127.2020.1827557"
+    },
+    {
+      "index": 585,
+      "style": "List Bullet",
+      "text": "Klaever et al. (2025). Lived expertise of the structurally disadvantaged: towards a more just participatory transport planning process. Mobilities, 20(3), 555-572. https://doi.org/10.1080/17450101.2024.2426554"
+    },
+    {
+      "index": 586,
+      "style": "List Bullet",
+      "text": "Hicks, D., Kingsley, G., & Isett, K.R. (2025). Steering the future: expert knowledge and stakeholder voices in autonomous vehicle policy reports. Policy and Society. https://doi.org/10.1093/polsoc/puae041"
+    },
+    {
+      "index": 587,
+      "style": "List Bullet",
+      "text": "Barendregt, L., Bendor, R., & van Eekelen, B.F. (2024). Public participation in futuring: A systematic literature review.. Journal: Futures, 158, Article 103346.. https://doi.org/10.1016/j.futures.2024.103346"
+    },
+    {
+      "index": 588,
+      "style": "List Bullet",
+      "text": "Katharine S. E. Cresswell Riol, Sean Connelly (2025). Human Dignity as a Lens and Framing of Food Charity. Geography Compass. https://doi.org/10.1111/gec3.70054"
+    },
+    {
+      "index": 589,
+      "style": "List Bullet",
+      "text": "Pascale Joassart-Marcelli, Fernando J. Bosco, Keavy McFadden (2026). Assembling solutions: digital platforms, community food insecurity, and the politics of food justice. Agriculture and Human Values 43, art. 71. https://doi.org/10.1007/s10460-026-10873-x"
+    },
+    {
+      "index": 590,
+      "style": "Heading 2",
+      "text": "2. Trust reduced to a calibratable metric"
+    },
+    {
+      "index": 591,
+      "style": "Normal",
+      "text": "Trust is measured and reported as a score to tune, rather than built through an ongoing relationship."
+    },
+    {
+      "index": 592,
+      "style": "Normal",
+      "text": "Feeds codes: H3 TRUST_METRIC; E9 NEGATIVE_SELFEFF; B2 JUST_TRUST (contrast); G1 MASS_RELATIONAL (contrast)"
+    },
+    {
+      "index": 593,
+      "style": "List Bullet",
+      "text": "Lee, J.D. & Kolodge, K. (2020). Exploring Trust in Self-Driving Vehicles Through Text Analysis. Human Factors: The Journal of the Human Factors and Ergonomics Society, 62(2), 260-277. https://doi.org/10.1177/0018720819872672"
+    },
+    {
+      "index": 594,
+      "style": "List Bullet",
+      "text": "Kraus, J., Scholz, D., Stiegemeier, D., & Baumann, M. (2020). The More You Know: Trust Dynamics and Calibration in Highly Automated Driving and the Effects of Take-Overs, System Malfunction, and System Transparency. Human Factors: The Journal of the Human Factors and Ergonomics Society, 62(5), 718-736. https://doi.org/10.1177/0018720819853686"
+    },
+    {
+      "index": 595,
+      "style": "List Bullet",
+      "text": "Alkurdi, D. & Alsaid, A. (2025). Trust in Level 3 Automated Vehicles: A Systematic Literature Review. Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 69(1), 1281-1283. https://doi.org/10.1177/10711813251369499"
+    },
+    {
+      "index": 596,
+      "style": "List Bullet",
+      "text": "Zoellick, J.C., Kuhlmey, A., Schenk, L., Schindel, D., & Bluher, S. (2019). Assessing acceptance of electric automated vehicles after exposure in a realistic traffic environment. PLOS ONE, 14(5), e0215969. https://doi.org/10.1371/journal.pone.0215969"
+    },
+    {
+      "index": 597,
+      "style": "List Bullet",
+      "text": "Bailey et al. (2010). Toward Structured Public Involvement: Justice, Geography and Collaborative Geospatial/Geovisual Decision Support Systems. Annals of the Association of American Geographers, 100(1), 57-86. https://doi.org/10.1080/00045600903364259"
+    },
+    {
+      "index": 598,
+      "style": "List Bullet",
+      "text": "Klaever et al. (2025). Lived expertise of the structurally disadvantaged: towards a more just participatory transport planning process. Mobilities, 20(3), 555-572. https://doi.org/10.1080/17450101.2024.2426554"
+    },
+    {
+      "index": 599,
+      "style": "List Bullet",
+      "text": "Nakshi et al. (2025). Travelling in the margins: Impacts of transport poverty on travel attitudes and behaviours. Transportation Research Part A, 196, 104475. https://doi.org/10.1016/j.tra.2025.104475"
+    },
+    {
+      "index": 600,
+      "style": "List Bullet",
+      "text": "Tan, Y., Soh, K.X., Zhang, R., Lee, J., Meng, H., Sen, B., & Lee, Y.-C. (2025). Empowering social service with AI: Insights from a participatory design study with practitioners.. Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA '25). https://dl.acm.org/doi/epdf/10.1145/3706599.3719736"
+    },
+    {
+      "index": 601,
+      "style": "Heading 2",
+      "text": "3. Efficiency optimization crowds out purpose"
+    },
+    {
+      "index": 602,
+      "style": "Normal",
+      "text": "Evaluation centers on network throughput or model fit, leaving unexamined who is traveling and why."
+    },
+    {
+      "index": 603,
+      "style": "Normal",
+      "text": "Feeds codes: H1 THROUGHPUT; H2 SAFETY_ENG; D1 EFF_VALUE; E3 PURPOSE; I3 ACCESS_AS_EFF; I5 EFFICIENCY_SURPLUS"
+    },
+    {
+      "index": 604,
+      "style": "List Bullet",
+      "text": "Park, J., Jang, S., & Ko, J. (2024). Effects of Exclusive Lanes for Autonomous Vehicles on Urban Expressways under Mixed Traffic of Autonomous and Human-Driven Vehicles. Sustainability, 16(1), 26. https://doi.org/10.3390/su16010026"
+    },
+    {
+      "index": 605,
+      "style": "List Bullet",
+      "text": "Lu, Q., Tettamanti, T., Hörcher, D., & Varga, I. (2020). The impact of autonomous vehicles on urban traffic network capacity: an experimental analysis by microscopic traffic simulation. Transportation Letters: The International Journal of Transportation Research, 12(8), 540-549. https://doi.org/10.1080/19427867.2019.1662561"
+    },
+    {
+      "index": 606,
+      "style": "List Bullet",
+      "text": "Zhang, B., de Winter, J., Varotto, S., Happee, R., & Martens, M. (2019). Determinants of take-over time from automated driving: A meta-analysis of 129 studies. Transportation Research Part F: Traffic Psychology and Behaviour, 64, 285-307. https://doi.org/10.1016/j.trf.2019.04.020"
+    },
+    {
+      "index": 607,
+      "style": "List Bullet",
+      "text": "Pimenta, A.R., Kamruzzaman, M., & Currie, G. (2023). Long-term effects of autonomous vehicles on the built environment: a systematic scoping review towards conceptual frameworks. Transport Reviews, 43(6), 1083-1117. https://doi.org/10.1080/01441647.2023.2189325"
+    },
+    {
+      "index": 608,
+      "style": "List Bullet",
+      "text": "Cha et al. (2020). Enhancing Equity in Public Transportation Using Geographic Information Systems and Spatial Optimization. International Journal of Geospatial and Environmental Research, 7(1), Article 2. https://dc.uwm.edu/ijger/vol7/iss1/2"
+    },
+    {
+      "index": 609,
+      "style": "List Bullet",
+      "text": "Chen et al. (2025). Assessing equity in infrastructure investment distribution among U.S. cities. Cities, 162, 105898. https://doi.org/10.1016/j.cities.2025.105898"
+    },
+    {
+      "index": 610,
+      "style": "List Bullet",
+      "text": "Zhang et al. (2024). Public transport inclusion and active aging: A systematic review on elderly mobility. Journal of Traffic and Transportation Engineering (English Edition), 11(2), 312-347. https://doi.org/10.1016/j.jtte.2024.04.001"
+    },
+    {
+      "index": 611,
+      "style": "List Bullet",
+      "text": "Van Wynsberghe, A., & Guimarães Pereira, Â. (2022). The politics and imaginary of 'autonomous vehicles': A participatory journey.. Humanities and Social Sciences Communications, 9, Article 284. https://doi.org/10.1057/s41599-022-01209-1"
+    },
+    {
+      "index": 612,
+      "style": "List Bullet",
+      "text": "Pascale Joassart-Marcelli, Fernando J. Bosco, Keavy McFadden (2026). Assembling solutions: digital platforms, community food insecurity, and the politics of food justice. Agriculture and Human Values 43, art. 71. https://doi.org/10.1007/s10460-026-10873-x"
+    },
+    {
+      "index": 613,
+      "style": "List Bullet",
+      "text": "Andrew Deener (2017). The Origins of the Food Desert: Urban Inequality as Infrastructural Exclusion. Social Forces 95(3): 1285-1309. https://doi.org/10.1093/sf/sox001"
+    },
+    {
+      "index": 614,
+      "style": "Heading 2",
+      "text": "4. Credentialed experts centered, communities counted"
+    },
+    {
+      "index": 615,
+      "style": "Normal",
+      "text": "The default who is centered is the professional or researcher synthesizing data, not the resident."
+    },
+    {
+      "index": 616,
+      "style": "Normal",
+      "text": "Feeds codes: H4 EXPERTS_CENTERED; E1 INPUT_ABSENT; E4 IMPOSITION"
+    },
+    {
+      "index": 617,
+      "style": "List Bullet",
+      "text": "Hicks, D., Kingsley, G., & Isett, K.R. (2025). Steering the future: expert knowledge and stakeholder voices in autonomous vehicle policy reports. Policy and Society. https://doi.org/10.1093/polsoc/puae041"
+    },
+    {
+      "index": 618,
+      "style": "List Bullet",
+      "text": "Lu, Q., Tettamanti, T., Hörcher, D., & Varga, I. (2020). The impact of autonomous vehicles on urban traffic network capacity: an experimental analysis by microscopic traffic simulation. Transportation Letters: The International Journal of Transportation Research, 12(8), 540-549. https://doi.org/10.1080/19427867.2019.1662561"
+    },
+    {
+      "index": 619,
+      "style": "List Bullet",
+      "text": "Robles, P. & Mallinson, D.J. (2024). Policy Learning and the Diffusion of Autonomous Vehicle Policy in the American States. State and Local Government Review. https://doi.org/10.1177/0160323X241262816"
+    },
+    {
+      "index": 620,
+      "style": "List Bullet",
+      "text": "Zhang et al. (2024). Public transport inclusion and active aging: A systematic review on elderly mobility. Journal of Traffic and Transportation Engineering (English Edition), 11(2), 312-347. https://doi.org/10.1016/j.jtte.2024.04.001"
+    },
+    {
+      "index": 621,
+      "style": "List Bullet",
+      "text": "Jeghers et al. (2024). North Florida Stakeholder Perspectives: Gaps, Barriers, and Facilitators in the Transportation System. Future Transportation, 4, 1520-1536. https://doi.org/10.3390/futuretransp4040073"
+    },
+    {
+      "index": 622,
+      "style": "List Bullet",
+      "text": "Chen et al. (2025). Assessing equity in infrastructure investment distribution among U.S. cities. Cities, 162, 105898. https://doi.org/10.1016/j.cities.2025.105898"
+    },
+    {
+      "index": 623,
+      "style": "List Bullet",
+      "text": "Di Ruocco (2025). Mobilising equity. Emerging evidence for integrating vulnerable communities. TeMA - Journal of Land Use, Mobility and Environment, 18(1), 95-112. http://dx.doi.org/10.6093/1970-9870/10872"
+    },
+    {
+      "index": 624,
+      "style": "List Bullet",
+      "text": "Barendregt, L., Bendor, R., & van Eekelen, B.F. (2024). Public participation in futuring: A systematic literature review.. Journal: Futures, 158, Article 103346.. https://doi.org/10.1016/j.futures.2024.103346"
+    },
+    {
+      "index": 625,
+      "style": "List Bullet",
+      "text": "Sandra Murray, Fred Gale, David Adams, Lisa Dalton (2023). A scoping review of the conceptualisations of food justice. Public Health Nutrition. https://doi.org/10.1017/S1368980023000101"
+    },
+    {
+      "index": 626,
+      "style": "List Bullet",
+      "text": "Yasmin Shaker, Sara E. Grineski, Timothy W. Collins, Aaron B. Flores (2023). Redlining, Racism and Food Access in US Urban Cores. Agriculture and Human Values 40: 101-112. https://doi.org/10.1007/s10460-022-10340-3"
+    },
+    {
+      "index": 627,
+      "style": "Heading 2",
+      "text": "5. Friction as signal, not noise"
+    },
+    {
+      "index": 628,
+      "style": "Normal",
+      "text": "Resistance and breakdown are where community values surface, if the process chooses to read them that way."
+    },
+    {
+      "index": 629,
+      "style": "Normal",
+      "text": "Feeds codes: H6 FRICTION_MANAGED; H5 SURVEILLANCE; D3 VERIFY; F (BREAKDOWN flag)"
+    },
+    {
+      "index": 630,
+      "style": "List Bullet",
+      "text": "Forlano, L., & Mathew, A. (2014). From design fiction to design friction: Speculative and participatory design of values-embedded urban technology.. Journal of Urban Technology, 21(4), 7-24.. Not found"
+    },
+    {
+      "index": 631,
+      "style": "List Bullet",
+      "text": "Klaever et al. (2025). Lived expertise of the structurally disadvantaged: towards a more just participatory transport planning process. Mobilities, 20(3), 555-572. https://doi.org/10.1080/17450101.2024.2426554"
+    },
+    {
+      "index": 632,
+      "style": "List Bullet",
+      "text": "Agrawaal et al. (2024). Moving Towards Mobility Justice: Challenges and Considerations for Supporting Advocacy. Proc. ACM Hum.-Comput. Interact., 8(CSCW1), Article 96. https://doi.org/10.1145/3637373"
+    },
+    {
+      "index": 633,
+      "style": "List Bullet",
+      "text": "Nordhoff, S., Stapel, J., van Arem, B., & Happee, R. (2020). Passenger opinions of the perceived safety and interaction with automated shuttles: A test ride study with 'hidden' safety steward. Transportation Research Part A: Policy and Practice, 138, 508-524. https://doi.org/10.1016/j.tra.2020.05.009"
+    },
+    {
+      "index": 634,
+      "style": "List Bullet",
+      "text": "Philip Engelbutzeder, Yannick Bollmann, Katie Berns, Marvin Landwehr, Dave Randell, and Volker Wulf (2023). (Re-)Distributional Food Justice: Negotiating conflicting views of fairness within a local grassroots community. Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI ’23). https://doi.org/10.1145/3544548.3581527"
+    },
+    {
+      "index": 635,
+      "style": "Heading 2",
+      "text": "6. Community-led alternatives outperform agency defaults"
+    },
+    {
+      "index": 636,
+      "style": "Normal",
+      "text": "Resourced communities building their own plan or design can match or beat the agency default on its own terms."
+    },
+    {
+      "index": 637,
+      "style": "Normal",
+      "text": "Feeds codes: C7 COMMUNITY_BUILT; G5 COGOVERN; G6 PRINCIPLES; E2 INPUT_PRESENT"
+    },
+    {
+      "index": 638,
+      "style": "List Bullet",
+      "text": "Karner et al. (2020). From transportation equity to transportation justice: Within, through, and beyond the state. Journal of Planning Literature. https://doi.org/10.1177/0885412220927691"
+    },
+    {
+      "index": 639,
+      "style": "List Bullet",
+      "text": "Gomes et al. (2026). Co-Creating Accessibility-Centred Mobility Strategies in Low-Density Suburban Contexts: Evidence from Coimbra, Portugal. Urban Science, 10(2), 102. https://doi.org/10.3390/urbansci10020102"
+    },
+    {
+      "index": 640,
+      "style": "List Bullet",
+      "text": "Pineo et al. (2026). Mindsets and actions: Shifts in equitable and sustainable development in U.S. cities. Urban Studies. https://doi.org/10.1177/00420980261438717"
+    },
+    {
+      "index": 641,
+      "style": "List Bullet",
+      "text": "Baumann, K., Caldwell, B., Bar, F., & Stokes, B. (2018). Community storytelling for speculative urban technologies.. Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems. https://doi.org/10.1145/3170427.3186601"
+    },
+    {
+      "index": 642,
+      "style": "List Bullet",
+      "text": "Severs, R., Wu, J., Diels, C., Harrow, D., Singleton, J., & Winsor, R. (2022). Imagining an inclusive future for shared autonomous vehicle interiors: A participatory design workshop study. Adjunct Proceedings of the 14th International Conference on Automotive User Interfaces and Interactive Vehicular Applications. https://dl.acm.org/doi/epdf/10.1145/3544999.3554787"
+    },
+    {
+      "index": 643,
+      "style": "List Bullet",
+      "text": "Sörries, P., Leimstädtner, D., & Müller-Birn, C. (2024). Advocating values through meaningful participation: Introducing a method to elicit and analyze values for enriching data donation practices in healthcare.. Proceedings of the ACM on Human-Computer Interaction, 8(CSCW1), Article 16.. https://doi.org/10.1145/3637293"
+    },
+    {
+      "index": 644,
+      "style": "List Bullet",
+      "text": "Ashley B. Gripper, Rachel Nethery, Tori L. Cowger, Monica White, Ichiro Kawachi, Gary Adamkiewicz (2022). Community solutions to food apartheid: A spatial analysis of community food-growing spaces and neighborhood demographics in Philadelphia. Social Science & Medicine. https://doi.org/10.1016/j.socscimed.2022.115221"
+    },
+    {
+      "index": 645,
+      "style": "List Bullet",
+      "text": "Sebastian Prost, Clara Crivellaro, Andy Haddon, Rob Comber (2018). Food Democracy in the Making: Designing with Local Food Networks. Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (CHI '18). https://doi.org/10.1145/3173574.3173907"
+    },
+    {
+      "index": 646,
+      "style": "List Bullet",
+      "text": "Sara Heitlinger, Lara Houston, Alex Taylor, Ruth Catlow (2021). Algorithmic Food Justice: Co-Designing More-than-Human Blockchain Futures for the Food Commons. Proceedings of the 2021 CHI Conference on Human Factors in Computing. https://doi.org/10.1145/3411764.3445655"
+    },
+    {
+      "index": 647,
+      "style": "Heading 2",
+      "text": "7. Dignity as a designable, structural property"
+    },
+    {
+      "index": 648,
+      "style": "Normal",
+      "text": "Whether a service preserves or strips dignity is a structural design property, not a side effect of receiving help."
+    },
+    {
+      "index": 649,
+      "style": "Normal",
+      "text": "Feeds codes: G4 DIGNITY_STRUCT; B4 DIGNITY; I1 CHARITY_REFRAIM; I2 CONDITIONALITY; C1 STICKY"
+    },
+    {
+      "index": 650,
+      "style": "List Bullet",
+      "text": "Katharine S. E. Cresswell Riol, Sean Connelly (2023). Beyond a neoliberal critique of hunger: a genealogy of food charity in Aotearoa New Zealand. Agriculture and Human Values. https://doi.org/10.1007/s10460-023-10414-w"
+    },
+    {
+      "index": 651,
+      "style": "List Bullet",
+      "text": "Katharine S. E. Cresswell Riol, Sean Connelly (2025). Human Dignity as a Lens and Framing of Food Charity. Geography Compass. https://doi.org/10.1111/gec3.70054"
+    },
+    {
+      "index": 652,
+      "style": "List Bullet",
+      "text": "Joslyn Brenton, Alyssa Tindall, Karen Glanz, Senbagam Virudachalam (2025). The role of dignity in food assistance: Participant experiences with a free meal kit program. Social Science & Medicine 374. 10.1016/j.socscimed.2025.118009"
+    },
+    {
+      "index": 653,
+      "style": "List Bullet",
+      "text": "Chapman et al. (2024). The dignity experience of people with disability when using trains and buses in an Australian city. Disability & Society, 39(9), 2375-2399. https://doi.org/10.1080/09687599.2023.2203307"
+    },
+    {
+      "index": 654,
+      "style": "Heading 1",
+      "text": "Deliverable note"
+    },
+    {
+      "index": 655,
+      "style": "Normal",
+      "text": "The canonical machine-readable form is Codebook_final.xlsx; this document is the readable companion. The process record lives in process/codebook_build.md and the builder that regenerates both files is process/build_codebook.py."
+    }
+  ],
+  "tables": []
+}
