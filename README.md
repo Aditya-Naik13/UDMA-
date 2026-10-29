@@ -9,14 +9,15 @@ relational practice of equitable provisioning).
 
 ## What is in this repo today
 
-- `Community & Equity Dimensions of Mobility Literature Review.csv` — the literature-review
-  tracker (canonical output), one row per paper, 17 columns (14 core + 3 participatory-method
+- `csvs/Community & Equity Dimensions of Mobility Literature Review` — the literature-review
+  tracker (canonical output, latest copy lives in `csvs/` only), one row per paper, 17 columns (14 core + 3 participatory-method
   columns), 39 papers recorded and verified.
 - `crosscomp/` — the literature cross-comparison: 7 cross-cutting mechanisms, thesis-clause
   support per thread, who-is-centered counts, and `unified_lit_review.csv` (the merged rows of
   the four thread trackers, 82 papers with DOI, journal, and thread).
 - `csvs/` — the four source thread trackers (Engineering & Safety, Equity, Food Justice,
-  Participatory Design).
+  Participatory Design), plus the Methods, Values, and Ideal-Traveler Matrix and its
+  excluded-papers note.
 - `Codebook/` — the codebook pipeline (see below): source codebooks, build script, process
   record, and the finalized deliverable (Excel + Word + plain-English summary).
 - `analysis/` — the 34-transcript qualitative analysis (synthesis, coding notes, workshops).

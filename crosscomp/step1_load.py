@@ -18,7 +18,7 @@ SOURCES = {
         "has_title_row": True,
     },
     "Equity": {
-        "path": f"{BASE}/Community & Equity Dimensions of Mobility Literature Review.xlsx",
+        "path": f"{BASE}/Community & Equity Dimensions of Mobility Literature Review.csv",
         "reviewers": "Shashi, Aditya",
         "sheet": None,
         "has_title_row": False,
@@ -38,10 +38,13 @@ def normalize_colname(c):
 
 
 def load_thread(name, cfg):
-    wb = openpyxl.load_workbook(cfg["path"], data_only=True)
-    sheet = cfg["sheet"] or wb.sheetnames[0]
     header_row = 1 if cfg["has_title_row"] else 0
-    df = pd.read_excel(cfg["path"], sheet_name=sheet, header=header_row)
+    if cfg["path"].endswith(".csv"):
+        df = pd.read_csv(cfg["path"], header=header_row, encoding="utf-8-sig")
+    else:
+        wb = openpyxl.load_workbook(cfg["path"], data_only=True)
+        sheet = cfg["sheet"] or wb.sheetnames[0]
+        df = pd.read_excel(cfg["path"], sheet_name=sheet, header=header_row)
     # Drop fully-empty columns/rows (e.g. merged-cell artifacts, stray "No" index col handled separately)
     df = df.dropna(axis=0, how="all")
     df = df[df["Paper Title"].notna()] if "Paper Title" in df.columns else df

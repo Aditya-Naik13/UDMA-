@@ -16,8 +16,9 @@ rigorously from source PDFs and citation-grounded (no fabrication).
 
 ## Layout
 
-- `Community & Equity Dimensions of Mobility Literature Review.csv` — the
-  tracker (canonical output). Currently a single header row (17 columns: the
+- `csvs/Community & Equity Dimensions of Mobility Literature Review` — the
+  tracker (canonical output; the root copies were removed, `csvs/` holds the
+  latest version, alongside the Methods, Values, and Ideal-Traveler Matrix). Currently a single header row (17 columns: the
   original 14 plus 3 participatory-method columns, see below), then one data
   row per paper. 39 papers recorded. Note: a prior commit briefly added a
   second title row above the header; that was reverted, so the live file has
