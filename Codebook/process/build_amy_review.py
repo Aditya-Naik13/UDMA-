@@ -1,16 +1,19 @@
 """
-Review-workbook builder for the EFF_VALUE and MISALIGNMENT codebook section.
+Review-workbook builder for Amy's codebook section
+(INFRA_FRAME, EFF_VALUE, MISALIGNMENT, PROVOCATION, BREAKDOWN).
 
-Source of truth: Codebook/Output/EFF_VALUE_MISALIGNMENT_draft.md (edit that, not the xlsx).
+Source of truth: Codebook/Output/Amy_review_draft.md (edit that, not the xlsx).
 Context:         Codebook/Output/MaSS_Codebook_with_subcodes.xlsx (team file, read only).
 
-Run:  python3 Codebook/process/build_eff_misalignment_review.py
+Run:  python3 Codebook/process/build_amy_review.py
 Output:
-  Codebook/Output/MaSS_Codebook_with_subcodes_EFF_MISALIGNMENT_review.xlsx
+  Codebook/Output/MaSS_Codebook_with_subcodes_Amy_review.xlsx
 
 Checks run on every build:
   - no em dash in any field written from the draft (build fails)
   - every quoted transcript phrase is found verbatim in transcripts/ (warns)
+  - workshop quotes sit on the cited line numbers (warns)
+  - focus-group quotes sit at or just after the cited timestamp (warns)
   - the draft's summary table lists the same codes as its sections (warns)
 """
 
@@ -24,14 +27,22 @@ from copy import copy
 
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
+from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Codebook/
 REPO = os.path.dirname(BASE)
-DRAFT = os.path.join(BASE, "Output", "EFF_VALUE_MISALIGNMENT_draft.md")
+DRAFT = os.path.join(BASE, "Output", "Amy_review_draft.md")
 TEAM_XLSX = os.path.join(BASE, "Output", "MaSS_Codebook_with_subcodes.xlsx")
-OUT = os.path.join(BASE, "Output", "MaSS_Codebook_with_subcodes_EFF_MISALIGNMENT_review.xlsx")
-OWNED_PARENTS = ("EFF_VALUE", "MISALIGNMENT")
+OUT = os.path.join(BASE, "Output", "MaSS_Codebook_with_subcodes_Amy_review.xlsx")
+OWNED_PARENTS = ("INFRA_FRAME", "EFF_VALUE", "MISALIGNMENT", "PROVOCATION", "BREAKDOWN")
+TEAM_COMMENT_HEADER = "Concerns and Comments"
+WORKSHOPS = {n: os.path.join(REPO, "transcripts", "Co design systhesis Transcripts", f"transcript_workshop{n}.txt")
+             for n in ("1", "3")}
+FOCUS_GROUPS = {
+    "Plaud Hope": os.path.join(REPO, "transcripts", "Focus Groups", "Plaud Hope_Food_Pantry-transcript.txt"),
+    "Plaud Ministries of Love": os.path.join(REPO, "transcripts", "Focus Groups", "Plaud Ministries of Love transcript.txt"),
+}
 
 NAVY, LIME, SUBBLUE = "1F4E78", "C3FF65", "EEF4FA"
 NEW_FILL, REWORDED_FILL, KEPT_FILL = "FFF2CC", "FCE4D6", "E2EFDA"
@@ -223,6 +234,41 @@ def check_quotes(doc):
     return missing
 
 
+def quote_parts(q):
+    return [p.strip(" .") for p in q.split("...") if len(p.strip(" .")) >= 12]
+
+
+def check_locators(doc):
+    """Check that workshop quotes sit on the cited lines and focus-group quotes near the cited timestamp."""
+    workshops = {n: open(p, encoding="utf-8").read().splitlines() for n, p in WORKSHOPS.items()}
+    groups = {k: open(p, encoding="utf-8").read() for k, p in FOCUS_GROUPS.items()}
+    issues = []
+    for c in doc["codes"]:
+        where = f"{c['parent']} > {c['sub'] or '(parent)'}"
+        text = c.get("quotes", "")
+        for m in re.finditer(r"\"([^\"]{12,})\"[^\"\n]{0,40}?\(transcript_workshop(\d), lines? (\d+)(?: to (\d+))?", text):
+            q, n, a = m.group(1), m.group(2), int(m.group(3))
+            b = int(m.group(4) or a)
+            seg = normalize(" ".join(workshops[n][a - 1:b]))
+            if any(normalize(p) not in seg for p in quote_parts(q)):
+                issues.append(f"{where}: not on transcript_workshop{n} line {a}: \"{q[:70]}\"")
+        for m in re.finditer(r"\"([^\"]{12,})\"[^\"\n]{0,40}?\((Plaud Hope|Plaud Ministries of Love), (\d{2}:\d{2}:\d{2})", text):
+            q, src, ts = m.groups()
+            t = groups[src]
+            start = t.find("\n" + ts + " ")
+            if start < 0:
+                issues.append(f"{where}: timestamp {ts} not found in {src}")
+                continue
+            nxt = [x.start() for x in re.finditer(r"\n\d{2}:\d{2}:\d{2} Speaker", t[start + 1:])]
+            end = start + 1 + nxt[2] if len(nxt) > 2 else len(t)
+            seg = normalize(t[start:end])
+            if any(normalize(p) not in seg for p in quote_parts(q)):
+                issues.append(f"{where}: not at {src} {ts}: \"{q[:70]}\"")
+    for i in issues:
+        print("WARNING locator:", i)
+    return issues
+
+
 def check_summary(doc):
     in_table = {(row[0], row[1]) for row in doc["summary_table"] if len(row) > 1}
     in_sections = {(c["parent"], c["sub"]) for c in doc["codes"] if c["sub"]}
@@ -326,8 +372,8 @@ def build_start_here(wb, doc, team_codes):
             r += 1
 
     text_row(doc["title"], Font(name="Arial", size=14, bold=True, color=NAVY), 24)
-    text_row("Built from Codebook/Output/EFF_VALUE_MISALIGNMENT_draft.md by "
-             "Codebook/process/build_eff_misalignment_review.py. Edit the draft, then rebuild. "
+    text_row("Built from Codebook/Output/Amy_review_draft.md by "
+             "Codebook/process/build_amy_review.py. Edit the draft, then rebuild. "
              "The team file MaSS_Codebook_with_subcodes.xlsx is read, never changed.")
 
     current, pending_table = None, []
@@ -370,12 +416,13 @@ def build_start_here(wb, doc, team_codes):
     table([["Sheet", "What it is"],
            ["Review", "The main sheet. One row per code: before vs. proposed definition, include and exclude rules, "
                       "verified quotes, literature, gaps, evidence strength, and two columns for your decision and feedback."],
-           ["Full Codebook", "The whole team codebook in its original 7 columns, with the EFF_VALUE and MISALIGNMENT "
-                             "blocks replaced by this draft. Use it to see how the section fits with the other codes."],
+           ["Full Codebook", "The whole team codebook in its original columns (including the team's Concerns and "
+                             "Comments), with the " + ", ".join(OWNED_PARENTS) + " blocks replaced by this draft. "
+                             "Use it to see how the section fits with the other codes."],
            ["Decision Log", "Decisions already made, and what changed because of them."],
            ["Quote Corrections", "Quotes in analysis/synthesis.md that do not match the raw transcripts."],
            ["Open Questions", "Decisions still needed, with a column for your answer."],
-           ["Notes for Coders", "The team's coder notes, plus a short added section for these two codes."]])
+           ["Notes for Coders", "The team's coder notes, plus a short added section for these codes."]])
 
     heading("How to give feedback")
     text_row("On the Review sheet, pick Keep / Revise / Merge / Drop in 'Your decision' (dropdown) and write comments "
@@ -390,13 +437,27 @@ def build_start_here(wb, doc, team_codes):
     table(rows, fills)
 
 
-def build_review(wb, doc):
+def team_comments(team):
+    tws = team["Codebook"]
+    headers = [tws.cell(1, c).value for c in range(1, tws.max_column + 1)]
+    if TEAM_COMMENT_HEADER not in headers:
+        return {}
+    col = headers.index(TEAM_COMMENT_HEADER) + 1
+    out = {}
+    for r in range(2, tws.max_row + 1):
+        v = tws.cell(r, col).value
+        if v:
+            out[(tws.cell(r, 2).value, (tws.cell(r, 3).value or "").strip())] = str(v).strip()
+    return out
+
+
+def build_review(wb, doc, comments):
     ws = wb.create_sheet("Review")
     headers = ["Parent code", "Subcode", "Status", "Current definition (before)", "Proposed definition (plain language)",
                "Include when", "Exclude when", "Example quotes (\u2605 = main example; verified against raw transcripts)",
-               "Literature grounding", "Why it matters / notes", "Evidence: literature", "Evidence: transcripts",
-               "Your decision", "Your feedback"]
-    widths = [16, 24, 13, 38, 44, 34, 38, 70, 52, 42, 14, 16, 14, 40]
+               "Literature grounding", "Why it matters / notes", "Team comments (from team file)",
+               "Evidence: literature", "Evidence: transcripts", "Your decision", "Your feedback"]
+    widths = [16, 24, 13, 38, 44, 34, 38, 70, 52, 42, 34, 14, 16, 14, 40]
     write_header(ws, headers, widths)
     for i, c in enumerate(doc["codes"], start=2):
         include = c.get("include", "")
@@ -404,7 +465,7 @@ def build_review(wb, doc):
             include += "\n\nRelated coding: " + c["related"]
         vals = [c["parent"], label(c), c.get("status", ""), c.get("current") or "(new, no previous definition)",
                 c.get("proposed", ""), include, c.get("exclude", ""), c.get("quotes", ""), c.get("lit", ""),
-                c.get("why", ""), c.get("ls", ""), c.get("ts", ""), None, None]
+                c.get("why", ""), comments.get((c["parent"], c["sub"])), c.get("ls", ""), c.get("ts", ""), None, None]
         base = SUBBLUE if c["sub"] else LIME
         for j, v in enumerate(vals, 1):
             cell = ws.cell(i, j, v)
@@ -415,35 +476,42 @@ def build_review(wb, doc):
                 cell.fill = fill(status_fill(c.get("status")))
             elif j == 4:
                 cell.font = Font(name="Arial", size=10, italic=True, color="595959")
+            elif j == 11 and v:
+                cell.fill = fill("FDE9F1")
         ws.row_dimensions[i].height = est_height([(v, widths[j]) for j, v in enumerate(vals)])
     last = len(doc["codes"]) + 1
+    decision_col = get_column_letter(headers.index("Your decision") + 1)
     dv = DataValidation(type="list", formula1='"Keep,Revise,Merge,Drop"', allow_blank=True)
     ws.add_data_validation(dv)
-    dv.add(f"M2:M{last}")
+    dv.add(f"{decision_col}2:{decision_col}{last}")
     ws.freeze_panes = "C2"
-    ws.auto_filter.ref = f"A1:N{last}"
+    ws.auto_filter.ref = f"A1:{get_column_letter(len(headers))}{last}"
 
 
-def build_full_codebook(wb, doc, team):
+def build_full_codebook(wb, doc, team, comments):
     tws = team["Codebook"]
     ws = wb.create_sheet("Full Codebook")
-    headers = [tws.cell(1, c).value for c in range(1, 8)] + ["Change status"]
-    widths = [42, 25.3, 28, 56, 40, 64, 50, 14]
+    ncols = max(c for c in range(1, tws.max_column + 1) if tws.cell(1, c).value)
+    team_headers = [tws.cell(1, c).value for c in range(1, ncols + 1)]
+    headers = team_headers + ["Change status"]
+    status_col = ncols + 1
+    widths = ([42, 25.3, 28, 56, 40, 64, 50] + [36] * (ncols - 7))[:ncols] + [14]
     write_header(ws, headers, widths)
+    comment_col = team_headers.index(TEAM_COMMENT_HEADER) + 1 if TEAM_COMMENT_HEADER in team_headers else None
     key_concepts = {}
     for r in range(2, tws.max_row + 1):
         if tws.cell(r, 2).value in OWNED_PARENTS and tws.cell(r, 3).value is None:
             key_concepts[tws.cell(r, 2).value] = tws.cell(r, 1).value
 
     def status_cell(row, text, color=None, bold=False):
-        c = ws.cell(row, 8, text)
+        c = ws.cell(row, status_col, text)
         c.font = Font(name="Arial", size=9, bold=bold, color=None if color else "808080")
         c.border, c.alignment = BORDER, WRAP
         if color:
             c.fill = fill(color)
 
     def copy_team_row(src, dst, with_status=True):
-        for c in range(1, 8):
+        for c in range(1, ncols + 1):
             s, d = tws.cell(src, c), ws.cell(dst, c, tws.cell(src, c).value)
             d.font, d.fill, d.border, d.alignment = copy(s.font), copy(s.fill), copy(s.border), copy(s.alignment)
         ws.row_dimensions[dst].height = tws.row_dimensions[src].height
@@ -461,6 +529,9 @@ def build_full_codebook(wb, doc, team):
         kc = key_concepts.get(c["parent"]) or c.get("kc", "")
         vals = [kc, c["parent"], c["sub"] or None, definition, c.get("exclude", ""),
                 c.get("quotes") if c["sub"] else None, c.get("lit") if c["sub"] else None]
+        vals += [None] * (ncols - len(vals))
+        if comment_col:
+            vals[comment_col - 1] = comments.get((c["parent"], c["sub"]))
         base = SUBBLUE if c["sub"] else LIME
         for j, v in enumerate(vals, 1):
             cell = ws.cell(dst, j, v)
@@ -491,7 +562,7 @@ def build_full_codebook(wb, doc, team):
         copy_team_row(src, dst)
         dst += 1
     ws.freeze_panes = "D2"
-    ws.auto_filter.ref = f"A1:H{dst - 1}"
+    ws.auto_filter.ref = f"A1:{get_column_letter(status_col)}{dst - 1}"
     dst += 1
     for src in legend_rows:
         copy_team_row(src, dst, with_status=False)
@@ -518,16 +589,22 @@ def build_notes(wb, team):
         n += 1
     added = [
         "",
-        "EFF_VALUE AND MISALIGNMENT (added in the review draft):",
+        "INFRA_FRAME, EFF_VALUE, MISALIGNMENT, PROVOCATION, BREAKDOWN (added in the review draft):",
+        "INFRA_FRAME = the AV or mobility as part of a lasting system (networks, funding, rules, places). A single ride "
+        "\"like the Uber\" is not INFRA_FRAME; code it under PROVOCATION.",
         "EFF_VALUE = the system's efficiency. COMMUNITY_EFFICIENCY = the community's efficiency. JUST_ACCESS = the need. "
         "MISALIGNMENT = the gap between them: whose efficiency a choice counts, and whose it ignores.",
         "Apply MISALIGNMENT only when the passage links the system logic to a cost in access or in someone's daily life; "
         "two separate observations side by side do not count.",
-        "Record whose logic it is: literature, design team (Workshop 1), stakeholders (Workshop 3), or an institution "
-        "described by a client or weaver.",
+        "Record whose logic it is: literature, design team (Workshop 1: raw idea or facilitator HMW prompt), "
+        "stakeholders (Workshop 3), or an institution described by a client or weaver.",
         "A client describing what saves their own time, effort, or strain is COMMUNITY_EFFICIENCY, not EFF_VALUE.",
         "Report COMMUNITY_EFFICIENCY counts separately from other MISALIGNMENT subcodes: some excerpts describe a fit, "
         "not a gap.",
+        "PROVOCATION and BREAKDOWN apply only where an AV prompt was given: Plaud Hope, Plaud Ministries of Love, "
+        "Workshop 1, Workshop 3. None of the AI interviews contains one.",
+        "Record the prompt wording and the speaker role with every PROVOCATION or BREAKDOWN excerpt. Facilitator "
+        "statements are prompt wording, not participant evidence.",
     ]
     for i, t in enumerate(added):
         c = ws.cell(n, 1, t)
@@ -543,12 +620,14 @@ def main():
     check_no_em_dash(doc)
     check_summary(doc)
     missing = check_quotes(doc)
+    misplaced = check_locators(doc)
     team = load_workbook(TEAM_XLSX)
+    comments = team_comments(team)
 
     wb = Workbook()
     build_start_here(wb, doc, team)
-    build_review(wb, doc)
-    build_full_codebook(wb, doc, team)
+    build_review(wb, doc, comments)
+    build_full_codebook(wb, doc, team, comments)
     lists = doc["lists"]
     pick = lambda prefix: next((v for k, v in lists.items() if k.lower().startswith(prefix)), [])
     build_list_sheet(wb, "Decision Log", pick("decision log"), None)
@@ -558,7 +637,7 @@ def main():
     wb.active = 1
     wb.save(OUT)
     print(f"Wrote {os.path.relpath(OUT, REPO)}: {len(doc['codes'])} codes, "
-          f"{len(missing)} unverified quote fragment(s).")
+          f"{len(missing)} unverified quote fragment(s), {len(misplaced)} locator warning(s).")
 
 
 if __name__ == "__main__":
